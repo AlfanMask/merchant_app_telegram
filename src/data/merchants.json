@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1_geprek_kumlot",
+        "title": "Geprek Kumlot",
+        "category": "Makanan",
+        "is_parking_free": false,
+        "gmap_url": "https://maps.app.goo.gl/erxHpyHbAk7c1Ek6A"
+    },
+    {
+        "id": "2_geprek_mas_al",
+        "title": "Geprek Mas Al",
+        "category": "Makanan",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/hNYuWqi5GHWp4dFJ7"
+    },
+    {
+        "id": "3_bakso_sony",
+        "title": "Bakso Sony",
+        "category": "Makanan",
+        "is_parking_free": false,
+        "gmap_url": "https://maps.app.goo.gl/7JSXnUZR1bFw64Ho8"
+    },
+    {
+        "id": "4_es_teh_sultan",
+        "title": "Es Teh Sultan",
+        "category": "Minuman",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/1ieFZqSdyYTuGzZq7"
+    },
+    {
+        "id": "5_seblak_baracuda",
+        "title": "Seblak Barracuda",
+        "category": "Jajajan",
+        "is_parking_fre": true,
+        "gmap_url": "https://maps.app.goo.gl/rTR4WnB3Jn9wzwuy9"
+    }
+]

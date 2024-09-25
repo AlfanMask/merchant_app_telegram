@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       textColor: {
-        "primary": "#FFFFFF",
-        "secondary": "#8B929B",
+        "primary": "#8B929B",
+        "secondary": "#FFFFFF",
         "accent": "#5B74E5",
         "dark": "#171824",
         "primary-lp-os-cp-cs": "#040404",

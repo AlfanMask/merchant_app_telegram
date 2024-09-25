@@ -1,0 +1,28 @@
+<script lang="ts">
+	import type Order from "../../constants/order";
+	import { formatRupiah } from "../../helper/formatter";
+
+    export let order: Order;
+    export let modifyQtyHandler: (product: Order, is_increase: boolean) => void;
+</script>
+
+<!-- svelte-ignore a11y-no-static-element-interactions -->
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<div on:click class="flex gap-4 w-full">
+    <img src="/img/merchants/{order.product.merchant_id}/products/{order.product.id}.png" alt="product" class="w-24 h-24 rounded-xl">
+    <div class="flex flex-col w-full">
+        <span class="mt-2 mb-1 !text-xl !font-bold text-dark">{order.product.title}</span>
+        <span class="text-dark !text-lg">{formatRupiah(order.product.price)}</span>
+    </div>
+    <div id="counter" class="flex items-center">
+        <i class="fa-solid fa-minus" on:click={() => modifyQtyHandler(order, false)}></i>
+        <span>{order.qty}</span>
+        <i class="fa-solid fa-plus" on:click={() => modifyQtyHandler(order, true)}></i>
+    </div>
+</div>
+
+<style lang="postcss">
+    #counter i, #counter span {
+        @apply border border-solid border-secondary h-6 w-6 text-center items-center text-dark
+    }    
+</style>

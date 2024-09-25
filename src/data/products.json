@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1_ayam_geprek",
+        "merchant_id": "1_geprek_kumlot",
+        "category": "Makanan",
+        "title": "Ayam Geprek",
+        "price": 10000,
+        "is_popular": true
+    },
+    {
+        "id": "2_es_teh",
+        "merchant_id": "1_geprek_kumlot",
+        "category": "Minuman",
+        "title": "Es Teh Jumbo",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "1_ayam_geprek",
+        "merchant_id": "2_geprek_mas_al",
+        "category": "Makanan",
+        "title": "Ayam Geprek",
+        "price": 10000,
+        "is_popular": true
+    },
+    {
+        "id": "2_es_teh",
+        "merchant_id": "2_geprek_mas_al",
+        "category": "Minuman",
+        "title": "Es Teh Jumbo",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "1_bakso_campur",
+        "merchant_id": "3_bakso_sony",
+        "category": "Makanan",
+        "title": "Bakso Campur",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "2_es_jeruk",
+        "merchant_id": "3_bakso_sony",
+        "category": "Minuman",
+        "title": "Es jeruk",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "1_es_teh",
+        "merchant_id": "4_es_teh_sultan",
+        "category": "Minuman",
+        "title": "Es Teh",
+        "price": 2500,
+        "is_popular": true
+    },
+    {
+        "id": "2_es_jeruk",
+        "merchant_id": "4_es_teh_sultan",
+        "category": "Minuman",
+        "title": "Es Jeruk",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "1_seblak",
+        "merchant_id": "5_seblak_baracuda",
+        "category": "Makanan",
+        "title": "Seblak",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "2_batagor",
+        "merchant_id": "5_seblak_baracuda",
+        "category": "Makanan",
+        "title": "Batagor",
+        "price": 10000,
+        "is_popular": true
+    }
+]
