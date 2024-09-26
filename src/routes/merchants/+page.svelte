@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { goto } from "$app/navigation";
 	import MerchantItem from "$lib/components/MerchantItem.svelte";
-	import AutocompleteInput from "$lib/components/ui/AutocompleteInput.svelte";
+	import AutocompleteMerchant from "$lib/components/ui/AutocompleteMerchant.svelte";
 	import { Category } from "../../constants/category";
 	import type Merchant from "../../constants/merchant";
 	import { Parking } from "../../constants/parking";
@@ -35,7 +35,7 @@
         // check if not ALL CATEGORIES
         let filteredMerchantsTemp: Array<Merchant> = [];
         if (filterMerchantsCategory != Category.Semua){
-            filteredMerchantsTemp = allMerchants.filter(o => o.category == filterMerchantsCategory)
+            filteredMerchantsTemp = allMerchants.filter(o => o.category == filterMerchantsCategory).sort((a, b) => a.title.localeCompare(b.title));
         } else {
             filteredMerchantsTemp = allMerchants
         }
@@ -43,9 +43,9 @@
         // check if not ALL PARKING TYPES
         if (filterMerchantsFreeParking != Parking.Semua) {
             if (filterMerchantsFreeParking == Parking["Bebas Parkir"]){
-                displayedMerchants = filteredMerchantsTemp.filter(o => o.is_parking_free)
+                displayedMerchants = filteredMerchantsTemp.filter(o => o.is_parking_free).sort((a, b) => a.title.localeCompare(b.title));
             } else {
-                displayedMerchants = filteredMerchantsTemp.filter(o => !o.is_parking_free)
+                displayedMerchants = filteredMerchantsTemp.filter(o => !o.is_parking_free).sort((a, b) => a.title.localeCompare(b.title));
             }
         } else {
             displayedMerchants = filteredMerchantsTemp;
@@ -64,13 +64,13 @@
 </script>
 
 
-<div class="h-screen bg-primary py-8">
+<div class="min-h-screen h-full bg-primary py-8">
     <!-- searchbar -->
 	<div id="search" class="px-4 mb-8 flex gap-4 items-center">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-static-element-interactions -->
         <i class="fa-solid fa-chevron-left text-dark" on:click={clickBackToHome}></i>
-		<AutocompleteInput placeholder="Cari resto.." inputText={searchInput} autocompleteData={allMerchants.map(m => m.title)} autoCompleteHandler={autoCompleteMerchantHandler} />
+		<AutocompleteMerchant placeholder="Cari resto.." inputText={searchInput} autocompleteData={allMerchants} autoCompleteHandler={autoCompleteMerchantHandler} />
 	</div>
 
     <!-- main -->

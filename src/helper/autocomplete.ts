@@ -6,8 +6,8 @@ let merchants: Array<Merchant> = [];
 merchantsData.subscribe((data) => {
     merchants = data
 })
-const autoCompleteMerchantHandler = (index: number) => {
-    goto(`/merchants/${merchants[index].id}`)
+const autoCompleteMerchantHandler = (merchantId: string) => {
+    goto(`/merchants/${merchantId}`)
 }
 
 export { autoCompleteMerchantHandler }

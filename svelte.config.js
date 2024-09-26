@@ -24,11 +24,11 @@ const config = {
 			// use relative URLs similar to an anchor tag <a href="/test/1"></a>
 			// do not include group layout folders in the path such as /(group)/test/1
 			entries: [
-				'/', '/id', '/en',
-				'/regis-affiliate',
-				'/landing-page', '/online-shop', '/company-profile', '/custom-software',
-				'/id/landing-page', '/id/online-shop', '/id/company-profile', '/id/custom-software',
-				'/en/landing-page', '/en/online-shop', '/en/company-profile', '/en/custom-software',
+				'/', '/merchants',
+				'/merchants/1_serba_sambal', '/merchants/2_warung_jepun', '/merchants/3_arjes_kitchen', '/merchants/4_bale_enak', '/merchants/5_flavfour', '/merchants/6_nuno_penyet', '/merchants/7_takoyaki_gerdep', '/merchants/8_pancong_balap', '/merchants/9_pisang_aroma', '/merchants/10_karizmaku',
+				'/merchants/11_pisang_sewelas', '/merchants/12_sarapan_bule', '/merchants/13_geprek_kumlot', '/merchants/14_bakso_sony', '/merchants/15_warung_se', '/merchants/16_geprek_fortuner', '/merchants/17_lapak_chicken', '/merchants/18_ayam_rektor', '/merchants/19_chicken_on_fire_jp', '/merchants/20_warung_bu_las',
+				'/merchants/21_kebab_morgan', '/merchants/22_sate_aminah', '/merchants/23_olive_uns', '/merchants/24_seblak_bageur', '/merchants/25_mie_sentosa', '/merchants/26_ayam_penyet_andara', '/merchants/27_nasi_goreng_milyarder', '/merchants/28_harun_juice', '/merchants/29_bakmi_capcay_pak_bambang', '/merchants/30_bago_hot_chicken',
+				'/merchants/31_geprel_mas_al', '/merchants/32_rm_mbak_sela', '/merchants/33_martabak_la_wawah', '/merchants/34_bang_ojie', '/merchants/35_mie_serasi'
 			],
 		}
 	}

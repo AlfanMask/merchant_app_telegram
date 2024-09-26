@@ -31,15 +31,15 @@
 
 <div class="px-4 bg-green-400">
     <Modal bind:showModal>
-        <h3 class="mb-4">Apakah kamu sudah yakin orderanmu?</h3>
+        <h3 class="mb-4">Apakah kamu yakin dengan orderanmu?</h3>
         <div class="order-list flex flex-col gap-4 w-full mb-4">
             {#each orders as order }
                 <ProductOrder title="{order.product.title}" price={order.product.price} category={order.product.category} qty={order.qty} />
             {/each}
         </div>
         <hr class="mb-4">
-        <div id="bottom" class="flex flex-col items-center w-full gap-2">
-            <span class="text-dark !text-lg !font-bold block">Total: {formatRupiah(totalPrice)}</span>
+        <div id="bottom" class="flex flex-col items-center w-full gap-3">
+            <span class="text-dark !text-xl !font-bold block">Total: {formatRupiah(totalPrice)}</span>
             <Button text="Posting Orderan" on:click={placeOrderHandler} />
         </div>
     </Modal>
