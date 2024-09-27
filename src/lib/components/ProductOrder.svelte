@@ -10,9 +10,9 @@
     export let qty: number;
     let totalPrice: number;
 
-    onMount(() => {
+    $: {
         totalPrice = price * qty
-    })
+    }
 
     let imgSrc: string = "";
     $: {
