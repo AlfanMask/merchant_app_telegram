@@ -4,10 +4,13 @@
 	import AutocompleteMerchant from "$lib/components/ui/AutocompleteMerchant.svelte";
 	import { Category } from "../../constants/category";
 	import type Merchant from "../../constants/merchant";
+	import { allDays } from "../../constants/merchant";
+	import { Open } from "../../constants/open";
 	import { Parking } from "../../constants/parking";
 	import { autoCompleteMerchantHandler } from "../../helper/autocomplete";
 	import { prevPage } from "../../helper/back";
-    import { filterMerchantsCategory as filterMerchantsCategoryStore, filterMerchantsFreeParking as filterMerchantsFreeParkingStore, merchants as merchantsData } from "../../stores/store";
+	import { isMerchantOpen } from "../../helper/time";
+    import { filterMerchantsCategory as filterMerchantsCategoryStore, filterMerchantsFreeParking as filterMerchantsFreeParkingStore, filterMerchantsOpen as filterMerchantsOpenStore, merchants as merchantsData } from "../../stores/store";
 
     // get merchants data
     let allMerchants: Array<Merchant> = [];
@@ -22,6 +25,7 @@
     // filters
     let filterMerchantsCategory: Category = Category.Semua;
     let filterMerchantsFreeParking: Parking = Parking.Semua;
+    let filterMerchantsOpen: Open = Open.Semua;
 
     filterMerchantsCategoryStore.subscribe((data) => {
         filterMerchantsCategory = data
@@ -29,32 +33,59 @@
     filterMerchantsFreeParkingStore.subscribe((data) => {
         filterMerchantsFreeParking = data
     })
+    filterMerchantsOpenStore.subscribe((data) => {
+        filterMerchantsOpen = data
+    })
 
     // handle filtered data
     $: {
-        // check if not ALL CATEGORIES
-        let filteredMerchantsTemp: Array<Merchant> = [];
-        if (filterMerchantsCategory != Category.Semua){
-            filteredMerchantsTemp = allMerchants.filter(o => o.category == filterMerchantsCategory).sort((a, b) => a.title.localeCompare(b.title));
-        } else {
-            filteredMerchantsTemp = allMerchants
-        }
-        
-        // check if not ALL PARKING TYPES
+        // Filter by category if not "Semua"
+        let filteredMerchants = filterMerchantsCategory != Category.Semua
+            ? allMerchants.filter(o => o.category == filterMerchantsCategory)
+            : allMerchants;
+
+        // Filter by parking type if not "Semua"
         if (filterMerchantsFreeParking != Parking.Semua) {
-            if (filterMerchantsFreeParking == Parking["Bebas Parkir"]){
-                displayedMerchants = filteredMerchantsTemp.filter(o => o.is_parking_free).sort((a, b) => a.title.localeCompare(b.title));
-            } else {
-                displayedMerchants = filteredMerchantsTemp.filter(o => !o.is_parking_free).sort((a, b) => a.title.localeCompare(b.title));
-            }
-        } else {
-            displayedMerchants = filteredMerchantsTemp;
+            filteredMerchants = filteredMerchants.filter(o => 
+                filterMerchantsFreeParking == Parking["Bebas Parkir"] ? o.is_parking_free : !o.is_parking_free
+            );
         }
+
+        // Sort by title (only needs to be done once)
+        filteredMerchants.sort((a, b) => a.title.localeCompare(b.title));
+
+        // Filter by open status if not "Semua"
+        if (filterMerchantsOpen != Open.Semua) {
+            filteredMerchants = filteredMerchants.filter(o => 
+                filterMerchantsOpen == Open.Open ? isMerchantOpen(new Date(), o) : !isMerchantOpen(new Date(), o)
+            );
+        }
+
+        // Set the final displayed merchants
+        displayedMerchants = filteredMerchants;
     }
 
     // handlers
     const clickMerchantHandler = (id: string) => {
-        goto(`/merchants/${id}`)
+        // redirect to merchant page if open
+        const now = new Date();
+        const merchantToOpen: Merchant = displayedMerchants.find(o => o.id === id) as Merchant;
+        const isOpen = isMerchantOpen(now, merchantToOpen)
+
+        if (isOpen){
+            goto(`/merchants/${id}`)
+        } else {
+            let openDays: string = "";
+            if (merchantToOpen.open_days.length === 7) {
+                openDays = "setiap hari";
+            } else if (merchantToOpen.open_days.length === 6) {
+                const closedDays = allDays.find(day => !merchantToOpen.open_days.includes(day));
+                openDays = `setiap hari kecuali ${closedDays}`;
+            } else {
+                openDays = merchantToOpen.open_days.map(day => allDays.find(d => d === day)).join(", ");
+            }
+            alert("Maaf, resto tutup :(\n\nResto ini buka " + openDays + " dari jam " + merchantToOpen.open_hour + ".00 sampai jam " + merchantToOpen.close_hour + ".00");
+        }
     }
 
     const clickBackToHome = () => {
@@ -76,18 +107,25 @@
     <!-- main -->
     <div id="main" class="px-4">
         <!-- topbar options -->
-        <div id="topbar" class="w-full flex justify-center items-center gap-4 mb-8">
-            <select id="select_category" bind:value={filterMerchantsCategory} class="rounded px-2 py-1">
+        <div id="topbar" class="w-full mb-8 flex flex-col gap-4">
+            <select id="select_category" bind:value={filterMerchantsCategory} class="w-full rounded px-2 py-1">
                 <option value={Category.Semua}>{Category.Semua} Kategori</option>
                 <option value={Category.Makanan}>{Category.Makanan}</option>
                 <option value={Category.Minuman}>{Category.Minuman}</option>
                 <option value={Category.Jajanan}>{Category.Jajanan}</option>
             </select>
-            <select id="select_parking" bind:value={filterMerchantsFreeParking} class="rounded px-2 py-1">
-                <option value={Parking.Semua}>{Parking.Semua}</option>
-                <option value={Parking["Bebas Parkir"]}>{Parking["Bebas Parkir"]}</option>
-                <option value={Parking.Parkir}>{Parking.Parkir}</option>
-            </select>
+            <div class="grid grid-cols-2 items-center gap-4">
+                <select id="select_parking" bind:value={filterMerchantsFreeParking} class="rounded px-2 py-1">
+                    <option value={Parking.Semua}>{Parking.Semua}</option>
+                    <option value={Parking["Bebas Parkir"]}>{Parking["Bebas Parkir"]}</option>
+                    <option value={Parking.Parkir}>{Parking.Parkir}</option>
+                </select>
+                <select id="select_open" bind:value={filterMerchantsOpen} class="rounded px-2 py-1">
+                    <option value={Open.Semua}>{Open.Semua}</option>
+                    <option value={Open.Open}>{Open.Open}</option>
+                    <option value={Open.Close}>{Open.Close}</option>
+                </select>
+            </div>
         </div>
 
         <!-- merchants -->

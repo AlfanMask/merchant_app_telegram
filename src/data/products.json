@@ -1,7 +1,7 @@
 [
     {
         "id": "paket_pedas_gobal_gabul",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Paket Pedas Gobal Gabul",
         "price": 26000,
@@ -9,7 +9,7 @@
     },
     {
         "id": "paket_ayam_telur_gobal_gabul",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Paket Ayam Telur Gobal Gabul",
         "price": 18500,
@@ -17,7 +17,7 @@
     },
     {
         "id": "sambal_gobal_gabul",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Sambal Gobal Gabul",
         "price": 6500,
@@ -25,7 +25,7 @@
     },
     {
         "id": "ayam_pedas_gobal_gabul",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Ayam Pedas Gobal Gabul",
         "price": 16000,
@@ -33,7 +33,7 @@
     },
     {
         "id": "telur_dadar_gobal_gabul",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Telur Dadar Gobal Gabul",
         "price": 8000,
@@ -41,7 +41,7 @@
     },
     {
         "id": "tahu_gobal_gabul",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Tahu Gobal Gabul",
         "price": 8000,
@@ -49,7 +49,7 @@
     },
     {
         "id": "ayam_goreng_krispi_dada_paha_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Ayam Goreng Krispi Dada / Paha Goreng",
         "price": 14500,
@@ -57,7 +57,7 @@
     },
     {
         "id": "ayam_kampung_dada_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Ayam Kampung Dada Goreng",
         "price": 16000,
@@ -65,7 +65,7 @@
     },
     {
         "id": "ayam_kampung_paha_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Ayam Kampung Paha Goreng",
         "price": 16000,
@@ -73,7 +73,7 @@
     },
     {
         "id": "ayam_negeri_dada_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Ayam Negeri Dada Goreng",
         "price": 13000,
@@ -81,7 +81,7 @@
     },
     {
         "id": "ayam_negeri_paha_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Ayam Negeri Paha Goreng",
         "price": 12500,
@@ -89,7 +89,7 @@
     },
     {
         "id": "kulit_ayam_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Kulit Ayam Goreng",
         "price": 7500,
@@ -97,7 +97,7 @@
     },
     {
         "id": "bebek_dada_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Bebek Dada Goreng",
         "price": 18500,
@@ -105,7 +105,7 @@
     },
     {
         "id": "bebek_paha_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Bebek Paha Goreng",
         "price": 18500,
@@ -113,7 +113,7 @@
     },
     {
         "id": "belut_sawah_polos_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Belut Sawah Polos Goreng",
         "price": 10500,
@@ -121,7 +121,7 @@
     },
     {
         "id": "bandeng_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Bandeng Goreng",
         "price": 7000,
@@ -129,7 +129,7 @@
     },
     {
         "id": "bawal_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Bawal Goreng",
         "price": 9000,
@@ -137,7 +137,7 @@
     },
     {
         "id": "gurame_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Gurame Goreng",
         "price": 40500,
@@ -145,7 +145,7 @@
     },
     {
         "id": "lele_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Lele Goreng",
         "price": 13000,
@@ -153,7 +153,7 @@
     },
     {
         "id": "nila_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Nila Goreng",
         "price": 12500,
@@ -161,7 +161,7 @@
     },
     {
         "id": "pindang_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Pindang Goreng",
         "price": 6500,
@@ -169,7 +169,7 @@
     },
     {
         "id": "wader_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Wader Goreng",
         "price": 6000,
@@ -177,7 +177,7 @@
     },
     {
         "id": "jambal_asin_goreng",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Jambal Asin Goreng",
         "price": 7500,
@@ -185,7 +185,7 @@
     },
     {
         "id": "ayam_goreng_krispi_dada_paha_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Ayam Goreng Krispi Dada / Paha Bakar",
         "price": 14000,
@@ -193,7 +193,7 @@
     },
     {
         "id": "ayam_kampung_dada_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Ayam Kampung Dada Bakar",
         "price": 17000,
@@ -201,7 +201,7 @@
     },
     {
         "id": "ayam_kampung_paha_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Ayam Kampung Paha Bakar",
         "price": 17000,
@@ -209,7 +209,7 @@
     },
     {
         "id": "ayam_negeri_dada_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Ayam Negeri Dada Bakar",
         "price": 14000,
@@ -217,7 +217,7 @@
     },
     {
         "id": "ayam_negeri_paha_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Ayam Negeri Paha Bakar",
         "price": 13500,
@@ -225,7 +225,7 @@
     },
     {
         "id": "kulit_ayam_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Kulit Ayam Bakar",
         "price": 8500,
@@ -233,7 +233,7 @@
     },
     {
         "id": "bebek_dada_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Bebek Dada Bakar",
         "price": 21000,
@@ -241,7 +241,7 @@
     },
     {
         "id": "bebek_paha_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Bebek Paha Bakar",
         "price": 21000,
@@ -249,7 +249,7 @@
     },
     {
         "id": "belut_sawah_polos_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Belut Sawah Polos Bakar",
         "price": 11500,
@@ -257,7 +257,7 @@
     },
     {
         "id": "bandeng_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Bandeng Bakar",
         "price": 8000,
@@ -265,7 +265,7 @@
     },
     {
         "id": "bawal_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Bawal Bakar",
         "price": 10000,
@@ -273,7 +273,7 @@
     },
     {
         "id": "gurame_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Gurame Bakar",
         "price": 43000,
@@ -281,7 +281,7 @@
     },
     {
         "id": "lele_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Lele Bakar",
         "price": 14500,
@@ -289,7 +289,7 @@
     },
     {
         "id": "nila_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Nila Bakar",
         "price": 13500,
@@ -297,7 +297,7 @@
     },
     {
         "id": "pindang_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Pindang Bakar",
         "price": 6500,
@@ -305,7 +305,7 @@
     },
     {
         "id": "wader_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Wader Bakar",
         "price": 6000,
@@ -313,7 +313,7 @@
     },
     {
         "id": "jambal_asin_bakar",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Makanan",
         "title": "Jambal Asin Bakar",
         "price": 8500,
@@ -321,7 +321,7 @@
     },
     {
         "id": "juice_alpukat",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Juice Alpukat",
         "price": 11000,
@@ -329,7 +329,7 @@
     },
     {
         "id": "juice_jambu",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Juice Jambu",
         "price": 0,
@@ -337,7 +337,7 @@
     },
     {
         "id": "juice_jeruk",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Juice Jeruk",
         "price": 6500,
@@ -345,7 +345,7 @@
     },
     {
         "id": "juice_mangga",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Juice Mangga",
         "price": 6500,
@@ -353,7 +353,7 @@
     },
     {
         "id": "juice_melon",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Juice Melon",
         "price": 7000,
@@ -361,7 +361,7 @@
     },
     {
         "id": "juice_nanas",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Juice Nanas",
         "price": 6000,
@@ -369,7 +369,7 @@
     },
     {
         "id": "juice_nangka",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Juice Nangka",
         "price": 0,
@@ -377,7 +377,7 @@
     },
     {
         "id": "juice_semangka",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Juice Semangka",
         "price": 6000,
@@ -385,7 +385,7 @@
     },
     {
         "id": "juice_strawberry",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Juice Strawberry",
         "price": 12000,
@@ -393,7 +393,7 @@
     },
     {
         "id": "juice_tomat",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Juice Tomat",
         "price": 6000,
@@ -401,7 +401,7 @@
     },
     {
         "id": "juice_wortel",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Juice Wortel",
         "price": 6000,
@@ -409,7 +409,7 @@
     },
     {
         "id": "juice_pepaya_nipis",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Juice Pepaya Nipis",
         "price": 6000,
@@ -417,7 +417,7 @@
     },
     {
         "id": "juice_sirsak_bulan",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Juice Sirsak Bulan",
         "price": 8000,
@@ -425,7 +425,7 @@
     },
     {
         "id": "teh",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Teh",
         "price": 3500,
@@ -433,7 +433,7 @@
     },
     {
         "id": "jeruk",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Jeruk",
         "price": 4500,
@@ -441,7 +441,7 @@
     },
     {
         "id": "jeruk_nipis",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Jeruk Nipis",
         "price": 5000,
@@ -449,7 +449,7 @@
     },
     {
         "id": "lemon_tea",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Lemon Tea",
         "price": 6000,
@@ -457,7 +457,7 @@
     },
     {
         "id": "teh_jeruk_nipis",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Teh Jeruk Nipis",
         "price": 8000,
@@ -465,7 +465,7 @@
     },
     {
         "id": "kopi_hitam",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Kopi Hitam",
         "price": 0,
@@ -473,7 +473,7 @@
     },
     {
         "id": "kopi_susu",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Kopi Susu",
         "price": 10000,
@@ -481,7 +481,7 @@
     },
     {
         "id": "mixed_coffee",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Mixed Coffee",
         "price": 6000,
@@ -489,7 +489,7 @@
     },
     {
         "id": "coklat",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Coklat",
         "price": 6000,
@@ -497,7 +497,7 @@
     },
     {
         "id": "susu_coklat",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Susu Coklat",
         "price": 0,
@@ -505,7 +505,7 @@
     },
     {
         "id": "jahe_jeruk_kencur_madu",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Jahe Jeruk Kencur Madu",
         "price": 10000,
@@ -513,7 +513,7 @@
     },
     {
         "id": "air_es",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Air Es",
         "price": 1000,
@@ -521,7 +521,7 @@
     },
     {
         "id": "air_mineral_600_ml",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Air Mineral 600 ml",
         "price": 3500,
@@ -529,7 +529,7 @@
     },
     {
         "id": "air_mineral_330_ml",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Air Mineral 330 ml",
         "price": 0,
@@ -537,7 +537,7 @@
     },
     {
         "id": "buah_campur_mix",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Buah Campur/Mix",
         "price": 5000,
@@ -545,7 +545,7 @@
     },
     {
         "id": "buah_melon",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Buah Melon",
         "price": 0,
@@ -553,7 +553,7 @@
     },
     {
         "id": "buah_nanas",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Buah Nanas",
         "price": 3500,
@@ -561,7 +561,7 @@
     },
     {
         "id": "buah_pepaya",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Buah Pepaya",
         "price": 3500,
@@ -569,7 +569,7 @@
     },
     {
         "id": "buah_semangka",
-        "merchant_id": "1_serba_sambal",
+        "merchant_id": "1_spesial_sambal",
         "category": "Minuman",
         "title": "Buah Semangka",
         "price": 0,

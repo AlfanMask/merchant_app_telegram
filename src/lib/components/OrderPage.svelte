@@ -13,6 +13,7 @@
 	import type Merchant from "../../constants/merchant";
     import { products as productsData } from "../../stores/store";
     import { merchants as merchantsData } from "../../stores/store";
+	import { allDays } from "../../constants/merchant";
 
     // get merchant.id
     export let merchantId: string;
@@ -21,6 +22,19 @@
     //     const parts = window.location.pathname.split("/");
     //     merchantId = parts[parts.length - 1];
     // })
+
+    // open days and hours
+    let openDays: string = "";
+    $: {
+        if (merchant.open_days.length === 7) {
+            openDays = "Setiap hari";
+        } else if (merchant.open_days.length === 6) {
+            const closedDays = allDays.find(day => !merchant.open_days.includes(day));
+            openDays = `Setiap hari kecuali ${closedDays}`;
+        } else {
+            openDays = merchant.open_days.map(day => allDays.find(d => d === day)).join(", ");
+        }
+    }
 
     // available products
     let orderables: Array<Order> = [];
@@ -74,7 +88,7 @@
 <div class="min-h-screen h-full bg-primary relative pb-16">
     <!-- header -->
     <div id="header" class="relative flex justify-center mb-8">
-        <img src="/img/merchants/{merchantId}/thumbnail.png" alt="merchant" class="w-full h-400 rounded-b-xl brightness-75">
+        <img src="/img/merchants/{merchantId}/thumbnail.png" alt="merchant" class="w-full h-[350px] rounded-b-xl brightness-50">
         <!-- topbar -->
         <div id="topbar" class="absolute top-4 w-full px-4 mt-2 mb-8 flex flex-col gap-1 items-center">
             <div id="title" class="w-full flex justify-between items-center gap-4">
@@ -84,6 +98,7 @@
                 <h2 class="text-white text-center mb-4">{merchant?.title || "..."}</h2>
                 <i class="just_for_padding"></i>
             </div>
+            <!-- badges -->
             <div id="badges" class="flex gap-2">
                 <BadgeCategory category={merchant?.category} />
                 {#if (merchant?.is_parking_free)}
@@ -91,7 +106,11 @@
                 {/if}
             </div>
         </div>
-        <!-- badges -->
+        <!-- opening hours -->
+        <div id="opening-hours" class="absolute bottom-20 text-center">
+            <span class="text-secondary block">Hari buka: {openDays}</span>
+            <span class='text-secondary'>Jam buka: {merchant?.open_hour}.00 - {merchant?.close_hour}.00</span>
+        </div>
         <!-- openmap button -->
         <div id="btn-open-maps" class="absolute bottom-6">
             <Button text="Buka di Maps" size="md" bgColor="bg-white" textColor="text-dark" on:click={openMapHandler} />

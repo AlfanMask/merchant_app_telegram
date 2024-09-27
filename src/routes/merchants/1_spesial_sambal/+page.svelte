@@ -4,4 +4,4 @@
 
 </script>
 
-<OrderPage merchantId="1_serba_sambal" />
+<OrderPage merchantId="1_spesial_sambal" />

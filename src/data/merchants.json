@@ -1,247 +1,352 @@
 [
     {
-        "id": "1_serba_sambal",
-        "title": "Serba Sambal (SS)",
+        "id": "1_spesial_sambal",
+        "title": "Spesial Sambal (SS)",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/tgH4tPbnKCAHpUHH6"
+        "gmap_url": "https://maps.app.goo.gl/tgH4tPbnKCAHpUHH6",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 10,
+        "close_hour": 22
     },
     {
         "id": "2_warung_jepun",
         "title": "Warung Jepun",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/CpjwDueJL6E69vNN7"
+        "gmap_url": "https://maps.app.goo.gl/CpjwDueJL6E69vNN7",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 7,
+        "close_hour": 16
     },
     {
         "id": "3_arjes_kitchen",
         "title": "Arjes Kitchen",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/YbtwvoWoYzCGgM7v5"
+        "gmap_url": "https://maps.app.goo.gl/YbtwvoWoYzCGgM7v5",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
+        "open_hour": 11,
+        "close_hour": 22
     },
     {
         "id": "4_bale_enak",
         "title": "Bale Enak",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/QHiCeFbXp1Gw8Fa4A"
+        "gmap_url": "https://maps.app.goo.gl/QHiCeFbXp1Gw8Fa4A",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
+        "open_hour": 11,
+        "close_hour": 21
     },
     {
         "id": "5_flavfour",
         "title": "Flavfour",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/LKiakAJfbVTUZpJn6"
+        "gmap_url": "https://maps.app.goo.gl/LKiakAJfbVTUZpJn6",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 10,
+        "close_hour": 22
     },
     {
         "id": "6_nuno_penyet",
         "title": "Nuno Penyet",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/3GJfvUHc1QnYTL3U8"
+        "gmap_url": "https://maps.app.goo.gl/3GJfvUHc1QnYTL3U8",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Minggu"],
+        "open_hour": 18,
+        "close_hour": 23
     },
     {
         "id": "7_takoyaki_gerdep",
         "title": "Takoyaki Gerdep",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/LPxvcrTrpi5PjXcTA"
+        "gmap_url": "https://maps.app.goo.gl/LPxvcrTrpi5PjXcTA",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 19,
+        "close_hour": 24
     },
     {
         "id": "8_pancong_balap",
         "title": "Pancong Balap",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/qNXvDs1zmw9T9jDz8"
+        "gmap_url": "https://maps.app.goo.gl/qNXvDs1zmw9T9jDz8",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 21
     },
     {
         "id": "9_pisang_aroma",
         "title": "Pisang Aroma",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/XiTiMrHD133gkSDu8"
+        "gmap_url": "https://maps.app.goo.gl/XiTiMrHD133gkSDu8",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 0,
+        "close_hour": 24
     },
     {
         "id": "10_karizmaku",
         "title": "Karizmaku",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/26vdXxMEoGvboCMWA"
+        "gmap_url": "https://maps.app.goo.gl/26vdXxMEoGvboCMWA",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 16,
+        "close_hour": 23
     },
     {
         "id": "11_pisang_sewelas",
         "title": "Pisang Sewelas",
         "category": "Minuman",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/"
+        "gmap_url": "https://maps.app.goo.gl/",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 0,
+        "close_hour": 24
     },
     {
         "id": "12_sarapan_bule",
         "title": "Sarapan Bule",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/"
+        "gmap_url": "https://maps.app.goo.gl/",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 0,
+        "close_hour": 24
     },
     {
         "id": "13_geprek_kumlot",
         "title": "Geprek Kumlot",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/B1rFnCRhjxMCTmV9A"
+        "gmap_url": "https://maps.app.goo.gl/B1rFnCRhjxMCTmV9A",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 21
     },
     {
         "id": "14_bakso_sony",
         "title": "Bakso Sony",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/Qm5nxnW7qVZeF933A"
+        "gmap_url": "https://maps.app.goo.gl/Qm5nxnW7qVZeF933A",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 10,
+        "close_hour": 20
     },
     {
         "id": "15_warung_se",
         "title": "Warung SE",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/dQvtusjrJUfeQNSLA"
+        "gmap_url": "https://maps.app.goo.gl/dQvtusjrJUfeQNSLA",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 21
     },
     {
         "id": "16_geprek_fortuner",
         "title": "Geprek Fortnuer",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/4Rsyqn3sEBQtoD2CA"
+        "gmap_url": "https://maps.app.goo.gl/4Rsyqn3sEBQtoD2CA",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 10,
+        "close_hour": 22
     },
     {
         "id": "17_lapak_chicken",
         "title": "Lapak Chicken",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/UFRRHwZ3GjuNh7bC9"
+        "gmap_url": "https://maps.app.goo.gl/UFRRHwZ3GjuNh7bC9",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 21
     },
     {
         "id": "18_ayam_rektor",
         "title": "Ayam Rektor",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/A34FaGjYKxsooPKj9"
+        "gmap_url": "https://maps.app.goo.gl/A34FaGjYKxsooPKj9",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 21
     },
     {
         "id": "19_chicken_on_fire_jp",
         "title": "Chicken On Fire by JP",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/ozPik3Fbqqj5g1sh8"
+        "gmap_url": "https://maps.app.goo.gl/ozPik3Fbqqj5g1sh8",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 21
     },
     {
         "id": "20_warung_bu_las",
         "title": "Warung Bu Las",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/bAP3Pcvxh7zxyvb76"
+        "gmap_url": "https://maps.app.goo.gl/bAP3Pcvxh7zxyvb76",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Sabtu", "Minggu"],
+        "open_hour": 8,
+        "close_hour": 20
     },
     {
         "id": "21_kebab_morgan",
         "title": "Kebab Morgan",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/RbAPNiBnri3LmgGZ9"
+        "gmap_url": "https://maps.app.goo.gl/RbAPNiBnri3LmgGZ9",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 10,
+        "close_hour": 24
     },
     {
         "id": "22_sate_aminah",
         "title": "Sate Aminah",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/B42Fia2uvbCmKdJ69"
+        "gmap_url": "https://maps.app.goo.gl/B42Fia2uvbCmKdJ69",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 17,
+        "close_hour": 24
     },
     {
         "id": "23_olive_uns",
         "title": "Olive UNS",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/4X2cyGnTYQNCFLeq7"
+        "gmap_url": "https://maps.app.goo.gl/4X2cyGnTYQNCFLeq7",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 21
     },
     {
         "id": "24_seblak_bageur",
         "title": "Seblak Bageur",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/SHtmh8vDpCa119EfA"
+        "gmap_url": "https://maps.app.goo.gl/SHtmh8vDpCa119EfA",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 11,
+        "close_hour": 22
     },
     {
         "id": "25_mie_sentosa",
         "title": "Mie Sentosa",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/T3wZpnNdvgpeyAHs8"
+        "gmap_url": "https://maps.app.goo.gl/T3wZpnNdvgpeyAHs8",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 10,
+        "close_hour": 20
     },
     {
         "id": "26_ayam_penyet_andara",
         "title": "Ayam Penyet Andara",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/Fg4iYrS56FZ4KLNS9"
+        "gmap_url": "https://maps.app.goo.gl/Fg4iYrS56FZ4KLNS9",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 10,
+        "close_hour": 24
     },
     {
         "id": "27_nasi_goreng_milyarder",
         "title": "Nasi Goreng Milyarder",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/XRC5JoR9JChwoaWt8"
+        "gmap_url": "https://maps.app.goo.gl/XRC5JoR9JChwoaWt8",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 16,
+        "close_hour": 24
     },
     {
         "id": "28_harun_juice",
         "title": "Harun Juice",
         "category": "Minuman",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/bju8YcG5A718MVsv9"
+        "gmap_url": "https://maps.app.goo.gl/bju8YcG5A718MVsv9",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 10,
+        "close_hour": 23
     },
     {
         "id": "29_bakmi_capcay_pak_bambang",
         "title": "Bakmi Capcay Pak Bambang",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/jsbY2mRppQkREBdV7"
+        "gmap_url": "https://maps.app.goo.gl/jsbY2mRppQkREBdV7",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 18,
+        "close_hour": 24
     },
     {
         "id": "30_bago_hot_chicken",
         "title": "Bago Hot Chicken",
         "category": "Makanan",
         "is_parking_free": false,
-        "gmap_url": "https://maps.app.goo.gl/1Nwv5C6JnWeDZa5U6"
+        "gmap_url": "https://maps.app.goo.gl/1Nwv5C6JnWeDZa5U6",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 21
     },
     {
         "id": "31_geprel_mas_al",
         "title": "Geprek Mas Al",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/pw3CQgX2r2N5w9YW8"
+        "gmap_url": "https://maps.app.goo.gl/pw3CQgX2r2N5w9YW8",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 11,
+        "close_hour": 21
     },
     {
         "id": "32_rm_mbak_sela",
         "title": "RM Mbak Sela",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/"
+        "gmap_url": "https://maps.app.goo.gl/",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 0,
+        "close_hour": 24
     },
     {
         "id": "33_martabak_la_wawah",
         "title": "Martabak La Wa Wah",
         "category": "Jajanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/HB9RGvpjYMaPQWax8"
+        "gmap_url": "https://maps.app.goo.gl/HB9RGvpjYMaPQWax8",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 17,
+        "close_hour": 24
     },
     {
         "id": "34_bang_ojie",
         "title": "Sate Bang Ojie",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/"
+        "gmap_url": "https://maps.app.goo.gl/",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 0,
+        "close_hour": 0
     },
     {
         "id": "35_mie_serasi",
         "title": "Mie Serasi",
         "category": "Makanan",
         "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/KC4kU8hyEvXQa4vG7"
+        "gmap_url": "https://maps.app.goo.gl/KC4kU8hyEvXQa4vG7",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 16,
+        "close_hour": 22
     }
 ]
