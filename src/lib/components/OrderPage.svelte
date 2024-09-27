@@ -19,6 +19,7 @@
 	import CheckOrders from "./CheckOrders.svelte";
 	import OnlyOpenTroughTelegram from "./OnlyOpenTroughTelegram.svelte";
 	import { isMerchantOpen } from "../../helper/time";
+	import { browser } from "$app/environment";
 
     // variables
     export let merchantId: string;
@@ -46,12 +47,13 @@
         isOpen = isMerchantOpen(now, merchant)
     }
 
-
     // search
     let isShownSearch: boolean = false;
-    window.addEventListener('scroll', () => {
-        window.scrollY >= 500 ? isShownSearch = true : isShownSearch = false
-    });
+    if (browser) {
+        window.addEventListener('scroll', () => {
+            window.scrollY >= 500 ? isShownSearch = true : isShownSearch = false
+        });
+    }
 
     // open days and hours
     let openDays: string = "";
