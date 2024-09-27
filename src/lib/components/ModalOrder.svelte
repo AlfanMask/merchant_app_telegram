@@ -11,6 +11,7 @@
     export let isParkingFree: boolean;
     export let showModal: boolean;
     export let orders: Array<Order>;
+    export let modifyQtyHandler: (order: Order, is_increase: boolean) => void;
     let totalPrice: number;
     $: {
         totalPrice = orders.reduce((prev, curr) => prev + (curr.product.price * curr.qty), 0)
@@ -29,12 +30,14 @@
     }
 </script>
 
-<div class="px-4 bg-green-400">
+{#if showModal}
+<div class="px-4">
     <Modal bind:showModal>
         <h3 class="mb-4">Apakah kamu yakin dengan orderanmu?</h3>
         <div class="order-list flex flex-col gap-4 w-full mb-4">
             {#each orders as order }
-                <ProductOrder title="{order.product.title}" price={order.product.price} category={order.product.category} qty={order.qty} />
+                <!-- <ProductOrder title="{order.product.title}" price={order.product.price} category={order.product.category} qty={order.qty} /> -->
+                <ProductOrder {order} modifyQtyHandler={modifyQtyHandler} />
             {/each}
         </div>
         <hr class="mb-4">
@@ -44,3 +47,4 @@
         </div>
     </Modal>
 </div>
+{/if}

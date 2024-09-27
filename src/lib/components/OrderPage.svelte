@@ -87,7 +87,12 @@
 
     // handlers
     let showModal: boolean = false;
-    const placeOrderHandler = () => {
+    $: {
+        if(orders.length === 0) {
+            showModal = false;
+        }
+    }
+    const checkOrderHandler = () => {
         showModal = true;
     }
     const openMapHandler = () => {
@@ -168,9 +173,9 @@
     <!-- order button -->
     {#if orders.length > 0}
     <div in:slide out:slide id="btn-order" class="fixed bottom-[5%] w-full h-fit flex justify-center">
-        <Button text="Buat Pesanan" size="lg" bgColor="bg-base" textColor="text-secondary" on:click={placeOrderHandler} />
+        <Button text="Cek Pesanan" size="lg" bgColor="bg-base" textColor="text-secondary" on:click={checkOrderHandler} />
     </div>
     {/if}
 
-    <ModalOrder bind:showModal orders={orders} merchantName={merchant?.title} isParkingFree={merchant?.is_parking_free} />
+    <ModalOrder bind:showModal bind:orders={orders} merchantName={merchant?.title} isParkingFree={merchant?.is_parking_free} modifyQtyHandler={modifyQtyHandler} />
 </div>
