@@ -14,6 +14,8 @@
     import { products as productsData } from "../../stores/store";
     import { merchants as merchantsData } from "../../stores/store";
 	import { allDays } from "../../constants/merchant";
+	import AutocompleteProduct from "./ui/AutocompleteProduct.svelte";
+	import { scrollToSection } from "../../helper/goto";
 
     // get merchant.id
     export let merchantId: string;
@@ -22,6 +24,12 @@
     //     const parts = window.location.pathname.split("/");
     //     merchantId = parts[parts.length - 1];
     // })
+
+    // search
+    let isShownSearch: boolean = false;
+    window.addEventListener('scroll', () => {
+        window.scrollY >= 500 ? isShownSearch = true : isShownSearch = false
+    });
 
     // open days and hours
     let openDays: string = "";
@@ -74,6 +82,9 @@
         orders = orderables.filter(o => o.qty > 0).sort((a, b) => a.product.title.localeCompare(b.product.title));
     }
 
+    // search item
+	let searchInput: string = "";
+
     // handlers
     let showModal: boolean = false;
     const placeOrderHandler = () => {
@@ -82,10 +93,21 @@
     const openMapHandler = () => {
         window.open(merchant.gmap_url, "_blank");
     }
+    const autoCompleteProductHandler = (product_id: string) => {
+        searchInput = orderables.find(o => o.product.id === product_id)?.product.title || "";
+        scrollToSection(product_id)
+    }
 
 </script>
 
 <div class="min-h-screen h-full bg-primary relative pb-16">
+    <!-- search -->
+    {#if isShownSearch}
+    <div in:slide out:slide id="search" class="fixed flex top-8 w-full justify-center">
+        <AutocompleteProduct placeholder="Cari item.." bind:inputText={searchInput} autocompleteData={orderables.map(o => o.product)} autoCompleteHandler={autoCompleteProductHandler} />
+    </div>
+    {/if}
+        
     <!-- header -->
     <div id="header" class="relative flex justify-center mb-8">
         <img src="/img/merchants/{merchantId}/thumbnail.png" alt="merchant" class="w-full h-[350px] rounded-b-xl brightness-50">

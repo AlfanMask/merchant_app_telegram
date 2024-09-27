@@ -27,7 +27,7 @@
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<div on:click class="flex gap-4 w-full">
+<div on:click id={order.product.id} class="flex gap-4 w-full">
     <!-- TODO: put img based on product's thumbnail -->
     <!-- <img src="/img/merchants/{order.product.merchant_id}/products/{order.product.id}.png" alt="product" class="w-24 h-24 rounded-xl"> -->
     <img src="{imgSrc}" alt="product" class="w-24 h-24 rounded-xl">
@@ -43,7 +43,11 @@
 </div>
 
 <style lang="postcss">
+    /* all sections */
+    div {
+        scroll-margin: 120px;
+    }
     #counter i, #counter span {
         @apply border border-solid border-secondary h-6 w-6 text-center items-center text-dark
-    }    
+    }   
 </style>
