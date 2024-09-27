@@ -4,12 +4,14 @@
 	import ProductPopularItem from "$lib/components/ProductPopularItem.svelte";
 	import AutocompleteMerchant from "$lib/components/ui/AutocompleteMerchant.svelte";
 	import Button from "$lib/components/ui/Button.svelte";
+	import { onMount } from "svelte";
 	import { Category } from "../constants/category";
 	import type Merchant from "../constants/merchant";
 	import type Product from "../constants/product";
 	import { autoCompleteMerchantHandler } from "../helper/autocomplete";
 	import { filterMerchantsCategory, products } from "../stores/store";
 	import { merchants as merchantsData } from "../stores/store";
+	import OnlyOpenTroughTelegram from "$lib/components/OnlyOpenTroughTelegram.svelte";
 
 	// get data
 	let popularProducts: Array<Product> = [];
@@ -19,6 +21,12 @@
 	let merchants: Array<Merchant> = [];
 	merchantsData.subscribe((data) => {
 		merchants = data
+	})
+
+	let isComingFromTelegram: boolean = true;
+	onMount(() => {
+		// only coming from telegram allowed to use the website
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
 	})
 
 	// search merchant
@@ -36,10 +44,11 @@
 
 </script>
 
+{#if isComingFromTelegram}
 <div class="min-h-screen h-full bg-base">
 	<!-- searchbar -->
 	<div id="search" class="px-4 mb-8 mt-6">
-		<h2 class="text-white text-center mb-4">Selamat Mencari Makanan!</h2>
+		<h2 class="text-white text-center mb-4">Selamat Mencari Restoo!</h2>
 		<AutocompleteMerchant placeholder="Cari resto.." inputText={searchInput} autocompleteData={merchants} autoCompleteHandler={autoCompleteMerchantHandler} />
 	</div>
 
@@ -71,3 +80,35 @@
 	</div>
 
 </div>
+{:else}
+<OnlyOpenTroughTelegram />
+{/if}
+
+<style lang="postcss">
+	/* #main {
+		background-image: url("/img/background.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	} */
+	#main {
+		position: relative;
+		z-index: 1;
+	}
+
+	#main::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image: url("/img/background.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		opacity: 0.1;
+		filter: blur(1px);
+    	z-index: -1;
+	}
+</style>

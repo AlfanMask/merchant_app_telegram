@@ -44,10 +44,10 @@
     <img src="{imgSrc}" alt="product" class="w-24 h-24 rounded-xl">
     <div class="flex flex-col w-full">
         <BadgeCategory category={order.product.category}/>
-        <h3 class="mt-2 mb-1 text">{order.product.title}</h3>
+        <h3 class="mt-2 mb-1 text !text-lg !leading-tight">{order.product.title}</h3>
         <span class="text-dark">x {order.qty}</span>
     </div>
-    <div class="flex flex-col">
+    <div class="flex flex-col justify-between">
         <span class="text-dark !text-lg !font-bold">{formatRupiah(totalPrice)}</span>
         <div id="counter" class="flex items-center">
             <i class="fa-solid fa-minus" on:click={() => modifyQtyHandler(order, false)}></i>

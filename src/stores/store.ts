@@ -6,6 +6,7 @@ import type Product from "../constants/product";
 import { Category } from "../constants/category";
 import { Parking } from "../constants/parking";
 import { Open } from "../constants/open";
+import type { Order } from "../constants/order";
 
 // get data from json
 export const merchants = writable<Array<Merchant>>([]);
@@ -21,3 +22,7 @@ export const filterMerchantsFreeParking = writable<Parking>();
 filterMerchantsFreeParking.set(Parking.Semua)
 export const filterMerchantsOpen = writable<Open>();
 filterMerchantsOpen.set(Open.Semua)
+
+// orders data
+export const orders = writable<Array<Order>>([]);
+orders.set([])

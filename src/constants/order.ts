@@ -1,4 +1,5 @@
 import type { Category } from "./category";
+import type Merchant from "./merchant";
 import type Product from "./product";
 
 interface Order {
@@ -8,9 +9,7 @@ interface Order {
 
 interface OrdersData {
     orders: Array<Order>,
-    merchant_name: string,
-    is_parking_free: boolean,
-    total_price: number,
+    merchant: Merchant,
 }
 
 export type { Order, OrdersData }

@@ -19,12 +19,12 @@
 
 </script>
 
-<div class="relative">
+<div class="relative w-full pl-4 pr-8">
     <input
         type="text"
         placeholder="{placeholder}"
         bind:value={ inputText }
-        class="rounded-3xl w-full h-10 p-4 border border-solid border-secondary"
+        class="rounded-3xl w-full h-12 p-4 border border-solid border-secondary shadow-lg"
     />
     {#if (autocompleteProducts.length > 0)}
     <div class="flex flex-col gap-1 p-4 mt-2 absolute bg-white rounded-xl w-full z-10 shadow-lg">

@@ -5,24 +5,6 @@
 	import BadgeCategory from "./ui/BadgeCategory.svelte";
 
     export let product: Product;
-    let imgSrc: string = "";
-
-    $: {
-        switch(product.category) {
-            case Category.Makanan:
-                imgSrc = "/img/categories/category-food.png"
-                break;
-            case Category.Minuman:
-                imgSrc = "/img/categories/category-drink.png"
-                break;
-            case Category.Jajanan:
-                imgSrc = "/img/categories/category-snack.png"
-                break;
-            default:
-                imgSrc = "/img/categories/category-other.png"
-                break;
-        }
-    }
 </script>
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
@@ -30,7 +12,7 @@
 <div on:click class="flex gap-4 w-full">
     <!-- TODO: put img based on product's thumbnail -->
     <!-- <img src="/img/merchants/{product.merchant_id}/products/{product.id}.png" alt="product" class="w-24 h-24 rounded-xl"> -->
-    <img src="{imgSrc}" alt="product" class="w-24 h-24 rounded-xl">
+    <img src="/img/merchants/{product.merchant_id}/thumbnail.png" alt="product" class="w-24 h-24 rounded-xl">
     <div class="flex flex-col">
         <BadgeCategory category={product.category}/>
         <h3 class="mt-2 mb-1 text">{product.title}</h3>

@@ -1,7 +1,10 @@
 <script lang="ts">
 	import { goto } from "$app/navigation";
+	import CheckOrders from "$lib/components/CheckOrders.svelte";
 	import MerchantItem from "$lib/components/MerchantItem.svelte";
 	import AutocompleteMerchant from "$lib/components/ui/AutocompleteMerchant.svelte";
+	import Modal from "$lib/components/ui/Modal.svelte";
+	import { onMount } from "svelte";
 	import { Category } from "../../constants/category";
 	import type Merchant from "../../constants/merchant";
 	import { allDays } from "../../constants/merchant";
@@ -11,13 +14,22 @@
 	import { prevPage } from "../../helper/back";
 	import { isMerchantOpen } from "../../helper/time";
     import { filterMerchantsCategory as filterMerchantsCategoryStore, filterMerchantsFreeParking as filterMerchantsFreeParkingStore, filterMerchantsOpen as filterMerchantsOpenStore, merchants as merchantsData } from "../../stores/store";
+	import OnlyOpenTroughTelegram from "$lib/components/OnlyOpenTroughTelegram.svelte";
 
     // get merchants data
     let allMerchants: Array<Merchant> = [];
     let displayedMerchants: Array<Merchant> = [];
+    let isShowRestoClosedMessage: string = "";
     merchantsData.subscribe((data) => {
         allMerchants = data
     })
+
+    let isComingFromTelegram: boolean = true;
+	onMount(() => {
+		// only coming from telegram allowed to use the website
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
+	})
+
 
     // search merchant
 	let searchInput: string = "";
@@ -84,7 +96,7 @@
             } else {
                 openDays = merchantToOpen.open_days.map(day => allDays.find(d => d === day)).join(", ");
             }
-            alert("Maaf, resto tutup :(\n\nResto ini buka " + openDays + " dari jam " + merchantToOpen.open_hour + ".00 sampai jam " + merchantToOpen.close_hour + ".00");
+            isShowRestoClosedMessage = "Maaf, resto tutup :( Resto ini buka " + openDays + " dari jam " + merchantToOpen.open_hour + ".00 sampai jam " + merchantToOpen.close_hour + ".00"
         }
     }
 
@@ -94,33 +106,39 @@
 
 </script>
 
-
-<div class="min-h-screen h-full bg-primary py-8">
+{#if isComingFromTelegram}
+<div id="bg" class="min-h-screen h-full bg-primary py-8">
+    {#if isShowRestoClosedMessage}
+        <Modal showModal={isShowRestoClosedMessage != "" ? true : false}>
+            <span class="!text-lg">{isShowRestoClosedMessage}</span>
+        </Modal>
+    {/if}
+    
     <!-- searchbar -->
-	<div id="search" class="px-4 mb-8 flex gap-4 items-center">
+	<div id="search" class="fixed px-6 mb-8 flex gap-4 items-center z-50">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-static-element-interactions -->
-        <i class="fa-solid fa-chevron-left text-dark" on:click={clickBackToHome}></i>
+        <i class="fa-solid fa-circle-chevron-left text-secondary text-4xl" on:click={clickBackToHome}></i>
 		<AutocompleteMerchant placeholder="Cari resto.." inputText={searchInput} autocompleteData={allMerchants} autoCompleteHandler={autoCompleteMerchantHandler} />
 	</div>
 
     <!-- main -->
-    <div id="main" class="px-4">
+    <div id="main" class="px-4 mt-20">
         <!-- topbar options -->
         <div id="topbar" class="w-full mb-8 flex flex-col gap-4">
-            <select id="select_category" bind:value={filterMerchantsCategory} class="w-full rounded px-2 py-1">
+            <select id="select_category" bind:value={filterMerchantsCategory} class="w-full rounded px-2 py-2 border border-solid border-secondary">
                 <option value={Category.Semua}>{Category.Semua} Kategori</option>
                 <option value={Category.Makanan}>{Category.Makanan}</option>
                 <option value={Category.Minuman}>{Category.Minuman}</option>
                 <option value={Category.Jajanan}>{Category.Jajanan}</option>
             </select>
             <div class="grid grid-cols-2 items-center gap-4">
-                <select id="select_parking" bind:value={filterMerchantsFreeParking} class="rounded px-2 py-1">
+                <select id="select_parking" bind:value={filterMerchantsFreeParking} class="rounded px-2 py-2 border border-solid border-secondary">
                     <option value={Parking.Semua}>{Parking.Semua}</option>
                     <option value={Parking["Bebas Parkir"]}>{Parking["Bebas Parkir"]}</option>
                     <option value={Parking.Parkir}>{Parking.Parkir}</option>
                 </select>
-                <select id="select_open" bind:value={filterMerchantsOpen} class="rounded px-2 py-1">
+                <select id="select_open" bind:value={filterMerchantsOpen} class="rounded px-2 py-2 border border-solid border-secondary">
                     <option value={Open.Semua}>{Open.Semua}</option>
                     <option value={Open.Open}>{Open.Open}</option>
                     <option value={Open.Close}>{Open.Close}</option>
@@ -139,4 +157,36 @@
             <h3 class="text-center text-dark mt-20">Maaf, restoran tidak ditemukan :(</h3>
         {/if}
     </div>
+
+    <CheckOrders />
+    
 </div>
+{:else}
+<OnlyOpenTroughTelegram />
+{/if}
+
+<style>
+    .fa-circle-chevron-left {
+        text-shadow: 0 0 3px #000;;
+    }
+    #bg {
+		position: relative;
+		z-index: 1;
+	}
+
+	#bg::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image: url("/img/background.png");
+		background-position: center;
+		background-repeat: repeat;
+		background-size: contain;
+		opacity: 0.1;
+        filter: blur(1px);
+    	z-index: -1;
+	}
+</style>

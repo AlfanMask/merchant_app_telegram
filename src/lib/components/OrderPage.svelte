@@ -11,19 +11,41 @@
 	import { slide } from "svelte/transition";
 	import type { Order } from "../../constants/order";
 	import type Merchant from "../../constants/merchant";
-    import { products as productsData } from "../../stores/store";
+    import { orders, products as productsData } from "../../stores/store";
     import { merchants as merchantsData } from "../../stores/store";
 	import { allDays } from "../../constants/merchant";
 	import AutocompleteProduct from "./ui/AutocompleteProduct.svelte";
 	import { scrollToSection } from "../../helper/goto";
+	import CheckOrders from "./CheckOrders.svelte";
+	import OnlyOpenTroughTelegram from "./OnlyOpenTroughTelegram.svelte";
+	import { isMerchantOpen } from "../../helper/time";
 
-    // get merchant.id
+    // variables
     export let merchantId: string;
     let merchant: Merchant;
-    // onMount(() => {
-    //     const parts = window.location.pathname.split("/");
-    //     merchantId = parts[parts.length - 1];
-    // })
+    let localOrders: Array<Order> = [];
+    let triggerNum: number = 0; // To Trigger modify qty on modal, modify the value inside modal and all component that need change from the orders store
+    onMount(() => {
+        // const parts = window.location.pathname.split("/");
+        // merchantId = parts[parts.length - 1];
+        orders.subscribe(data => {
+            localOrders = data
+        })
+    })
+
+    let isComingFromTelegram: boolean = true;
+	onMount(() => {
+		// only coming from telegram allowed to use the website
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
+	})
+
+    // check if merchant open
+    let isOpen: boolean;
+    $: {
+        const now = new Date();
+        isOpen = isMerchantOpen(now, merchant)
+    }
+
 
     // search
     let isShownSearch: boolean = false;
@@ -47,15 +69,27 @@
     // available products
     let orderables: Array<Order> = [];
     $: {
+        triggerNum
         
-        // get data from products of merchatId
+        // get data from products of merchatId, and get edited qty products from orders store
         productsData.subscribe((data) => {
             const products = data.filter(o => o.merchant_id === merchantId)
-            orderables = products.map(o => {
+            const tempProducts = products.map(o => {
                 return {
                     product: o,
                     qty: 0,
                 }
+            })
+            orderables = tempProducts.map(o => {
+                let editedQtyProduct = o;
+                orders.subscribe(data => {
+                    data.map(i => {
+                        if(i.product.id == o.product.id) {
+                            editedQtyProduct = i;
+                        }
+                    })
+                })
+                return editedQtyProduct;
             }).sort((a, b) => a.product.title.localeCompare(b.product.title));
         })
         merchantsData.subscribe((data) => {
@@ -64,7 +98,6 @@
     }
     
     // orders
-    let orders: Array<Order> = [];
     const modifyQtyHandler = (order: Order, is_increase: boolean) => {
         const foundIndex = orderables.findIndex(o => o.product.id === order.product.id);
 
@@ -79,22 +112,18 @@
         }
     }
     $: {
-        orders = orderables.filter(o => o.qty > 0).sort((a, b) => a.product.title.localeCompare(b.product.title));
+        // UPDATE ORDERS STORE
+        const updatedOrders: Array<Order> = orderables.filter(o => o.qty > 0).sort((a, b) => a.product.title.localeCompare(b.product.title));
+        orders.update((curOrders) => {
+            const tempCurOrders = curOrders.filter(o => o.product.merchant_id !== merchantId);
+            return [...tempCurOrders, ...updatedOrders];
+        });
     }
 
     // search item
 	let searchInput: string = "";
 
     // handlers
-    let showModal: boolean = false;
-    $: {
-        if(orders.length === 0) {
-            showModal = false;
-        }
-    }
-    const checkOrderHandler = () => {
-        showModal = true;
-    }
     const openMapHandler = () => {
         window.open(merchant.gmap_url, "_blank");
     }
@@ -105,23 +134,28 @@
 
 </script>
 
-<div class="min-h-screen h-full bg-primary relative pb-16">
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y-no-static-element-interactions -->
+{#if isComingFromTelegram}
+<div id="bg" class="min-h-screen h-full bg-primary relative pb-16">
     <!-- search -->
     {#if isShownSearch}
-    <div in:slide out:slide id="search" class="fixed flex top-8 w-full justify-center">
+    <div in:slide out:slide id="search" class="fixed flex top-8 w-full justify-between items-center">
+        <i class="fa-solid fa-circle-chevron-left text-secondary text-5xl ml-4" on:click={prevPage}></i>
         <AutocompleteProduct placeholder="Cari item.." bind:inputText={searchInput} autocompleteData={orderables.map(o => o.product)} autoCompleteHandler={autoCompleteProductHandler} />
     </div>
     {/if}
         
     <!-- header -->
     <div id="header" class="relative flex justify-center mb-8">
-        <img src="/img/merchants/{merchantId}/thumbnail.png" alt="merchant" class="w-full h-[350px] rounded-b-xl brightness-50">
+        <img src="/img/merchants/{merchantId}/thumbnail.png" alt="merchant" class="w-full h-[350px] rounded-b-xl brightness-50 {!isOpen ? 'brightness-[25%]' : ''}">
+        {#if !isOpen}
+            <span class="text-secondary !font-bold !text-2xl text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">MASIH TUTUPP 🚫</span>
+        {/if}
         <!-- topbar -->
-        <div id="topbar" class="absolute top-4 w-full px-4 mt-2 mb-8 flex flex-col gap-1 items-center">
+        <div id="topbar" class="absolute top-4 w-full px-6 mt-2 mb-8 flex flex-col gap-1 items-center">
             <div id="title" class="w-full flex justify-between items-center gap-4">
-                <!-- svelte-ignore a11y-click-events-have-key-events -->
-                <!-- svelte-ignore a11y-no-static-element-interactions -->
-                <i class="fa-solid fa-chevron-left text-secondary" on:click={prevPage}></i>
+                <i class="fa-solid fa-chevron-left text-secondary text-2xl" on:click={prevPage}></i>
                 <h2 class="text-white text-center mb-4">{merchant?.title || "..."}</h2>
                 <i class="just_for_padding"></i>
             </div>
@@ -145,13 +179,14 @@
     </div>
 
     <!-- main -->
+    {#if isOpen}
     <div id="main" class="flex flex-col gap-16 px-4">
         <!-- foods -->
         <div id="foods" class="flex flex-col gap-4">
             <h3 class="text-start text-dark">Makanan</h3>
             <div id="food-list" class="flex flex-col gap-8">
                 {#each orderables as order}
-                    {#if (order.product.category === Category.Makanan) || (order.product.category === Category.Jajanan)}
+                    {#if (order.product.category != Category.Minuman)}
                         <OrderableProduct order={order} {modifyQtyHandler} />
                     {/if}
                 {/each}
@@ -162,7 +197,7 @@
             <h3 class="text-start text-dark">Minuman</h3>
             <div id="drink-list" class="flex flex-col gap-4">
                 {#each orderables as order}
-                    {#if (order.product.category === Category.Minuman)}
+                    {#if (order.product.category !== Category.Makanan)}
                         <OrderableProduct order={order} {modifyQtyHandler} />
                     {/if}
                 {/each}
@@ -170,12 +205,36 @@
         </div>
     </div>
 
-    <!-- order button -->
-    {#if orders.length > 0}
-    <div in:slide out:slide id="btn-order" class="fixed bottom-[5%] w-full h-fit flex justify-center">
-        <Button text="Cek Pesanan" size="lg" bgColor="bg-base" textColor="text-secondary" on:click={checkOrderHandler} />
-    </div>
+    <CheckOrders bind:triggerNum />
     {/if}
 
-    <ModalOrder bind:showModal bind:orders={orders} merchantName={merchant?.title} isParkingFree={merchant?.is_parking_free} modifyQtyHandler={modifyQtyHandler} />
 </div>
+{:else}
+<OnlyOpenTroughTelegram />
+{/if}
+
+<style>
+    .fa-circle-chevron-left {
+        text-shadow: 0 0 3px #000;;
+    }
+    #bg {
+		position: relative;
+		z-index: 1;
+	}
+
+	#bg::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image: url("/img/background.png");
+		background-position: top left;
+		background-repeat: repeat;
+		background-size: contain;
+		opacity: 0.1;
+        filter: blur(1px);
+    	z-index: -1;
+	}
+</style>
