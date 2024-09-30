@@ -36,7 +36,7 @@
         "is_parking_free": false,
         "gmap_url": "https://maps.app.goo.gl/QHiCeFbXp1Gw8Fa4A",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
-        "open_hour": 11,
+        "open_hour": 0,
         "close_hour": 21
     },
     {
@@ -116,8 +116,8 @@
         "is_parking_free": true,
         "gmap_url": "https://maps.app.goo.gl/",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
-        "open_hour": 0,
-        "close_hour": 24
+        "open_hour": 7,
+        "close_hour": 9
     },
     {
         "id": "13_geprek_kumlot",
@@ -151,7 +151,7 @@
     },
     {
         "id": "16_geprek_fortuner",
-        "title": "Geprek Fortnuer",
+        "title": "Geprek Fortuner",
         "category": "Makanan",
         "is_parking_free": true,
         "gmap_url": "https://maps.app.goo.gl/4Rsyqn3sEBQtoD2CA",
@@ -310,16 +310,6 @@
         "close_hour": 21
     },
     {
-        "id": "32_rm_mbak_sela",
-        "title": "RM Mbak Sela",
-        "category": "Makanan",
-        "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/",
-        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
-        "open_hour": 0,
-        "close_hour": 24
-    },
-    {
         "id": "33_martabak_la_wawah",
         "title": "Martabak La Wa Wah",
         "category": "Jajanan",
@@ -330,16 +320,6 @@
         "close_hour": 24
     },
     {
-        "id": "34_bang_ojie",
-        "title": "Sate Bang Ojie",
-        "category": "Makanan",
-        "is_parking_free": true,
-        "gmap_url": "https://maps.app.goo.gl/",
-        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
-        "open_hour": 0,
-        "close_hour": 24
-    },
-    {
         "id": "35_mie_serasi",
         "title": "Mie Serasi",
         "category": "Makanan",
@@ -347,6 +327,36 @@
         "gmap_url": "https://maps.app.goo.gl/KC4kU8hyEvXQa4vG7",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 16,
+        "close_hour": 22
+    },
+    {
+        "id": "36_gacoan_jebres",
+        "title": "Gacoan Jebres",
+        "category": "Makanan",
+        "is_parking_free": false,
+        "gmap_url": "https://maps.app.goo.gl/yXYcQ1vx7q4vHWb76",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 8,
+        "close_hour": 21
+    },
+    {
+        "id": "37_kedai_kabut",
+        "title": "Kedai Kabut",
+        "category": "Makanan",
+        "is_parking_free": false,
+        "gmap_url": "https://maps.app.goo.gl/RfLrG6LaRzpWxmbBA",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 22
+    },
+    {
+        "id": "38_uma_yumcha",
+        "title": "Uma Yumcha",
+        "category": "Makanan",
+        "is_parking_free": false,
+        "gmap_url": "https://maps.app.goo.gl/CZj3D8UdDUN26MfBA",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 8,
         "close_hour": 22
     }
 ]

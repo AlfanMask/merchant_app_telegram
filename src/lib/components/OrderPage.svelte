@@ -20,17 +20,19 @@
 	import OnlyOpenTroughTelegram from "./OnlyOpenTroughTelegram.svelte";
 	import { isMerchantOpen } from "../../helper/time";
 	import { browser } from "$app/environment";
+	import type Product from "../../constants/product";
 
     // variables
     export let merchantId: string;
     let merchant: Merchant;
     let localOrders: Array<Order> = [];
+    let subCategories: Array<Category|string> = [];
     let triggerNum: number = 0; // To Trigger modify qty on modal, modify the value inside modal and all component that need change from the orders store
     onMount(() => {
         // const parts = window.location.pathname.split("/");
         // merchantId = parts[parts.length - 1];
         orders.subscribe(data => {
-            localOrders = data
+            localOrders = data;
         })
     })
 
@@ -93,6 +95,8 @@
                 })
                 return editedQtyProduct;
             }).sort((a, b) => a.product.title.localeCompare(b.product.title));
+
+            subCategories = getUniqueSubcategoriesAndSort(products);
         })
         merchantsData.subscribe((data) => {
             merchant = data.find(o => o.id == merchantId) as Merchant;
@@ -132,6 +136,10 @@
     const autoCompleteProductHandler = (product_id: string) => {
         searchInput = orderables.find(o => o.product.id === product_id)?.product.title || "";
         scrollToSection(product_id)
+    }
+    const getUniqueSubcategoriesAndSort = (data: Array<Product>): Array<Category|string> => {
+        const uniqueSubCategories = [...new Set(data.map(product => product.subcategory))];
+        return uniqueSubCategories;
     }
 
 </script>
@@ -183,28 +191,18 @@
     <!-- main -->
     {#if isOpen}
     <div id="main" class="flex flex-col gap-16 px-4">
-        <!-- foods -->
-        <div id="foods" class="flex flex-col gap-4">
-            <h3 class="text-start text-dark">Makanan</h3>
-            <div id="food-list" class="flex flex-col gap-8">
-                {#each orderables as order}
-                    {#if (order.product.category != Category.Minuman)}
-                        <OrderableProduct order={order} {modifyQtyHandler} />
-                    {/if}
-                {/each}
+        {#each {length: subCategories.length} as _, i}
+            <div id="{subCategories[i]}" class="flex flex-col gap-4">
+                <h3 class="text-start text-dark">{subCategories[i]}</h3>
+                <div id="food-list" class="flex flex-col gap-8">
+                    {#each orderables as order}
+                        {#if (order.product.subcategory == subCategories[i])}
+                            <OrderableProduct order={order} {modifyQtyHandler} />
+                        {/if}
+                    {/each}
+                </div>
             </div>
-        </div>
-        <!-- drinks -->
-        <div id="drinks" class="flex flex-col gap-4">
-            <h3 class="text-start text-dark">Minuman</h3>
-            <div id="drink-list" class="flex flex-col gap-4">
-                {#each orderables as order}
-                    {#if (order.product.category !== Category.Makanan)}
-                        <OrderableProduct order={order} {modifyQtyHandler} />
-                    {/if}
-                {/each}
-            </div>
-        </div>
+        {/each}
     </div>
 
     <CheckOrders bind:triggerNum />

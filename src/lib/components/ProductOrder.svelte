@@ -45,7 +45,9 @@
     <div class="flex flex-col w-full">
         <BadgeCategory category={order.product.category}/>
         <h3 class="mt-2 mb-1 text !text-lg !leading-tight">{order.product.title}</h3>
-        <span class="text-dark">x {order.qty}</span>
+        {#if (order.product.description)}
+            <span class="!font-medium !text-xs text-dark">{order.product.description}</span>
+        {/if}
     </div>
     <div class="flex flex-col justify-between">
         <span class="text-dark !text-lg !font-bold">{formatRupiah(totalPrice)}</span>

@@ -9,7 +9,7 @@
     let autocompleteMerchants: Array<Merchant>;
     $: if (inputText) {
         autocompleteMerchants = autocompleteData.filter(merchant => {
-            if (merchant.title.toLowerCase() !== inputText.toLowerCase() && merchant.title.toLowerCase().includes(inputText.toLocaleLowerCase())) {
+            if (merchant.title.toLowerCase().includes(inputText.toLocaleLowerCase())) {
                 return merchant;
             }
         })

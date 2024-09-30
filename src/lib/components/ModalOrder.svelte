@@ -45,8 +45,6 @@
         })
     }
 
-    // TODO: ERROR. modify qty from multiple merchants, if qty of a product is 0 it is not dissapear
-
     // handler
     interface OrdersDataToBot {
         multipleOrdersData: Array<OrdersData>,
@@ -72,9 +70,11 @@
                 {#if (lO.merchant.id === merchantIds[i])}
                 <div class="flex flex-col gap-2">
                     <span class="!font-bold underline mb-1">{localOrders[i].merchant.title}</span>
+                    <div class="flex flex-col gap-4">
                     {#each localOrders[i].orders as order}
                         <ProductOrder {order} modifyQtyHandler={modifyQtyHandler} />
                     {/each}
+                    </div>
                 </div>
                 {/if}
             {/each}

@@ -12,11 +12,24 @@
 	import { filterMerchantsCategory, products } from "../stores/store";
 	import { merchants as merchantsData } from "../stores/store";
 	import OnlyOpenTroughTelegram from "$lib/components/OnlyOpenTroughTelegram.svelte";
+	import CheckOrders from "$lib/components/CheckOrders.svelte";
 
 	// get data
 	let popularProducts: Array<Product> = [];
+	let triggerNum: number = 0; // To Trigger modify qty on modal, modify the value inside modal and all component that need change from the orders store
 	products.subscribe((data) => {
 		popularProducts = data.filter(o => o.is_popular).sort((a, b) => a.title.localeCompare(b.title));
+
+		// FOR DEBUGGING PRODUCTS CATEGORIES
+		// const notMakananMinuman = data
+		// 	.filter(o => o.category != Category.Makanan && o.category != Category.Minuman && o.category != Category.Jajanan)
+		// 	.reduce((acc, product) => {
+		// 		acc.set(product.id, product);
+		// 		return acc;
+		// 	}, new Map());
+
+		// const uniqueProducts = Array.from(notMakananMinuman.values());
+		// console.log("notMakananMinuman: ", notMakananMinuman)
 	})
 	let merchants: Array<Merchant> = [];
 	merchantsData.subscribe((data) => {
@@ -75,8 +88,8 @@
 			</div>
 		</div>
 
-		<!-- see all merchants -->
-		<Button text="Lihat Semua Resto" on:click={() => clickCategoryHandler(Category.Semua)} />
+		<!-- Order Button Global Component -->
+		<CheckOrders bind:triggerNum />
 	</div>
 
 </div>
@@ -85,12 +98,6 @@
 {/if}
 
 <style lang="postcss">
-	/* #main {
-		background-image: url("/img/background.png");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	} */
 	#main {
 		position: relative;
 		z-index: 1;
