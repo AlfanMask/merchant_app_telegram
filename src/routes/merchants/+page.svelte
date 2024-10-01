@@ -27,7 +27,8 @@
     let isComingFromTelegram: boolean = true;
 	onMount(() => {
 		// only coming from telegram allowed to use the website
-		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
+        // TODO:
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : true;
 	})
 
 
@@ -92,7 +93,7 @@
                 openDays = "setiap hari";
             } else if (merchantToOpen.open_days.length === 6) {
                 const closedDays = allDays.find(day => !merchantToOpen.open_days.includes(day));
-                openDays = `setiap hari kecuali ${closedDays}`;
+                openDays = `setiap hari (kecuali ${closedDays})`;
             } else {
                 openDays = merchantToOpen.open_days.map(day => allDays.find(d => d === day)).join(", ");
             }
