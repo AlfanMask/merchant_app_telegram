@@ -2098,7 +2098,7 @@
 		"merchant_id": "4_bale_enak",
 		"category": "Makanan",
 		"subcategory": "Nasi Ayam",
-		"title": "Nasi Iga Bakar/Penyet",
+		"title": "Nasi Iga Bakar / Penyet",
 		"description": "",
 		"price": 28000,
 		"is_popular": false
@@ -2108,7 +2108,7 @@
 		"merchant_id": "4_bale_enak",
 		"category": "Makanan",
 		"subcategory": "Rice Bowl",
-		"title": "Ricebowl Jamur (BBQ/Blackpaper/Teriyaki)",
+		"title": "Ricebowl Jamur (BBQ / Blackpaper / Teriyaki)",
 		"description": "",
 		"price": 11000,
 		"is_popular": false
@@ -2118,7 +2118,7 @@
 		"merchant_id": "4_bale_enak",
 		"category": "Makanan",
 		"subcategory": "Rice Bowl",
-		"title": "Ricebowl Chicken (BBQ/Blackpaper/Teriyaki)",
+		"title": "Ricebowl Chicken (BBQ / Blackpaper / Teriyaki)",
 		"description": "",
 		"price": 13000,
 		"is_popular": false
@@ -6341,7 +6341,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Geprek Ori",
-        "title": "Paha Atas",
+        "title": "Paha Atas - Paket Geprek Ori",
         "description": "",
         "price": 14000,
         "is_popular": false
@@ -6350,7 +6350,7 @@
         "id": "paket_geprek_ori_dada",
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
-        "subcategory": "Paket Geprek Ori",
+        "subcategory": "Paket Geprek Ori - Paket Geprek Ori",
         "title": "Dada",
         "description": "",
         "price": 13000,
@@ -6360,7 +6360,7 @@
         "id": "paket_geprek_ori_paha_bawah",
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
-        "subcategory": "Paket Geprek Ori",
+        "subcategory": "Paket Geprek Ori - Paket Geprek Ori",
         "title": "Paha Bawah",
         "description": "",
         "price": 12000,
@@ -6370,7 +6370,7 @@
         "id": "paket_geprek_ori_sayap",
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
-        "subcategory": "Paket Geprek Ori",
+        "subcategory": "Paket Geprek Ori - Paket Geprek Ori",
         "title": "Sayap",
         "description": "",
         "price": 10000,
@@ -6381,7 +6381,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Geprek Bakar",
-        "title": "Paha Atas",
+        "title": "Paha Atas - Paket Geprek Bakar",
         "description": "",
         "price": 16000,
         "is_popular": false
@@ -6391,7 +6391,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Geprek Bakar",
-        "title": "Dada",
+        "title": "Dada - Paket Geprek Bakar",
         "description": "",
         "price": 15000,
         "is_popular": false
@@ -6401,7 +6401,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Geprek Bakar",
-        "title": "Paha Bawah",
+        "title": "Paha Bawah - Paket Geprek Bakar",
         "description": "",
         "price": 14000,
         "is_popular": false
@@ -6411,7 +6411,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Geprek Bakar",
-        "title": "Sayap",
+        "title": "Sayap - Paket Geprek Bakar",
         "description": "",
         "price": 12000,
         "is_popular": false
@@ -6421,7 +6421,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Saus (BBQ / Hot Lava)",
-        "title": "Paha Atas",
+        "title": "Paha Atas - Paket Saus (BBQ / Hot Lava)",
         "description": "",
         "price": 15000,
         "is_popular": false
@@ -6431,7 +6431,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Saus (BBQ / Hot Lava)",
-        "title": "Dada",
+        "title": "Dada - Paket Saus (BBQ / Hot Lava)",
         "description": "",
         "price": 14000,
         "is_popular": false
@@ -6441,7 +6441,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Saus (BBQ / Hot Lava)",
-        "title": "Paha Bawah",
+        "title": "Paha Bawah - Paket Saus (BBQ / Hot Lava)",
         "description": "",
         "price": 13000,
         "is_popular": false
@@ -6451,7 +6451,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Saus (BBQ / Hot Lava)",
-        "title": "Sayap",
+        "title": "Sayap - Paket Saus (BBQ / Hot Lava)",
         "description": "",
         "price": 11000,
         "is_popular": false
@@ -6461,7 +6461,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Saus Keju",
-        "title": "Paha Atas",
+        "title": "Paha Atas - Paket Saus Keju",
         "description": "",
         "price": 16000,
         "is_popular": false
@@ -6471,7 +6471,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Saus Keju",
-        "title": "Dada",
+        "title": "Dada - Paket Saus Keju",
         "description": "",
         "price": 15000,
         "is_popular": false
@@ -6481,7 +6481,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Saus Keju",
-        "title": "Paha Bawah",
+        "title": "Paha Bawah - Paket Saus Keju",
         "description": "",
         "price": 14000,
         "is_popular": false
@@ -6491,7 +6491,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Saus Keju",
-        "title": "Sayap",
+        "title": "Sayap - Paket Saus Keju",
         "description": "",
         "price": 12000,
         "is_popular": false
@@ -6501,7 +6501,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Geprek Mozzarella",
-        "title": "Paha Atas",
+        "title": "Paha Atas - Paket Geprek Mozzarella",
         "description": "",
         "price": 19000,
         "is_popular": false
@@ -6511,7 +6511,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Geprek Mozzarella",
-        "title": "Dada",
+        "title": "Dada - Paket Geprek Mozzarella",
         "description": "",
         "price": 18000,
         "is_popular": false
@@ -6521,7 +6521,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Geprek Mozzarella",
-        "title": "Paha Bawah",
+        "title": "Paha Bawah - Paket Geprek Mozzarella",
         "description": "",
         "price": 17000,
         "is_popular": false
@@ -6531,7 +6531,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Paket Geprek Mozzarella",
-        "title": "Sayap",
+        "title": "Sayap - Paket Geprek Mozzarella",
         "description": "",
         "price": 15000,
         "is_popular": false
@@ -6541,7 +6541,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Gami",
-        "title": "Paha Atas",
+        "title": "Paha Atas - Gami",
         "description": "",
         "price": 20000,
         "is_popular": false
@@ -6551,7 +6551,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Gami",
-        "title": "Dada",
+        "title": "Dada - Gami",
         "description": "",
         "price": 19000,
         "is_popular": false
@@ -6561,7 +6561,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Gami",
-        "title": "Paha Bawah",
+        "title": "Paha Bawah - Gami",
         "description": "",
         "price": 18000,
         "is_popular": false
@@ -6571,7 +6571,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Gami",
-        "title": "Sayap",
+        "title": "Sayap - Gami",
         "description": "",
         "price": 16000,
         "is_popular": false
@@ -6581,7 +6581,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Gami",
-        "title": "Kulit",
+        "title": "Kulit - Gami",
         "description": "",
         "price": 20000,
         "is_popular": false
@@ -6591,7 +6591,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Gami",
-        "title": "Usus",
+        "title": "Usus - Gami",
         "description": "",
         "price": 17000,
         "is_popular": false
@@ -6601,7 +6601,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Goang",
-        "title": "Paha Atas",
+        "title": "Paha Atas - Goang",
         "description": "",
         "price": 22000,
         "is_popular": false
@@ -6611,7 +6611,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Goang",
-        "title": "Dada",
+        "title": "Dada - Goang",
         "description": "",
         "price": 21000,
         "is_popular": false
@@ -6621,7 +6621,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Goang",
-        "title": "Paha Bawah",
+        "title": "Paha Bawah - Goang",
         "description": "",
         "price": 20000,
         "is_popular": false
@@ -6631,7 +6631,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Goang",
-        "title": "Sayap",
+        "title": "Sayap - Goang",
         "description": "",
         "price": 18000,
         "is_popular": false
@@ -6641,7 +6641,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Goang",
-        "title": "Kulit",
+        "title": "Kulit - Goang",
         "description": "",
         "price": 22000,
         "is_popular": false
@@ -6651,7 +6651,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Goang",
-        "title": "Usus",
+        "title": "Usus - Goang",
         "description": "",
         "price": 19000,
         "is_popular": false
@@ -6661,7 +6661,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Potatoes Crispy Stick",
-        "title": "Saus Biasa",
+        "title": "Saus Biasa - Potatoes Crispy Stick",
         "description": "",
         "price": 12000,
         "is_popular": false
@@ -6671,7 +6671,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Potatoes Crispy Stick",
-        "title": "Saus Hot Lava",
+        "title": "Saus Hot Lava - Potatoes Crispy Stick",
         "description": "",
         "price": 13000,
         "is_popular": false
@@ -6681,7 +6681,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Potatoes Crispy Stick",
-        "title": "Saus BBQ",
+        "title": "Saus BBQ - Potatoes Crispy Stick",
         "description": "",
         "price": 13000,
         "is_popular": false
@@ -6691,7 +6691,7 @@
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
         "subcategory": "Potatoes Crispy Stick",
-        "title": "Saus Keju",
+        "title": "Saus Keju - Potatoes Crispy Stick",
         "description": "",
         "price": 14000,
         "is_popular": false

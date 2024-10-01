@@ -27,7 +27,7 @@
         class="rounded-3xl w-full h-12 p-4 border border-solid border-secondary shadow-lg"
     />
     {#if (autocompleteMerchants.length > 0)}
-    <div class="flex flex-col gap-1 p-4 mt-2 absolute bg-white rounded-xl w-full z-10 shadow-lg">
+    <div class="flex flex-col gap-2 p-4 mt-2 absolute bg-white rounded-xl w-full z-10 shadow-lg">
         {#each autocompleteMerchants as item, i}
             <button class="w-full p-x2 cursor-pointer text-start text-black" on:click={ () => autoCompleteHandler(item.id) }>{item.title}</button>
         {/each}

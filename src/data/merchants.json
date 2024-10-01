@@ -102,7 +102,7 @@
     {
         "id": "11_pisang_sewelas",
         "title": "Pisang Sewelas",
-        "category": "Minuman",
+        "category": "Makanan",
         "is_parking_free": true,
         "gmap_url": "https://maps.app.goo.gl/",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
@@ -463,7 +463,7 @@
         "id": "49_ayam_bebek_pak_joko",
         "title": "Ayam & Bebek Pak Joko",
         "category": "Makanan",
-        "is_parking_free": true,
+        "is_parking_free": false,
         "gmap_url": "https://maps.app.goo.gl/MR1tgfvEXBzBhmKU7",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 11,

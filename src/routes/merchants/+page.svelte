@@ -20,9 +20,16 @@
     let allMerchants: Array<Merchant> = [];
     let displayedMerchants: Array<Merchant> = [];
     let isShowRestoClosedMessage: string = "";
+    let localFilteredMerchants: Array<Merchant> = [];
     merchantsData.subscribe((data) => {
         allMerchants = data
     })
+
+    // pagination
+    let pageIndex: number = 0;
+    const dataPerPage: number = 10;
+    let totalPages: number = 1;
+    $: totalPages = Math.ceil(localFilteredMerchants.length / dataPerPage);
 
     let isComingFromTelegram: boolean = true;
 	onMount(() => {
@@ -30,6 +37,7 @@
         // TODO:
 		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : true;
 	})
+
 
 
     // search merchant
@@ -75,7 +83,8 @@
         }
 
         // Set the final displayed merchants
-        displayedMerchants = filteredMerchants;
+        localFilteredMerchants =  filteredMerchants
+        displayedMerchants = filteredMerchants.slice(pageIndex * dataPerPage, (pageIndex + 1) * dataPerPage);
     }
 
     // handlers
@@ -105,8 +114,28 @@
         goto(`/`)
     }
 
+    const movePage = (navigation: "next" | "prev") => {
+        if (navigation === "next") {
+            if(pageIndex < (totalPages-1)) {
+                pageIndex += 1
+            } else {
+                pageIndex = 0
+            }
+        } else if (navigation === "prev") {
+            if (pageIndex > 0) {
+                pageIndex -= 1
+            } else {
+                pageIndex = (totalPages-1);
+            }
+        }
+    }
+
+    $: console.log("pageIndex: ", pageIndex)
+
 </script>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y-no-static-element-interactions -->
 {#if isComingFromTelegram}
 <div id="bg" class="min-h-screen h-full bg-primary py-8">
     {#if isShowRestoClosedMessage}
@@ -117,8 +146,6 @@
     
     <!-- searchbar -->
 	<div id="search" class="fixed px-6 mb-8 flex gap-4 items-center z-50">
-        <!-- svelte-ignore a11y-click-events-have-key-events -->
-        <!-- svelte-ignore a11y-no-static-element-interactions -->
         <i class="fa-solid fa-circle-chevron-left text-secondary text-4xl" on:click={clickBackToHome}></i>
 		<AutocompleteMerchant placeholder="Cari resto.." inputText={searchInput} autocompleteData={allMerchants} autoCompleteHandler={autoCompleteMerchantHandler} />
 	</div>
@@ -159,6 +186,15 @@
         {/if}
     </div>
 
+    <!-- show pagination if total pages > 1 -->
+    {#if (totalPages > 1)}
+    <div id="pagination" class="w-full flex justify-center items-center mt-6">
+        <i class="fa-solid fa-circle-chevron-left text-secondary text-4xl" on:click={() => movePage("prev")}></i>
+        <span class="!text-lg !font-medium text-dark mx-6 flex items-center">{pageIndex+1}/<span class="!text-sm">{totalPages}</span></span>
+        <i class="fa-solid fa-circle-chevron-right text-secondary text-4xl" on:click={() => movePage("next")}></i>
+    </div>
+    {/if}
+
     <CheckOrders />
     
 </div>
@@ -167,7 +203,7 @@
 {/if}
 
 <style>
-    .fa-circle-chevron-left {
+    .fa-circle-chevron-left, .fa-circle-chevron-right {
         text-shadow: 0 0 3px #000;;
     }
     #bg {
