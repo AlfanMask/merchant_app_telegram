@@ -29,7 +29,8 @@ const config = {
 				'/merchants/11_pisang_sewelas', '/merchants/12_sarapan_bule', '/merchants/13_geprek_kumlot', '/merchants/14_bakso_sony', '/merchants/15_warung_se', '/merchants/16_geprek_fortuner', '/merchants/17_lapak_chicken', '/merchants/18_ayam_rektor', '/merchants/19_chicken_on_fire_jp', '/merchants/20_warung_bu_las',
 				'/merchants/21_kebab_morgan', '/merchants/22_sate_aminah', '/merchants/23_olive_uns', '/merchants/24_seblak_bageur', '/merchants/25_mie_sentosa', '/merchants/26_ayam_penyet_andara', '/merchants/27_nasi_goreng_milyarder', '/merchants/28_harun_juice', '/merchants/29_bakmi_capcay_pak_bambang', '/merchants/30_bago_hot_chicken',
 				'/merchants/31_geprel_mas_al', '/merchants/33_martabak_la_wawah', '/merchants/35_mie_serasi', '/merchants/36_gacoan_jebres', '/merchants/37_kedai_kabut', '/merchants/38_uma_yumcha', '/merchants/39_sego_cokot', '/merchants/40_haus',
-				'/merchants/41_burjo_tiada_tara', '/merchants/42_belikopi', '/merchants/43_nice_spice', '/merchants/44_oma_opa', '/merchants/45_mie_jebew', '/merchants/46_bakso_mie_cendana', '/merchants/47_geprek_dallas', '/merchants/48_seblak_alumni', '/merchants/49_ayam_bebek_pak_joko',
+				'/merchants/41_burjo_tiada_tara', '/merchants/42_belikopi', '/merchants/43_nice_spice', '/merchants/44_oma_opa', '/merchants/45_mie_jebew', '/merchants/46_bakso_mie_cendana', '/merchants/47_geprek_dallas', '/merchants/48_seblak_alumni', '/merchants/49_ayam_bebek_pak_joko', '/merchants/50_naspad_urang_awak',
+				'/merchants/51_madams_churros', '/merchants/52_ketoprak_bang_torro', '/merchants/53_lawson_uns', '/merchants/54_naspad_jembatan_merah_bundo_ayu', '/merchants/55_naspad_jembatan_biru_cahayo_minang', '/merchants/56_mixue_uns', '/merchants/57_hokage_crepes', '/merchants/58_mie_ayam_bakso_tinton'
 			],
 		}
 	}

@@ -8,9 +8,12 @@ import { Parking } from "../constants/parking";
 import { Open } from "../constants/open";
 import type { Order } from "../constants/order";
 
+// sort merchantsData by num_orders
+const sortedMerchantsData = merchantsData.sort((a, b) => (b.num_orders as number) - (a.num_orders as number));
+
 // get data from json
 export const merchants = writable<Array<Merchant>>([]);
-merchants.set(merchantsData as Array<Merchant>);
+merchants.set(sortedMerchantsData as Array<Merchant>);
 
 export const products = writable<Array<Product>>([]);
 products.set(productsData as Array<Product>);

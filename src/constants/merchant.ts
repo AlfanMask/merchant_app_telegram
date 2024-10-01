@@ -9,6 +9,7 @@ export default interface Merchant {
     open_days: Array<Day>,
     open_hour: number,
     close_hour: number,
+    num_orders: number,
 }
 
 enum Day {

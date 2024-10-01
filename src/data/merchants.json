@@ -7,7 +7,8 @@
         "gmap_url": "https://maps.app.goo.gl/tgH4tPbnKCAHpUHH6",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
-        "close_hour": 22
+        "close_hour": 22,
+        "num_orders": 5
     },
     {
         "id": "2_warung_jepun",
@@ -17,7 +18,8 @@
         "gmap_url": "https://maps.app.goo.gl/CpjwDueJL6E69vNN7",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 7,
-        "close_hour": 16
+        "close_hour": 16,
+        "num_orders": 31
     },
     {
         "id": "3_arjes_kitchen",
@@ -27,7 +29,8 @@
         "gmap_url": "https://maps.app.goo.gl/YbtwvoWoYzCGgM7v5",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
         "open_hour": 11,
-        "close_hour": 22
+        "close_hour": 22,
+        "num_orders": 4
     },
     {
         "id": "4_bale_enak",
@@ -37,7 +40,8 @@
         "gmap_url": "https://maps.app.goo.gl/QHiCeFbXp1Gw8Fa4A",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
         "open_hour": 11,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 0
     },
     {
         "id": "5_flavfour",
@@ -47,7 +51,8 @@
         "gmap_url": "https://maps.app.goo.gl/LKiakAJfbVTUZpJn6",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
-        "close_hour": 22
+        "close_hour": 22,
+        "num_orders": 11
     },
     {
         "id": "6_nuno_penyet",
@@ -57,7 +62,8 @@
         "gmap_url": "https://maps.app.goo.gl/3GJfvUHc1QnYTL3U8",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Minggu"],
         "open_hour": 18,
-        "close_hour": 23
+        "close_hour": 23,
+        "num_orders": 56
     },
     {
         "id": "7_takoyaki_gerdep",
@@ -67,7 +73,8 @@
         "gmap_url": "https://maps.app.goo.gl/LPxvcrTrpi5PjXcTA",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 19,
-        "close_hour": 24
+        "close_hour": 24,
+        "num_orders": 228
     },
     {
         "id": "8_pancong_balap",
@@ -77,7 +84,8 @@
         "gmap_url": "https://maps.app.goo.gl/qNXvDs1zmw9T9jDz8",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 36
     },
     {
         "id": "9_pisang_aroma",
@@ -87,7 +95,8 @@
         "gmap_url": "https://maps.app.goo.gl/XiTiMrHD133gkSDu8",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 0,
-        "close_hour": 24
+        "close_hour": 24,
+        "num_orders": 8
     },
     {
         "id": "10_karizmaku",
@@ -97,7 +106,8 @@
         "gmap_url": "https://maps.app.goo.gl/26vdXxMEoGvboCMWA",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 16,
-        "close_hour": 23
+        "close_hour": 23,
+        "num_orders": 19
     },
     {
         "id": "11_pisang_sewelas",
@@ -107,7 +117,8 @@
         "gmap_url": "https://maps.app.goo.gl/",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 0,
-        "close_hour": 24
+        "close_hour": 24,
+        "num_orders": 19
     },
     {
         "id": "12_sarapan_bule",
@@ -117,7 +128,8 @@
         "gmap_url": "https://maps.app.goo.gl/",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 7,
-        "close_hour": 9
+        "close_hour": 9,
+        "num_orders": 9
     },
     {
         "id": "13_geprek_kumlot",
@@ -127,7 +139,8 @@
         "gmap_url": "https://maps.app.goo.gl/B1rFnCRhjxMCTmV9A",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 92
     },
     {
         "id": "14_bakso_sony",
@@ -137,7 +150,8 @@
         "gmap_url": "https://maps.app.goo.gl/Qm5nxnW7qVZeF933A",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
-        "close_hour": 20
+        "close_hour": 20,
+        "num_orders": 25
     },
     {
         "id": "15_warung_se",
@@ -147,7 +161,8 @@
         "gmap_url": "https://maps.app.goo.gl/dQvtusjrJUfeQNSLA",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 33
     },
     {
         "id": "16_geprek_fortuner",
@@ -157,7 +172,8 @@
         "gmap_url": "https://maps.app.goo.gl/4Rsyqn3sEBQtoD2CA",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
-        "close_hour": 22
+        "close_hour": 22,
+        "num_orders": 49
     },
     {
         "id": "17_lapak_chicken",
@@ -167,7 +183,8 @@
         "gmap_url": "https://maps.app.goo.gl/UFRRHwZ3GjuNh7bC9",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 58
     },
     {
         "id": "18_ayam_rektor",
@@ -177,7 +194,8 @@
         "gmap_url": "https://maps.app.goo.gl/A34FaGjYKxsooPKj9",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 2
     },
     {
         "id": "19_chicken_on_fire_jp",
@@ -187,7 +205,8 @@
         "gmap_url": "https://maps.app.goo.gl/ozPik3Fbqqj5g1sh8",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 23
     },
     {
         "id": "20_warung_bu_las",
@@ -197,7 +216,8 @@
         "gmap_url": "https://maps.app.goo.gl/bAP3Pcvxh7zxyvb76",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Sabtu", "Minggu"],
         "open_hour": 8,
-        "close_hour": 20
+        "close_hour": 20,
+        "num_orders": 67
     },
     {
         "id": "21_kebab_morgan",
@@ -207,7 +227,8 @@
         "gmap_url": "https://maps.app.goo.gl/RbAPNiBnri3LmgGZ9",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
-        "close_hour": 24
+        "close_hour": 24,
+        "num_orders": 11
     },
     {
         "id": "22_sate_aminah",
@@ -227,7 +248,8 @@
         "gmap_url": "https://maps.app.goo.gl/4X2cyGnTYQNCFLeq7",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 6
     },
     {
         "id": "24_seblak_bageur",
@@ -237,7 +259,8 @@
         "gmap_url": "https://maps.app.goo.gl/SHtmh8vDpCa119EfA",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 11,
-        "close_hour": 22
+        "close_hour": 22,
+        "num_orders": 133
     },
     {
         "id": "25_mie_sentosa",
@@ -247,7 +270,8 @@
         "gmap_url": "https://maps.app.goo.gl/T3wZpnNdvgpeyAHs8",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
-        "close_hour": 20
+        "close_hour": 20,
+        "num_orders": 22
     },
     {
         "id": "26_ayam_penyet_andara",
@@ -257,7 +281,8 @@
         "gmap_url": "https://maps.app.goo.gl/Fg4iYrS56FZ4KLNS9",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
-        "close_hour": 24
+        "close_hour": 24,
+        "num_orders": 59
     },
     {
         "id": "27_nasi_goreng_milyarder",
@@ -267,7 +292,8 @@
         "gmap_url": "https://maps.app.goo.gl/XRC5JoR9JChwoaWt8",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 16,
-        "close_hour": 24
+        "close_hour": 24,
+        "num_orders": 25
     },
     {
         "id": "28_harun_juice",
@@ -277,7 +303,8 @@
         "gmap_url": "https://maps.app.goo.gl/bju8YcG5A718MVsv9",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
-        "close_hour": 23
+        "close_hour": 23,
+        "num_orders": 3
     },
     {
         "id": "29_bakmi_capcay_pak_bambang",
@@ -287,7 +314,8 @@
         "gmap_url": "https://maps.app.goo.gl/jsbY2mRppQkREBdV7",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 18,
-        "close_hour": 24
+        "close_hour": 24,
+        "num_orders": 6
     },
     {
         "id": "30_bago_hot_chicken",
@@ -297,7 +325,8 @@
         "gmap_url": "https://maps.app.goo.gl/1Nwv5C6JnWeDZa5U6",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 14
     },
     {
         "id": "31_geprel_mas_al",
@@ -307,7 +336,8 @@
         "gmap_url": "https://maps.app.goo.gl/pw3CQgX2r2N5w9YW8",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 11,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 5
     },
     {
         "id": "33_martabak_la_wawah",
@@ -317,7 +347,8 @@
         "gmap_url": "https://maps.app.goo.gl/HB9RGvpjYMaPQWax8",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 17,
-        "close_hour": 24
+        "close_hour": 24,
+        "num_orders": 0
     },
     {
         "id": "35_mie_serasi",
@@ -327,7 +358,8 @@
         "gmap_url": "https://maps.app.goo.gl/KC4kU8hyEvXQa4vG7",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 16,
-        "close_hour": 22
+        "close_hour": 22,
+        "num_orders": 5
     },
     {
         "id": "36_gacoan_jebres",
@@ -337,7 +369,8 @@
         "gmap_url": "https://maps.app.goo.gl/yXYcQ1vx7q4vHWb76",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 689
     },
     {
         "id": "37_kedai_kabut",
@@ -347,7 +380,8 @@
         "gmap_url": "https://maps.app.goo.gl/RfLrG6LaRzpWxmbBA",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
-        "close_hour": 22
+        "close_hour": 22,
+        "num_orders": 12
     },
     {
         "id": "38_uma_yumcha",
@@ -357,7 +391,8 @@
         "gmap_url": "https://maps.app.goo.gl/CZj3D8UdDUN26MfBA",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
-        "close_hour": 22
+        "close_hour": 22,
+        "num_orders": 75
     },
     {
         "id": "39_sego_cokot",
@@ -367,7 +402,8 @@
         "gmap_url": "https://maps.app.goo.gl/QdDZaUy1km5pFvEh6",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 7,
-        "close_hour": 16
+        "close_hour": 16,
+        "num_orders": 10
     },
     {
         "id": "40_haus",
@@ -377,7 +413,8 @@
         "gmap_url": "https://maps.app.goo.gl/WUmTGRfysf9fkTYZA",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 7,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 34
     },
     {
         "id": "41_burjo_tiada_tara",
@@ -387,7 +424,8 @@
         "gmap_url": "https://maps.app.goo.gl/Hc82YHsrXuaYCNq29",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 0,
-        "close_hour": 24
+        "close_hour": 24,
+        "num_orders": 20
     },
     {
         "id": "42_belikopi",
@@ -397,7 +435,8 @@
         "gmap_url": "https://maps.app.goo.gl/7sKPfrxJ19TWujPs6",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 51
     },
     {
         "id": "43_nice_spice",
@@ -407,7 +446,8 @@
         "gmap_url": "https://maps.app.goo.gl/8jYNKoRj4jJkbFKF6",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 33
     },
     {
         "id": "44_oma_opa",
@@ -417,7 +457,8 @@
         "gmap_url": "https://maps.app.goo.gl/Fm43enJ4Z9q59WWc8",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 46
     },
     {
         "id": "45_mie_jebew",
@@ -427,7 +468,8 @@
         "gmap_url": "https://maps.app.goo.gl/Z2Q6hHhUYF1gTFJF7",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 16,
-        "close_hour": 22
+        "close_hour": 22,
+        "num_orders": 13
     },
     {
         "id": "46_bakso_mie_cendana",
@@ -437,7 +479,8 @@
         "gmap_url": "https://maps.app.goo.gl/dn9Y1dGcv6aL2kSF7",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 23
     },
     {
         "id": "47_geprek_dallas",
@@ -447,7 +490,8 @@
         "gmap_url": "https://maps.app.goo.gl/fBhxp3hEofvBy2B49",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
-        "close_hour": 23
+        "close_hour": 23,
+        "num_orders": 8
     },
     {
         "id": "48_seblak_alumni",
@@ -457,7 +501,8 @@
         "gmap_url": "https://maps.app.goo.gl/jp4jCy1xTpmxpYuu7",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 11,
-        "close_hour": 22
+        "close_hour": 22,
+        "num_orders": 52
     },
     {
         "id": "49_ayam_bebek_pak_joko",
@@ -467,7 +512,106 @@
         "gmap_url": "https://maps.app.goo.gl/MR1tgfvEXBzBhmKU7",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 11,
-        "close_hour": 21
+        "close_hour": 21,
+        "num_orders": 9
+    },
+    {
+        "id": "50_naspad_urang_awak",
+        "title": "Nasi Padang Urang Awak",
+        "category": "Makanan",
+        "is_parking_free": false,
+        "gmap_url": "https://maps.app.goo.gl/m5PMqaCrYcdZfwP28",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 8,
+        "close_hour": 18,
+        "num_orders": 27
+    },
+    {
+        "id": "51_madams_churros",
+        "title": "Madam's Churros",
+        "category": "Jajanan",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/izFdqP9e8R79ccFx9",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 15,
+        "close_hour": 20,
+        "num_orders": 3
+    },
+    {
+        "id": "52_ketoprak_bang_torro",
+        "title": "Ketoprak Bang Torro",
+        "category": "Makanan",
+        "is_parking_free": false,
+        "gmap_url": "https://maps.app.goo.gl/bVo9uXruQY5geiGv8",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 8,
+        "close_hour": 20,
+        "num_orders": 114
+    },
+    {
+        "id": "53_lawson_uns",
+        "title": "Lawson UNS",
+        "category": "Makanan",
+        "is_parking_free": false,
+        "gmap_url": "https://maps.app.goo.gl/GdEc45VkXqc6A2tT8",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 7,
+        "close_hour": 3,
+        "num_orders": 35
+    },
+    {
+        "id": "54_naspad_jembatan_merah_bundo_ayu",
+        "title": "Nasi Padang Jembatan Merah (Bundo Ayu)",
+        "category": "Makanan",
+        "is_parking_free": false,
+        "gmap_url": "https://maps.app.goo.gl/KQPXhny1cB9TfhbRA",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 8,
+        "close_hour": 21,
+        "num_orders": 257
+    },
+    {
+        "id": "55_naspad_jembatan_biru_cahayo_minang",
+        "title": "Nasi Padang Jembatan Biru (Cahayao Minang)",
+        "category": "Makanan",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/X355CLXDsVYfhzK77",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 8,
+        "close_hour": 18,
+        "num_orders": 33
+    },
+    {
+        "id": "56_mixue_uns",
+        "title": "Mixue UNS",
+        "category": "Minuman",
+        "is_parking_free": false,
+        "gmap_url": "https://maps.app.goo.gl/L2LrL2eWmdwmWGFbA",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 10,
+        "num_orders": 37
+    },
+    {
+        "id": "57_hokage_crepes",
+        "title": "Hokage Crepes",
+        "category": "Jajanan",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/L2LrL2eWmdwmWGFbA",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 10,
+        "num_orders": 12
+    },
+    {
+        "id": "58_mie_ayam_bakso_tinton",
+        "title": "Mie Ayam & Bakso Tinton",
+        "category": "Makanan",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/hfaebvLzeJzEcLAK6",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
+        "open_hour": 11,
+        "close_hour": 18,
+        "num_orders": 8
     }
-
 ]

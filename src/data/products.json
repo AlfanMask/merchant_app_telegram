@@ -3365,7 +3365,7 @@
         "title": "Coklat",
         "description": "",
         "price": 2000,
-        "is_popular": true
+        "is_popular": false
     },
     {
         "id": "keju_normal",
@@ -5241,7 +5241,7 @@
 		"title": "Ayam Geprek",
 		"description": "",
 		"price": 7500,
-		"is_popular": true
+		"is_popular": false
 	},
 	{
 		"id": "ayam_geprek_bakar",
@@ -6765,7 +6765,7 @@
         "title": "Chicken Pokpok San",
         "description": "Dengan pilihan saus: Hot spicy, BBQ, Cheese, Mushroom, Blackpepper",
         "price": 19000,
-        "is_popular": true
+        "is_popular": false
     },
     {
         "id": "chicken_pokpok_geprek_bawang",
@@ -8710,7 +8710,7 @@
 		"title": "Nasi Paha Atas",
 		"description": "",
 		"price": 15000,
-		"is_popular": true
+		"is_popular": false
 	},
 	{
 		"id": "nasi_paha_atas_geprek",
@@ -12101,7 +12101,7 @@
 		"title": "Mie Hompimpa (Lv 1-4)",
 		"description": "",
 		"price": 9500,
-		"is_popular": false
+		"is_popular": true
 	},
 	{
 		"id": "mie_hompimpa_lv6_8",
@@ -13815,7 +13815,7 @@
         "title": "Kopi Susu Gula Aren",
         "description": "",
         "price": 10000,
-        "is_popular": false
+        "is_popular": true
     },
     {
         "id": "kopi_hitam",
@@ -16152,6 +16152,1666 @@
         "title": "Paket",
         "description": "Ayam + Nasi + Tea",
         "price": 17500,
+        "is_popular": false
+    },
+
+	{
+        "id": "rendang_daging",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Rendang Daging",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "rendang_ati",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Rendang Ati",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "rendang_ayam",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Rendang Ayam",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_ikan",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Gulai Ikan",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_sampadeh",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Gulai Sampadeh",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_otak_paru",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Gulai Otak/Paru",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_babat_usus",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Gulai Babat/Usus",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_cincang",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Gulai Cincang",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_ayam_ampela",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Gulai Ayam/Ampela",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_kikil_limpa",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Gulai Kikil/Limpa",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "ayam_balado_merah",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ayam Balado Merah",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "udang_goreng",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Udang Goreng",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "telur_dadar_goreng",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Telur Dadar Goreng",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "ikan_goreng",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ikan Goreng",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "ayam_goreng",
+        "merchant_id": "50_naspad_urang_awak",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ayam Goreng",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+
+	{
+        "id": "churros_original",
+        "merchant_id": "51_madams_churros",
+        "category": "Jajanan",
+        "subcategory": "Jajanan",
+        "title": "Churros Original",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "churros_coklat",
+        "merchant_id": "51_madams_churros",
+        "category": "Jajanan",
+        "subcategory": "Jajanan",
+        "title": "Churros Coklat",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "churros_tiramisu",
+        "merchant_id": "51_madams_churros",
+        "category": "Jajanan",
+        "subcategory": "Jajanan",
+        "title": "Churros Tiramisu",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "churros_macha",
+        "merchant_id": "51_madams_churros",
+        "category": "Jajanan",
+        "subcategory": "Jajanan",
+        "title": "Churros Macha",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "churros_coffee",
+        "merchant_id": "51_madams_churros",
+        "category": "Jajanan",
+        "subcategory": "Jajanan",
+        "title": "Churros Coffee",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "authentic_churros_saus",
+        "merchant_id": "51_madams_churros",
+        "category": "Jajanan",
+        "subcategory": "Jajanan",
+        "title": "Authentic Churros Saus",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+
+	{
+        "id": "ketoprak_biasa",
+        "merchant_id": "52_ketoprak_bang_torro",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ketoprak Biasa",
+        "description": "",
+        "price": 9000,
+        "is_popular": true
+    },
+    {
+        "id": "ketoprak_telur",
+        "merchant_id": "52_ketoprak_bang_torro",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ketoprak + Telur",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "es_teh_hangat",
+        "merchant_id": "52_ketoprak_bang_torro",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Es Teh/Hangat",
+        "description": "",
+        "price": 2000,
+        "is_popular": false
+    },
+    {
+        "id": "es_jeruk",
+        "merchant_id": "52_ketoprak_bang_torro",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Es Jeruk",
+        "description": "",
+        "price": 3000,
+        "is_popular": false
+    },
+
+	{
+        "id": "soup_oden",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Soup Oden",
+        "description": "",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "cheese_topping",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Cheese Topping",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "tahu_baso_ikan",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Tahu Baso Ikan",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "shirataki",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Shirataki",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "yudetamago",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Yudetamago",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "chikuwa_jumbo",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Chikuwa Jumbo",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "satsumaage",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Satsumaage",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "beef_sausage_blackpaper",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Beef Sausage Blackpaper",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "lobster_ball",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Lobster Ball",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "daikon",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Daikon",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "slomay_rolled",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Slomay Rolled",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "fish_cake",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Fish Cake",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "shrimp_ball",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Shrimp Ball",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "udon",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Udon",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "fish_stick",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Fish Stick",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "cheese_dumpling",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Cheese Dumpling",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "salmon_fish_cake",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Salmon Fish Cake",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "tsukune_oden",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Tsukune Oden",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "sausage_roll",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Sausage Roll",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "smoked_chicken_ball",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Smoked Chicken Ball",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+	{
+        "id": "satsumaage",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Satsumaage",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "beef_sausage_blackpaper",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Beef Sausage Blackpaper",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "money_bag",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Money Bag",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "cheese_ball",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Cheese Ball",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "spicy_oden",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Spicy Oden",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "original_oden",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Original Oden",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "shrimp_ball",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Shrimp Ball",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "udon",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Udon",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "spicy_meatball",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Spicy Meatball",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "chili_meatball",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Chili Meatball",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "ramyeon",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ramyeon",
+        "description": "",
+        "price": 25000,
+        "is_popular": false
+    },
+    {
+        "id": "sausage_roll",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Sausage Roll",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "smoked_chicken_ball",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Smoked Chicken Ball",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "enoki_stick",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Enoki Stick",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "cheesy_meatball",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Cheesy Meatball",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "tori_paltan_spicy",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Tori Paltan Spicy",
+        "description": "",
+        "price": 29000,
+        "is_popular": false
+    },
+    {
+        "id": "tori_paltan_ramen",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Tori Paltan Ramen",
+        "description": "",
+        "price": 29000,
+        "is_popular": false
+    },
+    {
+        "id": "thai_tom_yum",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Thai Tom Yum",
+        "description": "",
+        "price": 29000,
+        "is_popular": false
+    },
+    {
+        "id": "singapore_laksa",
+        "merchant_id": "53_lawson_uns",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Singapore Laksa",
+        "description": "",
+        "price": 29000,
+        "is_popular": false
+    },
+
+	{
+        "id": "nasi_ayam",
+        "merchant_id": "54_naspad_jembatan_merah_bundo_ayu",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Ayam",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+	{
+        "id": "custom_order",
+        "merchant_id": "54_naspad_jembatan_merah_bundo_ayu",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Lainnya",
+        "description": "Tulis order di note pemesanan..",
+        "price": 0,
+        "is_popular": false
+    },
+
+	{
+        "id": "rendang_daging",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Rendang Daging",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "rendang_ati",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Rendang Ati",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "rendang_ayam",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Rendang Ayam",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_ikan",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Gulai Ikan",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_sampadeh",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Gulai Sampadeh",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_otak_paru",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Gulai Otak/Paru",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_babat_usus",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Gulai Babat/Usus",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_cincang",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Gulai Cincang",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_ayam_ampela",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Gulai Ayam/Ampela",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gulai_kikil_limpa",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Gulai Kikil/Limpa",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "ayam_balado_merah",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Ayam Balado Merah",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "paru_udang_goreng",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Paru/Udang Goreng",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "telur_dadar_goreng",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Telur Dadar Goreng",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "ikan_goreng",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Ikan Goreng",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "ayam_goreng",
+        "merchant_id": "55_naspad_jembatan_biru_cahayo_minang",
+        "category": "Makanan",
+		"subcategory": "Makanan",
+        "title": "Ayam Goreng",
+        "price": 10000,
+        "is_popular": false
+    },
+
+	{
+        "id": "creamy_mango_boba",
+        "merchant_id": "56_mixue_uns",
+        "category": "Jajanan",
+		"subcategory": "Jajanan",
+        "title": "Creamy Mango Boba",
+        "price": 22000,
+        "is_popular": false
+    },
+    {
+        "id": "boba_sundae",
+        "merchant_id": "56_mixue_uns",
+        "category": "Jajanan",
+		"subcategory": "Jajanan",
+        "title": "Boba Sundae",
+        "price": 16000,
+        "is_popular": false
+    },
+    {
+        "id": "mixue_ice_cream",
+        "merchant_id": "56_mixue_uns",
+        "category": "Jajanan",
+		"subcategory": "Jajanan",
+        "title": "Mixue Ice Cream",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "fresh_squeezed_lemonade",
+        "merchant_id": "56_mixue_uns",
+        "category": "Jajanan",
+		"subcategory": "Jajanan",
+        "title": "Fresh Squeezed Lemonade",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "kiwi_fruit_tea",
+        "merchant_id": "56_mixue_uns",
+        "category": "Jajanan",
+		"subcategory": "Jajanan",
+        "title": "Kiwi Fruit Tea",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "brown_sugar_pearl_milk_tea",
+        "merchant_id": "56_mixue_uns",
+        "category": "Jajanan",
+		"subcategory": "Jajanan",
+        "title": "Brown Sugar Pearl Milk Tea",
+        "price": 19000,
+        "is_popular": false
+    },
+
+	{
+        "id": "coklat",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Original (3500)",
+        "title": "Coklat",
+        "price": 3500,
+        "is_popular": true
+    },
+    {
+        "id": "strawberry",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Original (3500)",
+        "title": "Strawberry",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "blueberry",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Original (3500)",
+        "title": "Blueberry",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "vanilla",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Original (3500)",
+        "title": "Vanilla",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "lemon",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Original (3500)",
+        "title": "Lemon",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "pisang",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Original (3500)",
+        "title": "Pisang",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "nanas",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Original (3500)",
+        "title": "Nanas",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "apel",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Original (3500)",
+        "title": "Apel",
+        "price": 3500,
+        "is_popular": false
+    },
+	{
+        "id": "susu",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Original (3500)",
+        "title": "Susu",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "kiwi",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Original (3500)",
+        "title": "Kiwi",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "melon",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Original (3500)",
+        "title": "Melon",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "durian",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Original (3500)",
+        "title": "Durian",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "srikaya",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Original (3500)",
+        "title": "Srikaya",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_strawberry",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Strawberry",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_blueberry",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Blueberry",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_vanilla",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Vanilla",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_lemon",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Lemon",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_kacang",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Kacang",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_pisang",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Pisang",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_nanas",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Nanas",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_kiwi",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Kiwi",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_melon",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Melon",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_durian",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Durian",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_taro",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Taro",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_tiramisu",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Tiramisu",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_oreo",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Oreo",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_greentea",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Greentea",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_srikaya",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "Coklat (4000)",
+        "title": "Coklat Srikaya",
+        "price": 4000,
+        "is_popular": false
+    },
+	{
+        "id": "keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "KEJU",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "strawberry_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Strawberry",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "blueberry_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Blueberry",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "vanilla_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Vanilla",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "mocca_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Mocca",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "lemon_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Lemon",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "kacang_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Kacang",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "pisang_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Pisang",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "nanas_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Nanas",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "kiwi_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Kiwi",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "melon_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Melon",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "durian_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Durian",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "taro_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Taro",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "tiramisu_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Tiramisu",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "oreo_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Oreo",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "greentea_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Greentea",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "srikaya_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "KEJU (4500)",
+        "title": "Srikaya",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "COKLAT KEJU",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "strawberry_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Strawberry",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "blueberry_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Blueberry",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "vanilla_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Vanilla",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "mocca_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Mocca",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "lemon_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Lemon",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "kacang_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Kacang",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "pisang_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Pisang",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "nanas_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Nanas",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "kiwi_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Kiwi",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "melon_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Melon",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "durian_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Durian",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "taro_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Taro",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "tiramisu_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Tiramisu",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "oreo_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Oreo",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "greentea_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Greentea",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "srikaya_coklat_keju",
+        "merchant_id": "57_hokage_crepes",
+        "category": "Jajanan",
+        "subcategory": "COKLAT KEJU (5000)",
+        "title": "Srikaya",
+        "price": 5000,
+        "is_popular": false
+    },
+	
+	{
+        "id": "mie_ayam_biasa",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Biasa",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_pangsit",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Pangsit",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_ceker",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Ceker",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_jumbo",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Jumbo",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_bakso",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Bakso",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_tetelan",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Tetelan",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_bakso_pangsit",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Bakso Pangsit",
+        "price": 16000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_bakso_ceker",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Bakso Ceker",
+        "price": 17000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_bakso_tetelan",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Bakso Tetelan",
+        "price": 17000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_jumbo_pangsit",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Jumbo Pangsit",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_jumbo_ceker",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Jumbo Ceker",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_jumbo_bakso",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Jumbo Bakso",
+        "price": 17000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_jumbo_tetelan",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Jumbo Tetelan",
+        "price": 17000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_bakso_tetelan_ceker",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "MIE AYAM",
+        "title": "Mie Ayam Bakso Tetelan Ceker",
+        "price": 19000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_biasa",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "BAKSO",
+        "title": "Bakso Biasa",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_tetelan",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "BAKSO",
+        "title": "Bakso Tetelan",
+        "price": 16000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_komplit",
+        "merchant_id": "58_mie_ayam_bakso_tinton",
+        "category": "Makanan",
+        "subcategory": "BAKSO",
+        "title": "Bakso Komplit",
+		"description": "bakso, tahu bakso tetelan",
+        "price": 17000,
+        "is_popular": false
+    },
+	{
+        "id": "es_teh",
+        "merchant_id": "your_merchant_id_here", 
+        "category": "Makanan",
+        "subcategory": "MINUMAN",
+        "title": "Es Teh",
+        "price": 2500,
+        "is_popular": false
+    },
+    {
+        "id": "teh_panas",
+        "merchant_id": "your_merchant_id_here", 
+        "category": "Makanan",
+        "subcategory": "MINUMAN",
+        "title": "Teh Panas",
+        "price": 2000,
+        "is_popular": false
+    },
+    {
+        "id": "es_jeruk",
+        "merchant_id": "your_merchant_id_here", 
+        "category": "Makanan",
+        "subcategory": "MINUMAN",
+        "title": "Es Jeruk",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "jeruk_panas",
+        "merchant_id": "your_merchant_id_here", 
+        "category": "Makanan",
+        "subcategory": "MINUMAN",
+        "title": "Jeruk Panas",
+        "price": 2500,
+        "is_popular": false
+    },
+    {
+        "id": "air_es",
+        "merchant_id": "your_merchant_id_here", 
+        "category": "Makanan",
+        "subcategory": "MINUMAN",
+        "title": "Air Es",
+        "price": 1000,
+        "is_popular": false
+    },
+    {
+        "id": "es_teh_kampul",
+        "merchant_id": "your_merchant_id_here", 
+        "category": "Makanan",
+        "subcategory": "MINUMAN",
+        "title": "Es Teh Kampul",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "teh_kampul_panas",
+        "merchant_id": "your_merchant_id_here", 
+        "category": "Makanan",
+        "subcategory": "MINUMAN",
+        "title": "Teh Kampul Panas",
+        "price": 2500,
+        "is_popular": false
+    },
+    {
+        "id": "es_nutrisari",
+        "merchant_id": "your_merchant_id_here", 
+        "category": "Makanan",
+        "subcategory": "MINUMAN",
+        "title": "Es Nutrisari",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "es_good_day",
+        "merchant_id": "your_merchant_id_here", 
+        "category": "Makanan",
+        "subcategory": "MINUMAN",
+        "title": "Es Good Day",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "es_susu_coklat_putih",
+        "merchant_id": "your_merchant_id_here", 
+        "category": "Makanan",
+        "subcategory": "MINUMAN",
+        "title": "Es Susu Coklat/Putih",
+        "price": 3000,
         "is_popular": false
     }
 ]

@@ -18,7 +18,15 @@
 	let popularProducts: Array<Product> = [];
 	let triggerNum: number = 0; // To Trigger modify qty on modal, modify the value inside modal and all component that need change from the orders store
 	products.subscribe((data) => {
-		popularProducts = data.filter(o => o.is_popular).sort((a, b) => a.title.localeCompare(b.title));
+		popularProducts = data.filter(o => o.is_popular).sort((a, b) => {
+			if (a.category === Category.Makanan && b.category !== Category.Makanan) {
+				return -1;
+			}
+			if (a.category !== Category.Makanan && b.category === Category.Makanan) {
+				return 1;
+			}
+			return a.category.localeCompare(b.category); // sort alphabetically for other categories
+		});
 
 		// FOR DEBUGGING PRODUCTS CATEGORIES
 		// const notMakananMinuman = data
@@ -39,8 +47,7 @@
 	let isComingFromTelegram: boolean = true;
 	onMount(() => {
 		// only coming from telegram allowed to use the website
-		// TODO:
-		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : true;
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
 	})
 
 	// search merchant
@@ -79,7 +86,7 @@
 			</div>
 		</div>
 
-		<!-- popular products -->
+		<!-- popular merchants -->
 		<div id="popular-products" class="w-full flex flex-col gap-4 mb-12">
 			<h3 class="text-start">Produk Populer</h3>
 			<div class="flex flex-col gap-6">

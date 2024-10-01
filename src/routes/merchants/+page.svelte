@@ -27,15 +27,14 @@
 
     // pagination
     let pageIndex: number = 0;
-    const dataPerPage: number = 10;
+    const dataPerPage: number = 6;
     let totalPages: number = 1;
     $: totalPages = Math.ceil(localFilteredMerchants.length / dataPerPage);
 
     let isComingFromTelegram: boolean = true;
 	onMount(() => {
 		// only coming from telegram allowed to use the website
-        // TODO:
-		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : true;
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
 	})
 
 
@@ -71,9 +70,6 @@
                 filterMerchantsFreeParking == Parking["Bebas Parkir"] ? o.is_parking_free : !o.is_parking_free
             );
         }
-
-        // Sort by title (only needs to be done once)
-        filteredMerchants.sort((a, b) => a.title.localeCompare(b.title));
 
         // Filter by open status if not "Semua"
         if (filterMerchantsOpen != Open.Semua) {
@@ -130,7 +126,9 @@
         }
     }
 
-    $: console.log("pageIndex: ", pageIndex)
+    const resetPageIndex = () => {
+        pageIndex = 0
+    }
 
 </script>
 
@@ -154,19 +152,19 @@
     <div id="main" class="px-4 mt-20">
         <!-- topbar options -->
         <div id="topbar" class="w-full mb-8 flex flex-col gap-4">
-            <select id="select_category" bind:value={filterMerchantsCategory} class="w-full rounded px-2 py-2 border border-solid border-secondary">
+            <select id="select_category" bind:value={filterMerchantsCategory} on:change={resetPageIndex} class="w-full rounded px-2 py-2 border border-solid border-secondary">
                 <option value={Category.Semua}>{Category.Semua} Kategori</option>
                 <option value={Category.Makanan}>{Category.Makanan}</option>
                 <option value={Category.Minuman}>{Category.Minuman}</option>
                 <option value={Category.Jajanan}>{Category.Jajanan}</option>
             </select>
             <div class="grid grid-cols-2 items-center gap-4">
-                <select id="select_parking" bind:value={filterMerchantsFreeParking} class="rounded px-2 py-2 border border-solid border-secondary">
+                <select id="select_parking" bind:value={filterMerchantsFreeParking} on:change={resetPageIndex} class="rounded px-2 py-2 border border-solid border-secondary">
                     <option value={Parking.Semua}>{Parking.Semua}</option>
                     <option value={Parking["Bebas Parkir"]}>{Parking["Bebas Parkir"]}</option>
                     <option value={Parking.Parkir}>{Parking.Parkir}</option>
                 </select>
-                <select id="select_open" bind:value={filterMerchantsOpen} class="rounded px-2 py-2 border border-solid border-secondary">
+                <select id="select_open" bind:value={filterMerchantsOpen} on:change={resetPageIndex} class="rounded px-2 py-2 border border-solid border-secondary">
                     <option value={Open.Semua}>{Open.Semua}</option>
                     <option value={Open.Open}>{Open.Open}</option>
                     <option value={Open.Close}>{Open.Close}</option>
