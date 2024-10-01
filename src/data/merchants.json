@@ -438,8 +438,36 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 21
+    },
+    {
+        "id": "47_geprek_dallas",
+        "title": "Geprek Dallas",
+        "category": "Makanan",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/fBhxp3hEofvBy2B49",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 23
+    },
+    {
+        "id": "48_seblak_alumni",
+        "title": "Seblak Alumni",
+        "category": "Makanan",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/jp4jCy1xTpmxpYuu7",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 11,
+        "close_hour": 22
+    },
+    {
+        "id": "49_ayam_bebek_pak_joko",
+        "title": "Ayam & Bebek Pak Joko",
+        "category": "Makanan",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/MR1tgfvEXBzBhmKU7",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 11,
+        "close_hour": 21
     }
-
-
 
 ]
