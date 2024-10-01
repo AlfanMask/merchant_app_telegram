@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { Category } from "../../../constants/category";
 	import type Product from "../../../constants/product";
 
     export let inputText: string;
@@ -29,7 +30,7 @@
     {#if (autocompleteProducts.length > 0)}
     <div class="flex flex-col gap-1 p-4 mt-2 absolute bg-white rounded-xl w-full z-10 shadow-lg">
         {#each autocompleteProducts as item, i}
-            <button class="w-full p-x2 cursor-pointer text-start text-black" on:click={ () => autoCompleteHandler(item.id) }>{item.title}</button>
+            <button class="w-full p-x2 cursor-pointer text-start text-black" on:click={ () => autoCompleteHandler(item.id) }>{item.title}{(item.subcategory != Category.Makanan) && (item.subcategory != Category.Minuman) ? ` (${item.subcategory})` : ""}</button>
         {/each}
     </div>
     {/if}
