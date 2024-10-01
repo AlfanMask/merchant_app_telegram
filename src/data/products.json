@@ -12766,5 +12766,2315 @@
 		"title": "Ceker Kaki Naga (isi 3 pcs)",
 		"description": "",
 		"price": 10000
-	}
+	},
+
+	{
+		"id": "ati",
+		"merchant_id": "39_sego_cokot",
+		"category": "Makanan",
+		"subcategory": "Makanan",
+		"title": "Ati",
+		"description": "",
+		"price": 5000
+	},
+	{
+		"id": "kulit",
+		"merchant_id": "39_sego_cokot",
+		"category": "Makanan",
+		"subcategory": "Makanan",
+		"title": "Kulit",
+		"description": "",
+		"price": 5000
+	},
+	{
+		"id": "ayam",
+		"merchant_id": "39_sego_cokot",
+		"category": "Makanan",
+		"subcategory": "Makanan",
+		"title": "Ayam",
+		"description": "",
+		"price": 5000
+	},
+	{
+		"id": "ikan_laut",
+		"merchant_id": "39_sego_cokot",
+		"category": "Makanan",
+		"subcategory": "Makanan",
+		"title": "Ikan Laut",
+		"description": "",
+		"price": 5000
+	},
+
+	{
+        "id": "less_ice",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Takaran",
+        "title": "Less Ice",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+	{
+        "id": "normal_ice",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Takaran",
+        "title": "Normal Ice",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+	{
+        "id": "less_sugar",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Takaran",
+        "title": "Less Sugar",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+	{
+        "id": "normal_sugar",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Takaran",
+        "title": "Normal Sugar",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+	{
+        "id": "kitkat_drink_small",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "KitKat Drink (Small)",
+        "description": "",
+        "price": 20000,
+        "is_popular": false
+    },
+    {
+        "id": "kitkat_drink_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "KitKat Drink (Medium)",
+        "description": "",
+        "price": 22000,
+        "is_popular": false
+    },
+    {
+        "id": "kitkat_drink_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "KitKat Drink (Large)",
+        "description": "",
+        "price": 24000,
+        "is_popular": false
+    },
+    {
+        "id": "ice_cream_cone_coklat_milo",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "Ice Cream Cone Coklat Milo",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "thai_tea_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "Thai Tea (Medium)",
+        "description": "",
+        "price": 6000,
+        "is_popular": false
+    },
+    {
+        "id": "thai_tea_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "Thai Tea (Large)",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "ice_mango_mix_yakult",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "Ice Mango Mix Yakult",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "choco_lava_milo_float_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "Choco Lava Milo Float (Medium)",
+        "description": "",
+        "price": 19000,
+        "is_popular": false
+    },
+    {
+        "id": "choco_lava_milo_float_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "Choco Lava Milo Float (Large)",
+        "description": "",
+        "price": 20000,
+        "is_popular": false
+    },
+    {
+        "id": "fresh_lemon_tea",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "Fresh Lemon Tea",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "green_thai_tea_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "Green Thai Tea (Medium)",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "green_thai_tea_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "Green Thai Tea (Large)",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "oreo_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "Oreo (Medium)",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "oreo_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Best Seller",
+        "title": "Oreo (Large)",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+	{
+        "id": "choco_ice_cream_made_with_kitkat",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Premium Series",
+        "title": "Choco Ice Cream Made with KitKat",
+        "description": "",
+        "price": 20000,
+        "is_popular": false
+    },
+    {
+        "id": "ice_cream_cup_coklat_milo_small",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tamvan Series",
+        "title": "Ice Cream Cup Coklat Milo (Small)",
+        "description": "",
+        "price": 18000,
+        "is_popular": false
+    },
+    {
+        "id": "choco_avocado_milo_float_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tamvan Series",
+        "title": "Choco Avocado Milo Float (Medium)",
+        "description": "",
+        "price": 20000,
+        "is_popular": false
+    },
+    {
+        "id": "choco_avocado_milo_float_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tamvan Series",
+        "title": "Choco Avocado Milo Float (Large)",
+        "description": "",
+        "price": 21000,
+        "is_popular": false
+    },
+    {
+        "id": "teh_tarik_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Signature Series",
+        "title": "Teh Tarik (Medium)",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "teh_tarik_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Signature Series",
+        "title": "Teh Tarik (Large)",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "taro_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Signature Series",
+        "title": "Taro (Medium)",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "taro_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Signature Series",
+        "title": "Taro (Large)",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "milo_green_tea_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Signature Series",
+        "title": "Milo Green Tea (Medium)",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "milo_green_tea_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Signature Series",
+        "title": "Milo Green Tea (Large)",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "boba_brown_sugar_fresh_milk_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Boba Series",
+        "title": "Boba Brown Sugar Fresh Milk (Medium)",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "boba_brown_sugar_fresh_milk_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Boba Series",
+        "title": "Boba Brown Sugar Fresh Milk (Large)",
+        "description": "",
+        "price": 18000,
+        "is_popular": false
+    },
+    {
+        "id": "boba_brown_sugar_milk_tea_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Boba Series",
+        "title": "Boba Brown Sugar Milk Tea (Medium)",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "boba_brown_sugar_milk_tea_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Boba Series",
+        "title": "Boba Brown Sugar Milk Tea (Large)",
+        "description": "",
+        "price": 18000,
+        "is_popular": false
+    },
+	{
+        "id": "black_jasmine_tea_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tea Series",
+        "title": "Black Jasmine Tea (Medium)",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "black_jasmine_tea_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tea Series",
+        "title": "Black Jasmine Tea (Large)",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "lychee_tea_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tea Series",
+        "title": "Lychee Tea (Medium)",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "lychee_tea_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tea Series",
+        "title": "Lychee Tea (Large)",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "kiwi_tea_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tea Series",
+        "title": "Kiwi Tea (Medium)",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "kiwi_tea_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tea Series",
+        "title": "Kiwi Tea (Large)",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "mango_tea_small",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tea Series",
+        "title": "Mango Tea (Small)",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "mango_tea_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tea Series",
+        "title": "Mango Tea (Medium)",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "mango_tea_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tea Series",
+        "title": "Mango Tea (Large)",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "strawberry_tea_small",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tea Series",
+        "title": "Strawberry Tea (Small)",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "strawberry_tea_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tea Series",
+        "title": "Strawberry Tea (Medium)",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "strawberry_tea_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tea Series",
+        "title": "Strawberry Tea (Large)",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "teh_susu_melati_small",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Tea Series",
+        "title": "Teh Susu Melati (Small)",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "thai_tea_cheese_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Cheese Series",
+        "title": "Thai Tea Cheese (Large)",
+        "description": "",
+        "price": 16000,
+        "is_popular": false
+    },
+    {
+        "id": "green_thai_tea_cheese_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Cheese Series",
+        "title": "Green Thai Tea Cheese (Large)",
+        "description": "",
+        "price": 16000,
+        "is_popular": false
+    },
+    {
+        "id": "taro_cheese_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Cheese Series",
+        "title": "Taro Cheese (Large)",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "ovaltine_cheese_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Cheese Series",
+        "title": "Ovaltine Cheese (Large)",
+        "description": "",
+        "price": 19000,
+        "is_popular": false
+    },
+    {
+        "id": "oreo_cheese_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Cheese Series",
+        "title": "Oreo Cheese (Large)",
+        "description": "",
+        "price": 19000,
+        "is_popular": false
+    },
+    {
+        "id": "choco_hazelnut_cheese_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Cheese Series",
+        "title": "Choco Hazelnut Cheese (Large)",
+        "description": "",
+        "price": 20000,
+        "is_popular": false
+    },
+    {
+        "id": "choco_lava_milo_cheese_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Cheese Series",
+        "title": "Choco Lava Milo Cheese (Large)",
+        "description": "",
+        "price": 21000,
+        "is_popular": false
+    },
+	{
+        "id": "red_velvet_small",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Creamy Series",
+        "title": "Red Velvet (Small)",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "red_velvet_medium",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Creamy Series",
+        "title": "Red Velvet (Medium)",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "red_velvet_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Creamy Series",
+        "title": "Red Velvet (Large)",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "cotton_candy_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Creamy Series",
+        "title": "Cotton Candy (Large)",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "es_kopi_susu_kampung_small",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Coffee Series",
+        "title": "Es Kopi Susu Kampung (Small)",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "es_kopi_susu_kampung_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Coffee Series",
+        "title": "Es Kopi Susu Kampung (Large)",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "kopi_susu_gula_aren_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Coffee Series",
+        "title": "Kopi Susu Gula Aren (Large)",
+        "description": "",
+        "price": 16000,
+        "is_popular": false
+    },
+    {
+        "id": "hot_thai_tea_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Hot Series",
+        "title": "Hot Thai Tea (Large)",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "hot_choco_lava_milo_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Hot Series",
+        "title": "Hot Choco Lava Milo (Large)",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "hot_ovaltine_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Hot Series",
+        "title": "Hot Ovaltine (Large)",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "hot_coffee_large",
+        "merchant_id": "40_haus",
+        "category": "Minuman",
+        "subcategory": "Hot Series",
+        "title": "Hot Coffee (Large)",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+
+	{
+        "id": "mie_dog_dog_singapore",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie Dog-Dog Singapore",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_chili_singapore",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie Chili Singapore",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_goreng_lada_hitam",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie Goreng Lada Hitam",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_goreng_khas_tt",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie Goreng Khas TT",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_goreng_madu_pedas",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie Goreng Madu Pedas",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_goreng_asam_manis",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie Goreng Asam Manis",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_goreng_sarden",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie Goreng Sarden",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_goreng_geprek",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie Goreng Geprek",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_goreng_rendang",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie Goreng Rendang",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+    {
+        "id": "mie_yabie",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie Yabie",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "martabak_mic",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Martabak Mic",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "tante_rebus",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Tante Rebus",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "tante_goreng",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Tante Goreng",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "intel_rebus",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Intel Rebus",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "intel_goreng",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Intel Goreng",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "intel_rebus_spesial_sosis_ayam",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Intel Rebus Spesial (Sosis + Ayam)",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "intel_goreng_spesial_sosis_ayam",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Intel Goreng Spesial (Sosis + Ayam)",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+	{
+        "id": "nasi_campur_sosis_ayam_sayur",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Campur (Sosis + Ayam+ Sayur)",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_campur_rendang",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Campur Rendang",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_campur_lada_hitam",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Campur Lada Hitam",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_sop_ayam_komplit",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Sop Ayam Komplit",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_ayam_bumbu_tt",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Ayam Bumbu TT",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_opor_ayam_telor",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Opor (Ayam + Telor)",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_sarden",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Sarden",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_pangkal_kaya_nasi_telor_sayur",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Pangkal Kaya (Nasi Telor Sayur)",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_telor_gongso",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Telor Gongso",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_telor_madu",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Telor Madu",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_telor_asam_manis",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Telor Asam Manis",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_telor_lada_hitam",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Telor Lada Hitam ",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_telor_orak_arik",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Telor Orak-arik",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_telor_gimbal",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Telor Gimbal",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_telor_tomat",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Nasi",
+        "title": "Nasi Telor Tomat",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+	{
+        "id": "magelangan",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Magelangan",
+        "title": "Magelangan",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "magelangan_rendang",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Magelangan",
+        "title": "Magelangan Rendang",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "magelangan_geprek",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Magelangan",
+        "title": "Magelangan Geprek",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_putih",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Ekstra",
+        "title": "Nasi Putih",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "extra_telor",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Ekstra",
+        "title": "Extra Telor",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "extra_sarden",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Ekstra",
+        "title": "Extra Sarden",
+        "description": "",
+        "price": 6000,
+        "is_popular": false
+    },
+    {
+        "id": "take_away_packing_food_grade",
+        "merchant_id": "41_burjo_tiada_tara",
+        "category": "Makanan",
+        "subcategory": "Ekstra",
+        "title": "Take Away (Packing Food Grade)",
+        "description": "",
+        "price": 2000,
+        "is_popular": false
+    },
+
+	{
+        "id": "kopi_susu_gula_aren",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Kopi Susu Gula Aren",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "kopi_hitam",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Kopi Hitam",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "kopi_susu_bandung",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Kopi Susu Bandung",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "kopi_susu_nusantara",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Kopi Susu Nusantara",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "kopi_chocolate",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Kopi Chocolate",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "kopi_avocado",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Kopi Avocado",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "americano",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Americano",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "cappuccino",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Cappuccino",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "vanilla_latte",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Vanilla Latte",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "caramel_machiato",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Caramel Machiato",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "hazelnut_latte",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Hazelnut Latte",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "spanish_latte",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Spanish Latte",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+	{
+        "id": "kopi_milo",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Kopi Milo",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "kopi_susu_gula_aren",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Kopi Susu Gula Aren",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "milo_boba",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Milo Boba",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "milo_machiato",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Milo Machiato",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "chocolate",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Chocolate",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "caramel_susu",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Caramel Susu",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "cheese_milk_tea",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Cheese Milk Tea",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "cookies_cream",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Cookies & Cream",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "avocado",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Avocado",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "matcha",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Matcha",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "pink_mango",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Pink Mango",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "strawberry",
+        "merchant_id": "42_belikopi",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Strawberry",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+	{
+        "id": "ropang_original",
+        "merchant_id": "42_belikopi",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ropang Original",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "ropang_chocolate",
+        "merchant_id": "42_belikopi",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ropang Chocolate",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "ropang_noughat",
+        "merchant_id": "42_belikopi",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ropang Noughat",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "ropang_cheese",
+        "merchant_id": "42_belikopi",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ropang Cheese",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "ropang_sarikaya",
+        "merchant_id": "42_belikopi",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ropang Sarikaya",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "ropang_nastar",
+        "merchant_id": "42_belikopi",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ropang Nastar",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "ropang_oreo",
+        "merchant_id": "42_belikopi",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ropang Oreo",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "ropang_ham_cheese",
+        "merchant_id": "42_belikopi",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ropang Ham & Cheese",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "ropang_chick_cheese",
+        "merchant_id": "42_belikopi",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ropang Chick & Cheese",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "ropang_boba",
+        "merchant_id": "42_belikopi",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ropang Boba",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+
+	{
+        "id": "spicy_hotdog",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Hotdog Package",
+        "title": "Spicy Hotdog",
+        "description": "",
+        "price": 17000,
+        "is_popular": false
+    },
+    {
+        "id": "classic_hotdog",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Hotdog Package",
+        "title": "Classic Hotdog",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "habanero_chicken",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Hotdog Package",
+        "title": "Habanero Chicken",
+        "description": "",
+        "price": 16000,
+        "is_popular": false
+    },
+    {
+        "id": "double_sausage",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Hotdog Package",
+        "title": "Double Sausage",
+        "description": "",
+        "price": 25000,
+        "is_popular": false
+    },
+    {
+        "id": "flying_wing",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Double Chicken",
+        "title": "Flying Wing",
+        "description": "",
+        "price": 24000,
+        "is_popular": false
+    },
+    {
+        "id": "double_kick",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Double Chicken",
+        "title": "Double Kick",
+        "description": "",
+        "price": 25000,
+        "is_popular": false
+    },
+    {
+        "id": "double_breast",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Double Chicken",
+        "title": "Double Breast",
+        "description": "",
+        "price": 28000,
+        "is_popular": false
+    },
+    {
+        "id": "double_thigh",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Double Chicken",
+        "title": "Double Thigh",
+        "description": "",
+        "price": 28000,
+        "is_popular": false
+    },
+    {
+        "id": "sunny_salad",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Upgrade",
+        "title": "Sunny Salad",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "ice_tea_large",
+        "merchant_id": "43_nice_spice",
+        "category": "Minuman",
+        "subcategory": "Upgrade",
+        "title": "Ice Tea Large",
+        "description": "",
+        "price": 2000,
+        "is_popular": false
+    },
+    {
+        "id": "mozzarella",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Upgrade",
+        "title": "Mozzarella",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "sunny_egg",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Upgrade",
+        "title": "Sunny Egg",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "rice_to_fries_m",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Upgrade",
+        "title": "Rice to Fries (M)",
+        "description": "",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "rice_to_fries_l",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Upgrade",
+        "title": "Rice to Fries (L)",
+        "description": "",
+        "price": 6000,
+        "is_popular": false
+    },
+	{
+        "id": "milo",
+        "merchant_id": "43_nice_spice",
+        "category": "Minuman",
+        "subcategory": "Drink",
+        "title": "Milo",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "orange_juice",
+        "merchant_id": "43_nice_spice",
+        "category": "Minuman",
+        "subcategory": "Drink",
+        "title": "Orange Juice",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "cocoa_differs",
+        "merchant_id": "43_nice_spice",
+        "category": "Minuman",
+        "subcategory": "Drink",
+        "title": "Cocoa Differs",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "lemonade_fizz",
+        "merchant_id": "43_nice_spice",
+        "category": "Minuman",
+        "subcategory": "Drink",
+        "title": "Lemonade Fizz",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "lemon_tea_m",
+        "merchant_id": "43_nice_spice",
+        "category": "Minuman",
+        "subcategory": "Drink",
+        "title": "Lemon Tea (M)",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "lemon_tea_l",
+        "merchant_id": "43_nice_spice",
+        "category": "Minuman",
+        "subcategory": "Drink",
+        "title": "Lemon Tea (L)",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "coca_cola",
+        "merchant_id": "43_nice_spice",
+        "category": "Minuman",
+        "subcategory": "Drink",
+        "title": "Coca-Cola",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "ice_hot_tea",
+        "merchant_id": "43_nice_spice",
+        "category": "Minuman",
+        "subcategory": "Drink",
+        "title": "Ice/Hot Tea",
+        "description": "",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "mineral_water",
+        "merchant_id": "43_nice_spice",
+        "category": "Minuman",
+        "subcategory": "Drink",
+        "title": "Mineral Water",
+        "description": "",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "chicken_o_bites",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Snack",
+        "title": "Chicken O' Bites",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "veggie_salad",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Snack",
+        "title": "Veggie Salad",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "crispy_mushroom",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Snack",
+        "title": "Crispy Mushroom",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "crispy_skin",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Snack",
+        "title": "Crispy Skin",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "french_fries_m",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Snack",
+        "title": "French Fries M",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "french_fries_l",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Snack",
+        "title": "French Fries L",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "french_fries_xl",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Snack",
+        "title": "French Fries XL",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+	{
+        "id": "grizzly_chkn_burger",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Brgr Package",
+        "title": "Grizzly Chkn Burger",
+        "description": "",
+        "price": 16000,
+        "is_popular": false
+    },
+    {
+        "id": "hannover_burger",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Brgr Package",
+        "title": "Hannover Burger",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "double_grizzly",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Brgr Package",
+        "title": "Double Grizzly",
+        "description": "",
+        "price": 22000,
+        "is_popular": false
+    },
+    {
+        "id": "double_hannover",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Brgr Package",
+        "title": "Double Hannover",
+        "description": "",
+        "price": 21000,
+        "is_popular": false
+    },
+    {
+        "id": "hannover_grizzly",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Brgr Package",
+        "title": "Hannover-Grizzly",
+        "description": "",
+        "price": 22000,
+        "is_popular": false
+    },
+    {
+        "id": "upgrade_cheese",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Brgr Package",
+        "title": "Upgrade Cheese",
+        "description": "",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "upgrade_sunny_egg",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Brgr Package",
+        "title": "Upgrade Sunny Egg",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "upgrade_brgr_w_fries",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Brgr Package",
+        "title": "Upgrade Brgr W/ Fries",
+        "description": "",
+        "price": 6000,
+        "is_popular": false
+    },
+    {
+        "id": "hunger_breast_original",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Package",
+        "title": "Hunger Breast (Original)",
+        "description": "",
+        "price": 18000,
+        "is_popular": false
+    },
+    {
+        "id": "hunger_breast_spicy",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Package",
+        "title": "Hunger Breast (Spicy)",
+        "description": "",
+        "price": 18000,
+        "is_popular": false
+    },
+    {
+        "id": "hunger_thigh_original",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Package",
+        "title": "Hunger Thigh (Original)",
+        "description": "",
+        "price": 18000,
+        "is_popular": false
+    },
+    {
+        "id": "hunger_thigh_spicy",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Package",
+        "title": "Hunger Thigh (Spicy)",
+        "description": "",
+        "price": 18000,
+        "is_popular": false
+    },
+    {
+        "id": "hunger_wing_original",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Package",
+        "title": "Hunger Wing (Original)",
+        "description": "",
+        "price": 16000,
+        "is_popular": false
+    },
+    {
+        "id": "hunger_wing_spicy",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Package",
+        "title": "Hunger Wing (Spicy)",
+        "description": "",
+        "price": 16000,
+        "is_popular": false
+    },
+    {
+        "id": "hunger_drumstick_original",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Package",
+        "title": "Hunger Drumstick (Original)",
+        "description": "",
+        "price": 16000,
+        "is_popular": false
+    },
+    {
+        "id": "hunger_drumstick_spicy",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Package",
+        "title": "Hunger Drumstick (Spicy)",
+        "description": "",
+        "price": 16000,
+        "is_popular": false
+    },
+    {
+        "id": "upgrade_atomic_spicy",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Package",
+        "title": "Upgrade Atomic Spicy",
+        "description": "",
+        "price": 2000,
+        "is_popular": false
+    },
+    {
+        "id": "upgrade_gulai",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Package",
+        "title": "Upgrade Gulai",
+        "description": "",
+        "price": 2000,
+        "is_popular": false
+    },
+    {
+        "id": "barbeque",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Sauce",
+        "title": "Barbeque",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+    {
+        "id": "spicy_barbeque",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Sauce",
+        "title": "Spicy Barbeque",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+    {
+        "id": "carbonara",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Sauce",
+        "title": "Carbonara",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+    {
+        "id": "cheese",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Sauce",
+        "title": "Cheese",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+    {
+        "id": "blackpepper",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Sauce",
+        "title": "Blackpepper",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+    {
+        "id": "mushroom",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Sauce",
+        "title": "Mushroom",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+    {
+        "id": "demi_glace",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Sauce",
+        "title": "Demi Glace",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+    {
+        "id": "garlic_sauce",
+        "merchant_id": "43_nice_spice",
+        "category": "Makanan",
+        "subcategory": "Sauce",
+        "title": "Garlic Sauce",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+
+	{
+        "id": "polos_malmil_cheese",
+        "merchant_id": "44_oma_opa",
+        "category": "Makanan",
+        "subcategory": "Malmil Cheese",
+        "title": "Polos",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "topping_cheese_malmil_cheese",
+        "merchant_id": "44_oma_opa",
+        "category": "Makanan",
+        "subcategory": "Malmil Cheese",
+        "title": "Topping Cheese",
+        "description": "",
+        "price": 17000,
+        "is_popular": false
+    },
+    {
+        "id": "topping_crispy_choco_malmil_cheese",
+        "merchant_id": "44_oma_opa",
+        "category": "Makanan",
+        "subcategory": "Malmil Cheese",
+        "title": "Topping Crispy Choco",
+        "description": "",
+        "price": 18000,
+        "is_popular": false
+    },
+    {
+        "id": "topping_greentea_malmil_cheese",
+        "merchant_id": "44_oma_opa",
+        "category": "Makanan",
+        "subcategory": "Malmil Cheese",
+        "title": "Topping Greentea",
+        "description": "",
+        "price": 18000,
+        "is_popular": false
+    },
+    {
+        "id": "topping_half_mix_malmil_cheese",
+        "merchant_id": "44_oma_opa",
+        "category": "Makanan",
+        "subcategory": "Malmil Cheese",
+        "title": "Topping Half Mix",
+        "description": "",
+        "price": 17500,
+        "is_popular": false
+    },
+    {
+        "id": "polos_malmil_chocolate",
+        "merchant_id": "44_oma_opa",
+        "category": "Makanan",
+        "subcategory": "Malmil Chocolate",
+        "title": "Polos",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "topping_cheese_malmil_chocolate",
+        "merchant_id": "44_oma_opa",
+        "category": "Makanan",
+        "subcategory": "Malmil Chocolate",
+        "title": "Topping Cheese",
+        "description": "",
+        "price": 17000,
+        "is_popular": false
+    },
+    {
+        "id": "topping_crispy_choco_malmil_chocolate",
+        "merchant_id": "44_oma_opa",
+        "category": "Makanan",
+        "subcategory": "Malmil Chocolate",
+        "title": "Topping Crispy Choco",
+        "description": "",
+        "price": 18000,
+        "is_popular": false
+    },
+    {
+        "id": "topping_greentea_malmil_chocolate",
+        "merchant_id": "44_oma_opa",
+        "category": "Makanan",
+        "subcategory": "Malmil Chocolate",
+        "title": "Topping Greentea",
+        "description": "",
+        "price": 18000,
+        "is_popular": false
+    },
+    {
+        "id": "topping_half_mix_malmil_chocolate",
+        "merchant_id": "44_oma_opa",
+        "category": "Makanan",
+        "subcategory": "Malmil Chocolate",
+        "title": "Topping Half Mix",
+        "description": "",
+        "price": 17500,
+        "is_popular": false
+    },
+
+	{
+        "id": "mie_jebew_patriot",
+        "merchant_id": "45_mie_jebew",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Mie Jebew Patriot",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+	{
+        "id": "pangsit_basah",
+        "merchant_id": "45_mie_jebew",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Pangsit Basah",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+	{
+        "id": "pangsit_goreng",
+        "merchant_id": "45_mie_jebew",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Pangsit Goreng",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+
+	{
+        "id": "bakso_biasa",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Bakso",
+        "title": "Bakso Biasa",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_jumbo",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Bakso",
+        "title": "Bakso Jumbo",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_isi_daging_cincang",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Bakso",
+        "title": "Bakso Isi Daging Cincang",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_dower",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Bakso",
+        "title": "Bakso Dower",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_urat",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Bakso",
+        "title": "Bakso Urat",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_beranak",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Bakso",
+        "title": "Bakso Beranak",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_keju",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Bakso",
+        "title": "Bakso Keju",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_dower_lava",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Bakso",
+        "title": "Bakso Dower Lava",
+        "description": "",
+        "price": 20000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_telur",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Bakso",
+        "title": "Bakso Telur",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_selimut",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Bakso",
+        "title": "Bakso Selimut",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_iga",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Bakso",
+        "title": "Bakso Iga",
+        "description": "",
+        "price": 27000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie Ayam",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_ayam_ceker",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie Ayam Ceker",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_so_biasa",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie So Biasa",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_so_jumbo",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie So Jumbo",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+	{
+        "id": "es_teh",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Es Teh",
+        "description": "",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "teh_panas",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Teh Panas",
+        "description": "",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "es_jeruk",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Es Jeruk",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "jeruk_panas",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Jeruk Panas",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "es_lemon_tea",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Es Lemon Tea",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "lemon_tea_panas",
+        "merchant_id": "46_bakso_mie_cendana",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Lemon Tea Panas",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    }
+
+	
+
+
+
+
 ]

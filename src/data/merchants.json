@@ -36,7 +36,7 @@
         "is_parking_free": false,
         "gmap_url": "https://maps.app.goo.gl/QHiCeFbXp1Gw8Fa4A",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
-        "open_hour": 0,
+        "open_hour": 11,
         "close_hour": 21
     },
     {
@@ -358,5 +358,88 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
         "close_hour": 22
+    },
+    {
+        "id": "39_sego_cokot",
+        "title": "Sego Cokot",
+        "category": "Makanan",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/QdDZaUy1km5pFvEh6",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 7,
+        "close_hour": 16
+    },
+    {
+        "id": "40_haus",
+        "title": "Haus!",
+        "category": "Minuman",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/WUmTGRfysf9fkTYZA",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 7,
+        "close_hour": 21
+    },
+    {
+        "id": "41_burjo_tiada_tara",
+        "title": "Burjo Tiada Tara",
+        "category": "Makanan",
+        "is_parking_free": false,
+        "gmap_url": "https://maps.app.goo.gl/Hc82YHsrXuaYCNq29",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 0,
+        "close_hour": 24
+    },
+    {
+        "id": "42_belikopi",
+        "title": "Beli Kopi",
+        "category": "Minuman",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/7sKPfrxJ19TWujPs6",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 8,
+        "close_hour": 21
+    },
+    {
+        "id": "43_nice_spice",
+        "title": "Nice Spiece",
+        "category": "Makanan",
+        "is_parking_free": false,
+        "gmap_url": "https://maps.app.goo.gl/8jYNKoRj4jJkbFKF6",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 21
+    },
+    {
+        "id": "44_oma_opa",
+        "title": "Oma Opa",
+        "category": "Makanan",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/Fm43enJ4Z9q59WWc8",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 8,
+        "close_hour": 21
+    },
+    {
+        "id": "45_mie_jebew",
+        "title": "Mie Jebew",
+        "category": "Makanan",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/Z2Q6hHhUYF1gTFJF7",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 16,
+        "close_hour": 22
+    },
+    {
+        "id": "46_bakso_mie_cendana",
+        "title": "Bakso & Mie Ayam Cendana",
+        "category": "Makanan",
+        "is_parking_free": false,
+        "gmap_url": "https://maps.app.goo.gl/dn9Y1dGcv6aL2kSF7",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_hour": 9,
+        "close_hour": 21
     }
+
+
+
 ]
