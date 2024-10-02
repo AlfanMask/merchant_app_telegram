@@ -69,7 +69,7 @@
 <div class="min-h-screen h-full bg-base">
 	<!-- searchbar -->
 	<div id="search" class="px-4 mb-8 mt-6">
-		<h2 class="text-white text-center mb-4">Selamat Mencari Restoo!</h2>
+		<h2 class="text-white text-center mb-4">Selamat Nyari Mamm!</h2>
 		<AutocompleteMerchant placeholder="Cari resto.." inputText={searchInput} autocompleteData={merchants} autoCompleteHandler={autoCompleteMerchantHandler} />
 	</div>
 

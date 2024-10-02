@@ -6350,8 +6350,8 @@
         "id": "paket_geprek_ori_dada",
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
-        "subcategory": "Paket Geprek Ori - Paket Geprek Ori",
-        "title": "Dada",
+        "subcategory": "Paket Geprek Ori",
+        "title": "Dada - Paket Geprek Ori",
         "description": "",
         "price": 13000,
         "is_popular": false
@@ -6360,8 +6360,8 @@
         "id": "paket_geprek_ori_paha_bawah",
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
-        "subcategory": "Paket Geprek Ori - Paket Geprek Ori",
-        "title": "Paha Bawah",
+        "subcategory": "Paket Geprek Ori",
+        "title": "Paha Bawah - Paket Geprek Ori",
         "description": "",
         "price": 12000,
         "is_popular": false
@@ -6370,8 +6370,8 @@
         "id": "paket_geprek_ori_sayap",
         "merchant_id": "16_geprek_fortuner",
         "category": "Makanan",
-        "subcategory": "Paket Geprek Ori - Paket Geprek Ori",
-        "title": "Sayap",
+        "subcategory": "Paket Geprek Ori",
+        "title": "Sayap - Paket Geprek Ori",
         "description": "",
         "price": 10000,
         "is_popular": false
@@ -6724,6 +6724,16 @@
         "title": "Tempe",
         "description": "",
         "price": 1000,
+        "is_popular": false
+    },
+	{
+        "id": "es_teh",
+        "merchant_id": "16_geprek_fortuner",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Es Teh",
+        "description": "",
+        "price": 3000,
         "is_popular": false
     },
 
@@ -12101,7 +12111,7 @@
 		"title": "Mie Hompimpa (Lv 1-4)",
 		"description": "",
 		"price": 9500,
-		"is_popular": true
+		"is_popular": false
 	},
 	{
 		"id": "mie_hompimpa_lv6_8",
@@ -12121,7 +12131,7 @@
 		"title": "Mie Gacoan (Lv 0-4)",
 		"description": "",
 		"price": 9500,
-		"is_popular": false
+		"is_popular": true
 	},
 	{
 		"id": "mie_gacoan_lv6_8",
