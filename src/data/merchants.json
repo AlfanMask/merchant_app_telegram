@@ -431,7 +431,7 @@
         "id": "42_belikopi",
         "title": "Beli Kopi",
         "category": "Minuman",
-        "is_parking_free": true,
+        "is_parking_free": false,
         "gmap_url": "https://maps.app.goo.gl/7sKPfrxJ19TWujPs6",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
