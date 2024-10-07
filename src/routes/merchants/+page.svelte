@@ -13,7 +13,7 @@
 	import { autoCompleteMerchantHandler } from "../../helper/autocomplete";
 	import { prevPage } from "../../helper/back";
 	import { isMerchantOpen } from "../../helper/time";
-    import { filterMerchantsCategory as filterMerchantsCategoryStore, filterMerchantsFreeParking as filterMerchantsFreeParkingStore, filterMerchantsOpen as filterMerchantsOpenStore, merchants as merchantsData } from "../../stores/store";
+    import { filterMerchantsCategory as filterMerchantsCategoryStore, filterMerchantsFreeParking as filterMerchantsFreeParkingStore, filterMerchantsOpen as filterMerchantsOpenStore, merchants as merchantsData, lastPageNumber } from "../../stores/store";
 	import OnlyOpenTroughTelegram from "$lib/components/OnlyOpenTroughTelegram.svelte";
 
     // get merchants data
@@ -35,6 +35,11 @@
 	onMount(() => {
 		// only coming from telegram allowed to use the website
 		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
+
+        // check if there is any lastPageNumber index -> go with it
+        lastPageNumber.subscribe((data) => {
+            pageIndex = data;
+        })
 	})
 
 
@@ -104,6 +109,9 @@
             }
             isShowRestoClosedMessage = "Maaf, resto tutup :( Resto ini buka " + openDays + " dari jam " + merchantToOpen.open_hour + ".00 sampai jam " + merchantToOpen.close_hour + ".00"
         }
+
+        // save lastPageNumber to store
+        lastPageNumber.set(pageIndex)
     }
 
     const clickBackToHome = () => {
@@ -186,10 +194,10 @@
 
     <!-- show pagination if total pages > 1 -->
     {#if (totalPages > 1)}
-    <div id="pagination" class="w-full flex justify-center items-center mt-6">
-        <i class="fa-solid fa-circle-chevron-left text-secondary text-4xl" on:click={() => movePage("prev")}></i>
-        <span class="!text-lg !font-medium text-dark mx-6 flex items-center">{pageIndex+1}/<span class="!text-sm">{totalPages}</span></span>
-        <i class="fa-solid fa-circle-chevron-right text-secondary text-4xl" on:click={() => movePage("next")}></i>
+    <div id="pagination" class="w-full flex justify-between items-center mt-6 opacity-75 fixed z-40 px-6 bottom-[2%] left-1/2 -translate-x-1/2 -translate-y-1/2">
+        <i class="fa-solid fa-circle-chevron-left text-secondary text-5xl" on:click={() => movePage("prev")}></i>
+        <!-- <span class="!text-lg !font-medium text-dark mx-6 flex items-center">{pageIndex+1}/<span class="!text-sm">{totalPages}</span></span> -->
+        <i class="fa-solid fa-circle-chevron-right text-secondary text-5xl" on:click={() => movePage("next")}></i>
     </div>
     {/if}
 

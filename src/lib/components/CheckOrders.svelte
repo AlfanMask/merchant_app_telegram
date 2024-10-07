@@ -54,7 +54,7 @@
 
 <!-- order button -->
 {#if localOrders.length > 0}
-<div in:slide out:slide id="btn-order" class="fixed bottom-[5%] w-full h-fit flex justify-center">
+<div in:slide out:slide id="btn-order" class="fixed bottom-[5%] left-1/2 -translate-x-1/2 h-fit flex justify-center z-50">
     <Button text="Cek Pesanan" size="lg" bgColor="bg-base" textColor="text-secondary" on:click={checkOrderHandler} />
 </div>
 {/if}

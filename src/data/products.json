@@ -8521,11 +8521,191 @@
         "is_popular": false
     },
 
+    {
+        "id": "sate_ayam_10_tusuk",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Sate Ayam 10 Tusuk",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "sate_daging_ayam_saja_10_tusuk",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Sate Daging Ayam Saja 10 Tusuk",
+        "description": "",
+        "price": 17000,
+        "is_popular": false
+    },
+    {
+        "id": "sate_ceker_3_tusuk",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Sate Ceker 3 Tusuk",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "ayam_goreng_besar",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ayam Goreng Besar",
+        "description": "",
+        "price": 14000,
+        "is_popular": false
+    },
+    {
+        "id": "ayam_goreng_kecil",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ayam Goreng Kecil",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "ayam_goreng_penyet_besar",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ayam Goreng Penyet Besar",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "ayam_goreng_penyet_kecil",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ayam Goreng Penyet Kecil",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "kepala_ayam_goreng",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Kepala Ayam Goreng",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "ati_goreng",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Ati Goreng",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "tempe_goreng_isi_5",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Tempe Goreng Isi 5",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "lele_goreng",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Lele Goreng",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "tahu_bakso_biasa",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Tahu Bakso Biasa",
+        "description": "",
+        "price": 2000,
+        "is_popular": false
+    },
+    {
+        "id": "tahu_bakso_dibakar_sambal_kacang",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Tahu Bakso Dibakar Sambal Kacang",
+        "description": "",
+        "price": 2500,
+        "is_popular": false
+    },
+    {
+        "id": "makaroni_goreng",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Makaroni Goreng",
+        "description": "",
+        "price": 1000,
+        "is_popular": false
+    },
+    {
+        "id": "kerupuk/rambak",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Kerupuk/Rambak",
+        "description": "",
+        "price": 500,
+        "is_popular": false
+    },
+    {
+        "id": "nasi",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "lontong",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Lontong",
+        "description": "",
+        "price": 4500,
+        "is_popular": false
+    },
+    {
+        "id": "terong_goreng",
+        "merchant_id": "22_sate_aminah",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Terong Goreng",
+        "description": "",
+        "price": 3000,
+        "is_popular": false
+    },
 	{
 		"id": "sate_ayam_10_tusuk_lontong",
 		"merchant_id": "22_sate_aminah",
 		"category": "Makanan",
-		"subcategory": "Makanan",
+		"subcategory": "Menu Paket",
 		"title": "Sate Ayam 10 Tusuk + Lontong",
 		"description": "",
 		"price": 16000,
@@ -8535,7 +8715,7 @@
 		"id": "sate_ayam_10_tusuk_nasi",
 		"merchant_id": "22_sate_aminah",
 		"category": "Makanan",
-		"subcategory": "Makanan",
+		"subcategory": "Menu Paket",
 		"title": "Sate Ayam 10 Tusuk + Nasi",
 		"description": "",
 		"price": 16000,
@@ -8545,7 +8725,7 @@
 		"id": "sate_ayam_5_tusuk_lontong",
 		"merchant_id": "22_sate_aminah",
 		"category": "Makanan",
-		"subcategory": "Makanan",
+		"subcategory": "Menu Paket",
 		"title": "Sate Ayam 5 Tusuk + Lontong",
 		"description": "",
 		"price": 10000,
@@ -8555,7 +8735,7 @@
 		"id": "sate_ayam_5_tusuk_nasi",
 		"merchant_id": "22_sate_aminah",
 		"category": "Makanan",
-		"subcategory": "Makanan",
+		"subcategory": "Menu Paket",
 		"title": "Sate Ayam 5 Tusuk + Nasi",
 		"description": "",
 		"price": 10000,
@@ -8565,7 +8745,7 @@
 		"id": "lontong_saos_kacang",
 		"merchant_id": "22_sate_aminah",
 		"category": "Makanan",
-		"subcategory": "Makanan",
+		"subcategory": "Menu Paket",
 		"title": "Lontong Saos Kacang",
 		"description": "",
 		"price": 5000,
@@ -8575,7 +8755,7 @@
 		"id": "ati_goreng_nasi",
 		"merchant_id": "22_sate_aminah",
 		"category": "Makanan",
-		"subcategory": "Makanan",
+		"subcategory": "Menu Paket",
 		"title": "Ati Goreng + Nasi",
 		"description": "",
 		"price": 8000,
@@ -8585,7 +8765,7 @@
 		"id": "ayam_goreng_besar_nasi",
 		"merchant_id": "22_sate_aminah",
 		"category": "Makanan",
-		"subcategory": "Makanan",
+		"subcategory": "Menu Paket",
 		"title": "Ayam Goreng Besar + Nasi",
 		"description": "",
 		"price": 17000,
@@ -8595,8 +8775,8 @@
 		"id": "ayam_goreng_8_penyet_nasi",
 		"merchant_id": "22_sate_aminah",
 		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Ayam Goreng 8 Penyet + Nasi",
+		"subcategory": "Menu Paket",
+		"title": "Ayam Goreng Besar Penyet + Nasi",
 		"description": "",
 		"price": 18000,
 		"is_popular": false
@@ -8605,7 +8785,7 @@
 		"id": "ayam_goreng_kecil_nasi",
 		"merchant_id": "22_sate_aminah",
 		"category": "Makanan",
-		"subcategory": "Makanan",
+		"subcategory": "Menu Paket",
 		"title": "Ayam Goreng Kecil + Nasi",
 		"description": "",
 		"price": 10000,
@@ -8615,8 +8795,8 @@
 		"id": "ayam_goreng_k_penyet_nasi",
 		"merchant_id": "22_sate_aminah",
 		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Ayam Goreng K Penyet + Nasi",
+		"subcategory": "Menu Paket",
+		"title": "Ayam Goreng Kecil Penyet + Nasi",
 		"description": "",
 		"price": 11000,
 		"is_popular": false
@@ -8625,10 +8805,10 @@
 		"id": "kepala_ayam_goreng_nasi",
 		"merchant_id": "22_sate_aminah",
 		"category": "Makanan",
-		"subcategory": "Makanan",
+		"subcategory": "Menu Paket",
 		"title": "Kepala Ayam Goreng + Nasi",
 		"description": "",
-		"price": null,
+		"price": 8000,
 		"is_popular": false
 	},
 
@@ -16129,7 +16309,7 @@
         "merchant_id": "49_ayam_bebek_pak_joko",
         "category": "Makanan",
         "subcategory": "Bebek",
-        "title": "Paket",
+        "title": "Paket Bebek",
         "description": "Bebek + Nasi + Tea",
         "price": 22500,
         "is_popular": false
@@ -16159,7 +16339,7 @@
         "merchant_id": "49_ayam_bebek_pak_joko",
         "category": "Makanan",
         "subcategory": "Ayam",
-        "title": "Paket",
+        "title": "Paket Ayam",
         "description": "Ayam + Nasi + Tea",
         "price": 17500,
         "is_popular": false
@@ -17822,6 +18002,618 @@
         "subcategory": "MINUMAN",
         "title": "Es Susu Coklat/Putih",
         "price": 3000,
+        "is_popular": false
+    },
+
+
+	{
+        "id": "sambal_lombok_ijo",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Sambal",
+        "title": "Sambal Lombok Ijo",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+	{
+        "id": "sambal_tomat_terasi",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Sambal",
+        "title": "Sambal Tomat Terasi",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+	{
+        "id": "blackpepper",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Sauce",
+        "title": "Blackpepper",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+    {
+        "id": "asam_manis",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Sauce",
+        "title": "Asam Manis",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+    {
+        "id": "bbq",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Sauce",
+        "title": "BBQ",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+    {
+        "id": "pedas",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Sauce",
+        "title": "Pedas",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+    {
+        "id": "tomyum",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Sauce",
+        "title": "Tomyum",
+        "description": "",
+        "price": 0,
+        "is_popular": false
+    },
+    {
+        "id": "paket_nasi_ayam_pop_teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Paket + Teh",
+        "title": "Paket Nasi Ayam Pop + Teh",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "paket_nasi_sosis_nugget_teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Paket + Teh",
+        "title": "Paket Nasi Sosis Nugget + Teh",
+        "description": "",
+        "price": 13000,
+        "is_popular": false
+    },
+    {
+        "id": "paket_nasi_omelette_mie_teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Paket + Teh",
+        "title": "Paket Nasi Omelette/Mie + Teh",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "paket_nasi_telur_teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Paket + Teh",
+        "title": "Paket Nasi Telur + Teh",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "paket_nasi_sayap_lombok_ijo_teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Paket + Teh",
+        "title": "Paket Nasi Sayap Lombok Ijo + Teh",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "paket_nasi_paha_lombok_ijo_teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Paket + Teh",
+        "title": "Paket Nasi Paha Lombok Ijo + Teh",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "paket_nasi_ayam_geprek_teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Paket + Teh",
+        "title": "Paket Nasi Ayam Geprek + Teh",
+        "description": "",
+        "price": 12500,
+        "is_popular": false
+    },
+    {
+        "id": "paket_nasi_ayam_pop_kuah_tongseng_teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Paket + Teh",
+        "title": "Paket Nasi Ayam Pop Kuah Tongseng + Teh",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "paket_nasi_geprek_kuah_tongseng_teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Paket + Teh",
+        "title": "Paket Nasi Geprek Kuah Tongseng + Teh",
+        "description": "",
+        "price": 12500,
+        "is_popular": false
+    },
+    {
+        "id": "paket_nasi_bandeng_teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Paket + Teh",
+        "title": "Paket Nasi Bandeng + Teh",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "paket_nasi_tahu_kress_teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Paket + Teh",
+        "title": "Paket Nasi Tahu Kress + Teh",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "paket_nasi_indomi_telur_teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Paket + Teh",
+        "title": "Paket Nasi Indomi Telur + Teh",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "paket_nasi_mie_huhah_teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Paket + Teh",
+        "title": "Paket Nasi + Mie Huhah + Teh",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+	{
+        "id": "nasi_ayam_popcorn",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Ayam Popcorn",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_sosis_nugget",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Sosis Nugget",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_omelette_mie",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Omelette Mie",
+        "description": "",
+        "price": 10500,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_ayam_geprek",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Ayam Geprek",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_paha_lombok_ijo",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Paha Lombok Ijo",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_sayap_lombok_ijo",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Sayap Lombok Ijo",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_ayam_pop_kuah_tongseng",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Ayam Pop Kuah Tongseng",
+        "description": "",
+        "price": 10500,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_geprek_kuah_tongseng",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Geprek Kuah Tongseng",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_bandeng",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Bandeng",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_tahu_kress",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Tahu Kress",
+        "description": "",
+        "price": 6000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_indomi_telur",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Indomi Telur",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_mie_huhah",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi + Mie Huhah",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "indomie",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Indomie",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "indomie_telur",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Indomie Telur",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "indomie_double",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Indomie Double",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "indomie_double_telur",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Indomie Double Telur",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "mie_huhah",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Mie",
+        "title": "Mie Huhah",
+        "description": "",
+        "price": 6000,
+        "is_popular": false
+    },
+	{
+        "id": "ayam_popcorn",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Lauk",
+        "title": "Ayam Popcorn",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "sosis_nugget",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Lauk",
+        "title": "Sosis Nugget",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "omelette_mie",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Lauk",
+        "title": "Omelette Mie",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "telur_tanpa_saus",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Lauk",
+        "title": "Telur Tanpa Saus",
+        "description": "",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "telur_di_saus",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Lauk",
+        "title": "Telur Di Saus",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_ikan_5pcs",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Lauk",
+        "title": "Bakso Ikan 5pcs",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "bakso_udang_5pcs",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Lauk",
+        "title": "Bakso Udang 5pcs",
+        "description": "",
+        "price": 5000,
+        "is_popular": false
+    },
+    {
+        "id": "paha",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Lauk",
+        "title": "Paha",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "sayap",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Lauk",
+        "title": "Sayap",
+        "description": "",
+        "price": 6000,
+        "is_popular": false
+    },
+    {
+        "id": "ayam_geprek",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Lauk",
+        "title": "Ayam Geprek",
+        "description": "",
+        "price": 7500,
+        "is_popular": false
+    },
+    {
+        "id": "tahu_kress",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Lauk",
+        "title": "Tahu Kress",
+        "description": "",
+        "price": 3000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Makanan",
+        "subcategory": "Lauk",
+        "title": "Nasi",
+        "description": "",
+        "price": 3000,
+        "is_popular": false
+    },
+	{
+        "id": "teh",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Teh",
+        "description": "",
+        "price": 2500,
+        "is_popular": false
+    },
+    {
+        "id": "nutrisari",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Nutrisari",
+        "description": "",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "susu_coklat",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Susu Coklat",
+        "description": "",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "susu_putih",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Susu Putih",
+        "description": "",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "good_day_choco",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Good Day Choco",
+        "description": "",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "good_day_original",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Good Day Original",
+        "description": "",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "good_day_coolin",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Good Day Coolin",
+        "description": "",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "coffeemix",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Coffeemix",
+        "description": "",
+        "price": 3500,
+        "is_popular": false
+    },
+    {
+        "id": "beng_beng_drink",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Beng-beng Drink",
+        "description": "",
+        "price": 4000,
+        "is_popular": false
+    },
+    {
+        "id": "air_es",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Air Es",
+        "description": "",
+        "price": 1000,
+        "is_popular": false
+    },
+    {
+        "id": "ultra",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Ultra",
+        "description": "",
+        "price": 2500,
+        "is_popular": false
+    },
+    {
+        "id": "le_mineral",
+        "merchant_id": "59_kantin_mbak_candra",
+        "category": "Minuman",
+        "subcategory": "Minuman",
+        "title": "Le Mineral",
+        "description": "",
+        "price": 3500,
         "is_popular": false
     }
 ]

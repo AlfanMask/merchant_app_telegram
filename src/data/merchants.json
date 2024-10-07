@@ -237,7 +237,7 @@
         "is_parking_free": true,
         "gmap_url": "https://maps.app.goo.gl/B42Fia2uvbCmKdJ69",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
-        "open_hour": 17,
+        "open_hour": 0,
         "close_hour": 24
     },
     {
@@ -613,5 +613,16 @@
         "open_hour": 11,
         "close_hour": 18,
         "num_orders": 8
+    },
+    {
+        "id": "59_kantin_mbak_candra",
+        "title": "Kantin Mbak Candra",
+        "category": "Makanan",
+        "is_parking_free": true,
+        "gmap_url": "https://maps.app.goo.gl/AH63RGxxk6Ymwk7o8",
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
+        "open_hour": 8,
+        "close_hour": 21,
+        "num_orders": 0
     }
 ]

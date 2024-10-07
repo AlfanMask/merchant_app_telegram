@@ -9,7 +9,7 @@
 	import type Merchant from "../constants/merchant";
 	import type Product from "../constants/product";
 	import { autoCompleteMerchantHandler } from "../helper/autocomplete";
-	import { filterMerchantsCategory, products } from "../stores/store";
+	import { filterMerchantsCategory, lastPageNumber, products } from "../stores/store";
 	import { merchants as merchantsData } from "../stores/store";
 	import OnlyOpenTroughTelegram from "$lib/components/OnlyOpenTroughTelegram.svelte";
 	import CheckOrders from "$lib/components/CheckOrders.svelte";
@@ -48,6 +48,9 @@
 	onMount(() => {
 		// only coming from telegram allowed to use the website
 		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
+
+		// reset lastPageIndex on merchants page
+		lastPageNumber.set(0)
 	})
 
 	// search merchant

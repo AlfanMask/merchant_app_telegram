@@ -29,3 +29,7 @@ filterMerchantsOpen.set(Open.Semua)
 // orders data
 export const orders = writable<Array<Order>>([]);
 orders.set([])
+
+// pageNumber pagination
+export const lastPageNumber = writable<number>(0)
+lastPageNumber.set(0)
