@@ -47,7 +47,7 @@
         "id": "5_flavfour",
         "title": "Flavfour",
         "category": "Makanan",
-        "is_parking_free": true,
+        "is_parking_free": false,
         "gmap_url": "https://maps.app.goo.gl/LKiakAJfbVTUZpJn6",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
