@@ -39,7 +39,8 @@
     let isComingFromTelegram: boolean = true;
 	onMount(() => {
 		// only coming from telegram allowed to use the website
-		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
+        // TODO:
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : true;
 	})
 
     // check if merchant open
