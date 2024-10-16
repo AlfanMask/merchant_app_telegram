@@ -10,6 +10,7 @@ export default interface Merchant {
     open_hour: number,
     close_hour: number,
     num_orders: number,
+    is_easy_driver: boolean,
 }
 
 enum Day {

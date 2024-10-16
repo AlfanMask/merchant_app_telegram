@@ -8,7 +8,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
         "close_hour": 22,
-        "num_orders": 5
+        "num_orders": 5,
+        "is_easy_driver": true
     },
     {
         "id": "2_warung_jepun",
@@ -19,7 +20,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 7,
         "close_hour": 16,
-        "num_orders": 31
+        "num_orders": 31,
+        "is_easy_driver": true
     },
     {
         "id": "3_arjes_kitchen",
@@ -30,7 +32,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
         "open_hour": 11,
         "close_hour": 22,
-        "num_orders": 4
+        "num_orders": 4,
+        "is_easy_driver": true
     },
     {
         "id": "4_bale_enak",
@@ -41,7 +44,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
         "open_hour": 11,
         "close_hour": 21,
-        "num_orders": 0
+        "num_orders": 0,
+        "is_easy_driver": true
     },
     {
         "id": "5_flavfour",
@@ -52,7 +56,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
         "close_hour": 22,
-        "num_orders": 11
+        "num_orders": 11,
+        "is_easy_driver": true
     },
     {
         "id": "6_nuno_penyet",
@@ -63,7 +68,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Minggu"],
         "open_hour": 18,
         "close_hour": 23,
-        "num_orders": 56
+        "num_orders": 56,
+        "is_easy_driver": false
     },
     {
         "id": "7_takoyaki_gerdep",
@@ -74,7 +80,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 19,
         "close_hour": 24,
-        "num_orders": 228
+        "num_orders": 228,
+        "is_easy_driver": false
     },
     {
         "id": "8_pancong_balap",
@@ -85,7 +92,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 21,
-        "num_orders": 36
+        "num_orders": 36,
+        "is_easy_driver": true
     },
     {
         "id": "9_pisang_aroma",
@@ -96,7 +104,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 0,
         "close_hour": 24,
-        "num_orders": 8
+        "num_orders": 8,
+        "is_easy_driver": true
     },
     {
         "id": "10_karizmaku",
@@ -107,7 +116,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 16,
         "close_hour": 23,
-        "num_orders": 19
+        "num_orders": 19,
+        "is_easy_driver": true
     },
     {
         "id": "11_pisang_sewelas",
@@ -118,7 +128,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 0,
         "close_hour": 24,
-        "num_orders": 19
+        "num_orders": 19,
+        "is_easy_driver": true
     },
     {
         "id": "12_sarapan_bule",
@@ -129,7 +140,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 7,
         "close_hour": 9,
-        "num_orders": 9
+        "num_orders": 9,
+        "is_easy_driver": true
     },
     {
         "id": "13_geprek_kumlot",
@@ -140,7 +152,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 21,
-        "num_orders": 92
+        "num_orders": 92,
+        "is_easy_driver": true
     },
     {
         "id": "14_bakso_sony",
@@ -151,7 +164,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
         "close_hour": 20,
-        "num_orders": 25
+        "num_orders": 25,
+        "is_easy_driver": true
     },
     {
         "id": "15_warung_se",
@@ -162,7 +176,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 21,
-        "num_orders": 33
+        "num_orders": 33,
+        "is_easy_driver": true
     },
     {
         "id": "16_geprek_fortuner",
@@ -173,7 +188,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
         "close_hour": 22,
-        "num_orders": 49
+        "num_orders": 49,
+        "is_easy_driver": true
     },
     {
         "id": "17_lapak_chicken",
@@ -184,7 +200,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 21,
-        "num_orders": 58
+        "num_orders": 58,
+        "is_easy_driver": true
     },
     {
         "id": "18_ayam_rektor",
@@ -195,7 +212,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 21,
-        "num_orders": 2
+        "num_orders": 2,
+        "is_easy_driver": true
     },
     {
         "id": "19_chicken_on_fire_jp",
@@ -206,7 +224,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 21,
-        "num_orders": 23
+        "num_orders": 23,
+        "is_easy_driver": true
     },
     {
         "id": "20_warung_bu_las",
@@ -217,7 +236,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Sabtu", "Minggu"],
         "open_hour": 8,
         "close_hour": 20,
-        "num_orders": 67
+        "num_orders": 67,
+        "is_easy_driver": true
     },
     {
         "id": "21_kebab_morgan",
@@ -228,7 +248,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
         "close_hour": 24,
-        "num_orders": 11
+        "num_orders": 11,
+        "is_easy_driver": true
     },
     {
         "id": "22_sate_aminah",
@@ -238,7 +259,8 @@
         "gmap_url": "https://maps.app.goo.gl/B42Fia2uvbCmKdJ69",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 0,
-        "close_hour": 24
+        "close_hour": 24,
+        "is_easy_driver": true
     },
     {
         "id": "23_olive_uns",
@@ -249,7 +271,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 21,
-        "num_orders": 6
+        "num_orders": 6,
+        "is_easy_driver": true
     },
     {
         "id": "24_seblak_bageur",
@@ -260,7 +283,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 11,
         "close_hour": 22,
-        "num_orders": 133
+        "num_orders": 133,
+        "is_easy_driver": true
     },
     {
         "id": "25_mie_sentosa",
@@ -271,7 +295,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
         "close_hour": 20,
-        "num_orders": 22
+        "num_orders": 22,
+        "is_easy_driver": true
     },
     {
         "id": "26_ayam_penyet_andara",
@@ -282,7 +307,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
         "close_hour": 24,
-        "num_orders": 59
+        "num_orders": 59,
+        "is_easy_driver": true
     },
     {
         "id": "27_nasi_goreng_milyarder",
@@ -293,7 +319,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 16,
         "close_hour": 24,
-        "num_orders": 25
+        "num_orders": 25,
+        "is_easy_driver": true
     },
     {
         "id": "28_harun_juice",
@@ -304,7 +331,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
         "close_hour": 23,
-        "num_orders": 3
+        "num_orders": 3,
+        "is_easy_driver": true
     },
     {
         "id": "29_bakmi_capcay_pak_bambang",
@@ -315,7 +343,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 18,
         "close_hour": 24,
-        "num_orders": 6
+        "num_orders": 6,
+        "is_easy_driver": true
     },
     {
         "id": "30_bago_hot_chicken",
@@ -326,7 +355,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 21,
-        "num_orders": 14
+        "num_orders": 14,
+        "is_easy_driver": true
     },
     {
         "id": "31_geprel_mas_al",
@@ -337,7 +367,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 11,
         "close_hour": 21,
-        "num_orders": 5
+        "num_orders": 5,
+        "is_easy_driver": true
     },
     {
         "id": "33_martabak_la_wawah",
@@ -348,7 +379,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 17,
         "close_hour": 24,
-        "num_orders": 0
+        "num_orders": 0,
+        "is_easy_driver": true
     },
     {
         "id": "35_mie_serasi",
@@ -359,7 +391,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 16,
         "close_hour": 22,
-        "num_orders": 5
+        "num_orders": 5,
+        "is_easy_driver": true
     },
     {
         "id": "36_gacoan_jebres",
@@ -370,7 +403,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
         "close_hour": 21,
-        "num_orders": 689
+        "num_orders": 689,
+        "is_easy_driver": false
     },
     {
         "id": "37_kedai_kabut",
@@ -381,7 +415,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 22,
-        "num_orders": 12
+        "num_orders": 12,
+        "is_easy_driver": true
     },
     {
         "id": "38_uma_yumcha",
@@ -392,7 +427,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
         "close_hour": 22,
-        "num_orders": 75
+        "num_orders": 75,
+        "is_easy_driver": false
     },
     {
         "id": "39_sego_cokot",
@@ -403,7 +439,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 7,
         "close_hour": 16,
-        "num_orders": 10
+        "num_orders": 10,
+        "is_easy_driver": true
     },
     {
         "id": "40_haus",
@@ -414,7 +451,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 7,
         "close_hour": 21,
-        "num_orders": 34
+        "num_orders": 34,
+        "is_easy_driver": true
     },
     {
         "id": "41_burjo_tiada_tara",
@@ -425,7 +463,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 0,
         "close_hour": 24,
-        "num_orders": 20
+        "num_orders": 20,
+        "is_easy_driver": true
     },
     {
         "id": "42_belikopi",
@@ -436,7 +475,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
         "close_hour": 21,
-        "num_orders": 51
+        "num_orders": 51,
+        "is_easy_driver": true
     },
     {
         "id": "43_nice_spice",
@@ -447,7 +487,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 21,
-        "num_orders": 33
+        "num_orders": 33,
+        "is_easy_driver": true
     },
     {
         "id": "44_oma_opa",
@@ -458,7 +499,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
         "close_hour": 21,
-        "num_orders": 46
+        "num_orders": 46,
+        "is_easy_driver": true
     },
     {
         "id": "45_mie_jebew",
@@ -469,7 +511,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 16,
         "close_hour": 22,
-        "num_orders": 13
+        "num_orders": 13,
+        "is_easy_driver": true
     },
     {
         "id": "46_bakso_mie_cendana",
@@ -480,7 +523,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 21,
-        "num_orders": 23
+        "num_orders": 23,
+        "is_easy_driver": true
     },
     {
         "id": "47_geprek_dallas",
@@ -491,7 +535,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 23,
-        "num_orders": 8
+        "num_orders": 8,
+        "is_easy_driver": true
     },
     {
         "id": "48_seblak_alumni",
@@ -502,7 +547,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 11,
         "close_hour": 22,
-        "num_orders": 52
+        "num_orders": 52,
+        "is_easy_driver": true
     },
     {
         "id": "49_ayam_bebek_pak_joko",
@@ -524,7 +570,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
         "close_hour": 18,
-        "num_orders": 27
+        "num_orders": 27,
+        "is_easy_driver": true
     },
     {
         "id": "51_madams_churros",
@@ -535,7 +582,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 15,
         "close_hour": 20,
-        "num_orders": 3
+        "num_orders": 3,
+        "is_easy_driver": true
     },
     {
         "id": "52_ketoprak_bang_torro",
@@ -546,7 +594,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
         "close_hour": 20,
-        "num_orders": 114
+        "num_orders": 114,
+        "is_easy_driver": true
     },
     {
         "id": "53_lawson_uns",
@@ -557,7 +606,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 7,
         "close_hour": 3,
-        "num_orders": 35
+        "num_orders": 35,
+        "is_easy_driver": true
     },
     {
         "id": "54_naspad_jembatan_merah_bundo_ayu",
@@ -568,7 +618,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
         "close_hour": 21,
-        "num_orders": 257
+        "num_orders": 257,
+        "is_easy_driver": true
     },
     {
         "id": "55_naspad_jembatan_biru_cahayo_minang",
@@ -579,7 +630,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 8,
         "close_hour": 18,
-        "num_orders": 33
+        "num_orders": 33,
+        "is_easy_driver": true
     },
     {
         "id": "56_mixue_uns",
@@ -590,7 +642,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 10,
-        "num_orders": 37
+        "num_orders": 37,
+        "is_easy_driver": true
     },
     {
         "id": "57_hokage_crepes",
@@ -601,7 +654,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 9,
         "close_hour": 10,
-        "num_orders": 12
+        "num_orders": 12,
+        "is_easy_driver": true
     },
     {
         "id": "58_mie_ayam_bakso_tinton",
@@ -612,7 +666,8 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
         "open_hour": 11,
         "close_hour": 18,
-        "num_orders": 8
+        "num_orders": 8,
+        "is_easy_driver": true
     },
     {
         "id": "59_kantin_mbak_candra",
@@ -623,6 +678,7 @@
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
         "open_hour": 8,
         "close_hour": 21,
-        "num_orders": 0
+        "num_orders": 0,
+        "is_easy_driver": true
     }
 ]

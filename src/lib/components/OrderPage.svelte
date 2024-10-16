@@ -39,8 +39,7 @@
     let isComingFromTelegram: boolean = true;
 	onMount(() => {
 		// only coming from telegram allowed to use the website
-        // TODO:
-		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : true;
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
 	})
 
     // check if merchant open
@@ -175,6 +174,9 @@
                 <BadgeCategory category={merchant?.category} />
                 {#if (merchant?.is_parking_free)}
                 <Badge bgColor="bg-green-500" textColor="text-secondary" text="Bebas Parkir" />
+                {/if}
+                {#if !merchant.is_easy_driver}
+                    <Badge bgColor="bg-red-500" textColor="text-secondary" text="Sepi Driver⚠️" />
                 {/if}
             </div>
         </div>

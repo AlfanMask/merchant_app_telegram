@@ -29,6 +29,9 @@
             {#if merchant.is_parking_free}
                 <Badge bgColor="bg-green-500" textColor="text-secondary" text={Parking["Bebas Parkir"]} />
             {/if}
+            {#if !merchant.is_easy_driver}
+                <Badge bgColor="bg-red-500" textColor="text-secondary" text="Sepi Driver" />
+            {/if}
         </div>
     </div>
     <div class="flex flex-col items-center">

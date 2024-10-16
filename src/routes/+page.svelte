@@ -47,8 +47,7 @@
 	let isComingFromTelegram: boolean = true;
 	onMount(() => {
 		// only coming from telegram allowed to use the website
-		// TODO:
-		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : true;
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
 
 		// reset lastPageIndex on merchants page
 		lastPageNumber.set(0)
