@@ -21,6 +21,7 @@
 	import { isMerchantOpen } from "../../helper/time";
 	import { browser } from "$app/environment";
 	import type Product from "../../constants/product";
+	import { Parking } from "../../constants/parking";
 
     // variables
     export let merchantId: string;
@@ -39,7 +40,8 @@
     let isComingFromTelegram: boolean = true;
 	onMount(() => {
 		// only coming from telegram allowed to use the website
-		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
+        // TODO
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : true;
 	})
 
     // check if merchant open
@@ -172,8 +174,12 @@
             <!-- badges -->
             <div id="badges" class="flex gap-2">
                 <BadgeCategory category={merchant?.category} />
-                {#if (merchant?.is_parking_free)}
-                <Badge bgColor="bg-green-500" textColor="text-secondary" text="Bebas Parkir" />
+                {#if (merchant?.is_parking_free == true)}
+                    <Badge bgColor="bg-green-500" textColor="text-secondary" text="{Parking["Bebas Parkir"]}" />
+                {:else if (merchant.is_parking_free == false)}
+                    <Badge bgColor="bg-red-500" textColor="text-secondary" text="{Parking.Parkir}" />
+                {:else if (merchant.is_parking_free == null)}
+                    <Badge bgColor="bg-yellow-500" textColor="text-secondary" text="{Parking["Tidak Diketahui"]}" />
                 {/if}
                 {#if !merchant.is_easy_driver}
                     <Badge bgColor="bg-red-500" textColor="text-secondary" text="Sepi Driver⚠️" />

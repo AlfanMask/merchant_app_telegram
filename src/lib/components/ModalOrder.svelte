@@ -81,7 +81,7 @@
         </div>
         <hr class="mb-4">
         <div id="note" class="mb-4">
-            <textarea bind:value={inputNote} placeholder="Catatan untuk driver.." class="!text-sm !font-light w-full px-4 py-2 rounded border border-solid border-secondary"/>
+            <textarea bind:value={inputNote} placeholder="Lokasi pengantaran + catatan tambahan.." class="!text-sm !font-light w-full px-4 py-2 rounded border border-solid border-secondary"/>
         </div>
         <div id="bottom" class="flex flex-col items-center w-full gap-3">
             <span class="text-dark !text-xl !font-bold block">Total: {formatRupiah(totalPrice)}</span>

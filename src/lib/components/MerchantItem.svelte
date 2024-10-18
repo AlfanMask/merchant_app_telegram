@@ -24,14 +24,14 @@
         {#if !isOpen}
             <span class="text-secondary !font-bold !text-2xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">TUTUP</span>
         {/if}
-        <div class="absolute top-3 right-2 flex gap-2">
-            <BadgeCategory category={merchant.category}/>
-            {#if merchant.is_parking_free}
-                <Badge bgColor="bg-green-500" textColor="text-secondary" text={Parking["Bebas Parkir"]} />
-            {/if}
-            {#if !merchant.is_easy_driver}
-                <Badge bgColor="bg-red-500" textColor="text-secondary" text="Sepi Driver" />
-            {/if}
+        <div class="absolute top-3 right-2 grid grid-cols-2 gap-2">
+                <BadgeCategory category={merchant.category}/>
+                {#if merchant.is_parking_free}
+                    <Badge bgColor="bg-green-500" textColor="text-secondary" text={Parking["Bebas Parkir"]} />
+                {/if}
+                {#if !merchant.is_easy_driver}
+                    <Badge bgColor="bg-red-500" textColor="text-secondary" text="Sepi Driver" />
+                {/if}
         </div>
     </div>
     <div class="flex flex-col items-center">
