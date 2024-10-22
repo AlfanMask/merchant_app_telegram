@@ -704,7 +704,7 @@
         "open_hour": 8,
         "close_hour": 20,
         "num_orders": 8,
-        "is_parking_free": true,
+        "is_parking_free": false,
         "is_easy_driver": true
     },
     {
