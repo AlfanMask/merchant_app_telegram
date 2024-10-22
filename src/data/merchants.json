@@ -126,7 +126,7 @@
         "is_parking_free": true,
         "gmap_url": "https://maps.app.goo.gl/",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
-        "open_hour": 0,
+        "open_hour": 18,
         "close_hour": 24,
         "num_orders": 59,
         "is_easy_driver": true
