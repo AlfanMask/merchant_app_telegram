@@ -35,7 +35,7 @@
     <div class="flex flex-col w-full">
         <span class="mt-2 !text-lg !font-bold text-dark">{order.product.title}</span>
         {#if (order.product.description)}
-            <span class="!font-medium text-dark">{order.product.description}</span>
+            <span class="!font-medium text-dark !text-xs">{order.product.description}</span>
         {/if}
         <span class="!font-medium text-dark !text-lg mt-1">{formatRupiah(order.product.price)}</span>
     </div>

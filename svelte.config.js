@@ -32,7 +32,8 @@ const config = {
 				'/merchants/41_burjo_tiada_tara', '/merchants/42_belikopi', '/merchants/43_nice_spice', '/merchants/44_oma_opa', '/merchants/45_mie_jebew', '/merchants/46_bakso_mie_cendana', '/merchants/47_geprek_dallas', '/merchants/48_seblak_alumni', '/merchants/49_ayam_bebek_pak_joko', '/merchants/50_naspad_urang_awak',
 				'/merchants/51_madams_churros', '/merchants/52_ketoprak_bang_torro', '/merchants/53_lawson_uns', '/merchants/54_naspad_jembatan_merah_bundo_ayu', '/merchants/55_naspad_jembatan_biru_cahayo_minang', '/merchants/56_mixue_uns', '/merchants/57_hokage_crepes', '/merchants/58_mie_ayam_bakso_tinton', '/merchants/59_kantin_mbak_candra', '/merchants/60_selat_laras',
 				'/merchants/61_ayam_tulang_lunak_bengawan', '/merchants/62_umie_solo', '/merchants/63_ayam_bakar_cah_solo', '/merchants/64_martabak_serdadoe', '/merchants/65_knk_chikcen_and_burger', '/merchants/66_burjo_way_way', '/merchants/67_warung_bu_tarti', '/merchants/68_mojjachi_uns', '/merchants/69_king_stars_kebab', '/merchants/70_sate_kambing_muda_kondang_laris', 
-				'/merchants/71_tahu_gower', '/merchants/72_warung_lotek_gado_gado_bu_warni', 
+				'/merchants/71_tahu_gower', '/merchants/72_warung_lotek_gado_gado_bu_warni', '/merchants/73_pisang_comel_x_seblak_comel_uns', '/merchants/74_warung_espe', '/merchants/75_sambal_layah_bu_warni', '/merchants/76_warung_markotobz', '/merchants/77_warung_pbs_uns', '/merchants/78_huhah', '/merchants/79_mie_ayam_santai', '/merchants/80_wontoniki', 
+				'/merchants/81_mie_ayam_bakso_pak_slamet', '/merchants/82_tweety_fried_chicken_uns', '/merchants/83_muramen_uns', '/merchants/84_mie_tentrem', '/merchants/85_mie_yamin_chapoo', '/merchants/86_fu_bao_kopitiam', 
 			],
 		}
 	}

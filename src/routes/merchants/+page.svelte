@@ -27,7 +27,7 @@
 
     // pagination
     let pageIndex: number = 0;
-    const dataPerPage: number = 6;
+    const dataPerPage: number = 8;
     let totalPages: number = 1;
     $: totalPages = Math.ceil(localFilteredMerchants.length / dataPerPage);
 
