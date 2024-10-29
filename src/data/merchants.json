@@ -86,7 +86,7 @@
     {
         "id": "8_pancong_balap",
         "title": "Pancong Balap",
-        "category": "Makanan",
+        "category": "Jajanan",
         "is_parking_free": true,
         "gmap_url": "https://maps.app.goo.gl/qNXvDs1zmw9T9jDz8",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
@@ -122,7 +122,7 @@
     {
         "id": "11_pisang_sewelas",
         "title": "Pisang Sewelas",
-        "category": "Makanan",
+        "category": "Jajanan",
         "is_parking_free": true,
         "gmap_url": "https://maps.app.goo.gl/L7d8DS8heVU66jT36",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
@@ -305,7 +305,7 @@
         "category": "Makanan",
         "is_parking_free": true,
         "gmap_url": "https://maps.app.goo.gl/Fg4iYrS56FZ4KLNS9",
-        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+        "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
         "open_hour": 10,
         "close_hour": 24,
         "num_orders": 75,

@@ -9,10 +9,12 @@
 	import type Merchant from "../constants/merchant";
 	import type Product from "../constants/product";
 	import { autoCompleteMerchantHandler } from "../helper/autocomplete";
-	import { filterMerchantsCategory, lastPageNumber, products } from "../stores/store";
+	import { filterMerchantsCategory, lastPageNumber, products, filterMerchantsFreeParking, filterMerchantsOpen } from "../stores/store";
 	import { merchants as merchantsData } from "../stores/store";
 	import OnlyOpenTroughTelegram from "$lib/components/OnlyOpenTroughTelegram.svelte";
 	import CheckOrders from "$lib/components/CheckOrders.svelte";
+	import { Parking } from "../constants/parking";
+	import { Open } from "../constants/open";
 
 	// get data
 	let popularProducts: Array<Product> = [];
@@ -51,6 +53,11 @@
 
 		// reset lastPageIndex on merchants page
 		lastPageNumber.set(0)
+
+		// reset all merchant list filters
+		filterMerchantsCategory.set(Category.Semua)
+		filterMerchantsFreeParking.set(Parking.Semua)
+		filterMerchantsOpen.set(Open.Semua)
 	})
 
 	// search merchant

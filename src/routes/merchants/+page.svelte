@@ -62,6 +62,11 @@
         filterMerchantsOpen = data
     })
 
+    // handle update saved filters from state if coming (back) from OrderPage
+    $: filterMerchantsCategoryStore.set(filterMerchantsCategory)
+    $: filterMerchantsFreeParkingStore.set(filterMerchantsFreeParking)
+    $: filterMerchantsOpenStore.set(filterMerchantsOpen)
+
     // handle filtered data
     $: {
         // Filter by category if not "Semua"

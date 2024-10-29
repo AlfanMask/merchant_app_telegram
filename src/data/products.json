@@ -3030,7 +3030,7 @@
 	{
 		"id": "pancong_original_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Original",
 		"description": "",
@@ -3040,7 +3040,7 @@
 	{
 		"id": "pancong_original_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Original",
 		"description": "",
@@ -3050,7 +3050,7 @@
 	{
 		"id": "pancong_coklat_susu_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Coklat Susu",
 		"description": "",
@@ -3060,7 +3060,7 @@
 	{
 		"id": "pancong_coklat_susu_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Coklat Susu",
 		"description": "",
@@ -3070,7 +3070,7 @@
 	{
 		"id": "pancong_keju_susu_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Keju Susu",
 		"description": "",
@@ -3080,7 +3080,7 @@
 	{
 		"id": "pancong_keju_susu_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Keju Susu",
 		"description": "",
@@ -3090,7 +3090,7 @@
 	{
 		"id": "pancong_coklat_keju_susu_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Coklat Keju Susu",
 		"description": "",
@@ -3100,7 +3100,7 @@
 	{
 		"id": "pancong_coklat_keju_susu_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Coklat Keju Susu",
 		"description": "",
@@ -3110,7 +3110,7 @@
 	{
 		"id": "pancong_kacang_susu_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Kacang Susu",
 		"description": "",
@@ -3120,7 +3120,7 @@
 	{
 		"id": "pancong_kacang_susu_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Kacang Susu",
 		"description": "",
@@ -3130,7 +3130,7 @@
 	{
 		"id": "pancong_strawberry_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Strawberry",
 		"description": "",
@@ -3140,7 +3140,7 @@
 	{
 		"id": "pancong_strawberry_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Strawberry",
 		"description": "",
@@ -3150,7 +3150,7 @@
 	{
 		"id": "pancong_blueberry_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Blueberry",
 		"description": "",
@@ -3160,7 +3160,7 @@
 	{
 		"id": "pancong_blueberry_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Blueberry",
 		"description": "",
@@ -3170,7 +3170,7 @@
 	{
 		"id": "pancong_oreo_susu_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Oreo Susu",
 		"description": "",
@@ -3180,7 +3180,7 @@
 	{
 		"id": "pancong_oreo_susu_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Oreo Susu",
 		"description": "",
@@ -3190,7 +3190,7 @@
 	{
 		"id": "pancong_greentea_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Greentea",
 		"description": "",
@@ -3200,7 +3200,7 @@
 	{
 		"id": "pancong_greentea_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Greentea",
 		"description": "",
@@ -3210,7 +3210,7 @@
 	{
 		"id": "pancong_chococomaltine_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Chococomaltine / Chococrunchy",
 		"description": "",
@@ -3220,7 +3220,7 @@
 	{
 		"id": "pancong_chococomaltine_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Chococomaltine / Chococrunchy",
 		"description": "",
@@ -3230,7 +3230,7 @@
 	{
 		"id": "pancong_tiramisu_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Tiramisu",
 		"description": "",
@@ -3240,7 +3240,7 @@
 	{
 		"id": "pancong_tiramisu_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Tiramisu",
 		"description": "",
@@ -3250,7 +3250,7 @@
 	{
 		"id": "pancong_cheesy_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Cheesy",
 		"description": "",
@@ -3260,7 +3260,7 @@
 	{
 		"id": "pancong_cheesy_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Cheesy",
 		"description": "",
@@ -3270,7 +3270,7 @@
 	{
 		"id": "pancong_srikaya_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Srikaya",
 		"description": "",
@@ -3280,7 +3280,7 @@
 	{
 		"id": "pancong_srikaya_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Srikaya",
 		"description": "",
@@ -3290,7 +3290,7 @@
 	{
 		"id": "pancong_srikaya_pandan_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Srikaya Pandan",
 		"description": "",
@@ -3300,7 +3300,7 @@
 	{
 		"id": "pancong_srikaya_pandan_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Srikaya Pandan",
 		"description": "",
@@ -3310,7 +3310,7 @@
 	{
 		"id": "pancong_dark_choco_lava_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Dark Choco Lava",
 		"description": "",
@@ -3320,7 +3320,7 @@
 	{
 		"id": "pancong_dark_choco_lava_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Dark Choco Lava",
 		"description": "",
@@ -3330,7 +3330,7 @@
 	{
 		"id": "pancong_cappuccino_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Normal",
 		"title": "Pancong Cappuccino",
 		"description": "",
@@ -3340,7 +3340,7 @@
 	{
 		"id": "pancong_cappuccino_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Pancong Dobel",
 		"title": "Pancong Cappuccino",
 		"description": "",
@@ -3350,7 +3350,7 @@
 	{
 		"id": "coklat_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Coklat",
 		"description": "",
@@ -3360,7 +3360,7 @@
 	{
 		"id": "coklat_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Coklat",
 		"description": "",
@@ -3370,7 +3370,7 @@
 	{
 		"id": "keju_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Keju",
 		"description": "",
@@ -3380,7 +3380,7 @@
 	{
 		"id": "keju_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Keju",
 		"description": "",
@@ -3390,7 +3390,7 @@
 	{
 		"id": "kacang_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Kacang",
 		"description": "",
@@ -3400,7 +3400,7 @@
 	{
 		"id": "kacang_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Kacang",
 		"description": "",
@@ -3410,7 +3410,7 @@
 	{
 		"id": "strawberry_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Strawberry",
 		"description": "",
@@ -3420,7 +3420,7 @@
 	{
 		"id": "strawberry_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Strawberry",
 		"description": "",
@@ -3430,7 +3430,7 @@
 	{
 		"id": "blueberry_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Blueberry",
 		"description": "",
@@ -3440,7 +3440,7 @@
 	{
 		"id": "blueberry_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Blueberry",
 		"description": "",
@@ -3450,7 +3450,7 @@
 	{
 		"id": "oreo_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Oreo",
 		"description": "",
@@ -3460,7 +3460,7 @@
 	{
 		"id": "oreo_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Oreo",
 		"description": "",
@@ -3470,7 +3470,7 @@
 	{
 		"id": "greentea_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Greentea",
 		"description": "",
@@ -3480,7 +3480,7 @@
 	{
 		"id": "greentea_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Greentea",
 		"description": "",
@@ -3490,7 +3490,7 @@
 	{
 		"id": "chococomaltine_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Chococomaltine / Chococrunchy",
 		"description": "",
@@ -3500,7 +3500,7 @@
 	{
 		"id": "chococomaltine_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Chococomaltine / Chococrunchy",
 		"description": "",
@@ -3510,7 +3510,7 @@
 	{
 		"id": "tiramisu_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Tiramisu",
 		"description": "",
@@ -3520,7 +3520,7 @@
 	{
 		"id": "tiramisu_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Tiramisu",
 		"description": "",
@@ -3530,7 +3530,7 @@
 	{
 		"id": "cheesy_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Cheesy",
 		"description": "",
@@ -3540,7 +3540,7 @@
 	{
 		"id": "cheesy_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Cheesy",
 		"description": "",
@@ -3550,7 +3550,7 @@
 	{
 		"id": "srikaya_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Srikaya",
 		"description": "",
@@ -3560,7 +3560,7 @@
 	{
 		"id": "srikaya_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Srikaya",
 		"description": "",
@@ -3570,7 +3570,7 @@
 	{
 		"id": "srikaya_pandan_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Srikaya Pandan",
 		"description": "",
@@ -3580,7 +3580,7 @@
 	{
 		"id": "srikaya_pandan_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Srikaya Pandan",
 		"description": "",
@@ -3590,7 +3590,7 @@
 	{
 		"id": "dark_choco_lava_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Dark Choco Lava",
 		"description": "",
@@ -3600,7 +3600,7 @@
 	{
 		"id": "dark_choco_lava_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Dark Choco Lava",
 		"description": "",
@@ -3610,7 +3610,7 @@
 	{
 		"id": "cappuccino_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Cappuccino",
 		"description": "",
@@ -3620,7 +3620,7 @@
 	{
 		"id": "cappuccino_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Cappuccino",
 		"description": "",
@@ -3630,7 +3630,7 @@
 	{
 		"id": "nougat_normal",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Normal",
 		"title": "Nougat",
 		"description": "",
@@ -3640,7 +3640,7 @@
 	{
 		"id": "nougat_dobel",
 		"merchant_id": "8_pancong_balap",
-		"category": "Makanan",
+		"category": "Jajanan",
 		"subcategory": "Ekstra Topping Dobel",
 		"title": "Nougat",
 		"description": "",
@@ -5004,8 +5004,8 @@
 	{
 		"id": "keju_original",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Original",
 		"description": "",
 		"price": 12000,
@@ -5014,8 +5014,8 @@
 	{
 		"id": "keju_susu_gula_palem",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Susu, Gula Palem",
 		"description": "",
 		"price": 12000,
@@ -5024,8 +5024,8 @@
 	{
 		"id": "keju_choco_crunchy",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Choco Crunchy",
 		"description": "",
 		"price": 12000,
@@ -5034,8 +5034,8 @@
 	{
 		"id": "keju_coklat_lumer",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Coklat Lumer",
 		"description": "",
 		"price": 12000,
@@ -5044,8 +5044,8 @@
 	{
 		"id": "keju_coklat_kacang",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Coklat Kacang",
 		"description": "",
 		"price": 13000,
@@ -5054,8 +5054,8 @@
 	{
 		"id": "keju_coklat_oreo",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Coklat Oreo",
 		"description": "",
 		"price": 13000,
@@ -5064,8 +5064,8 @@
 	{
 		"id": "keju_coklat_lumer_meises",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Coklat Lumer + Meises",
 		"description": "",
 		"price": 13000,
@@ -5074,8 +5074,8 @@
 	{
 		"id": "keju_meises",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Meises",
 		"description": "",
 		"price": 12000,
@@ -5084,8 +5084,8 @@
 	{
 		"id": "keju_tiramisu",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Tiramisu",
 		"description": "",
 		"price": 12000,
@@ -5094,8 +5094,8 @@
 	{
 		"id": "keju_tiramisu_oreo",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Tiramisu Oreo",
 		"description": "",
 		"price": 13000,
@@ -5104,8 +5104,8 @@
 	{
 		"id": "keju_tiramisu_redvelvet",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Tiramisu Redvelvet",
 		"description": "",
 		"price": 13000,
@@ -5114,8 +5114,8 @@
 	{
 		"id": "keju_tiramisu_meises",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Tiramisu Meises",
 		"description": "",
 		"price": 13000,
@@ -5124,8 +5124,8 @@
 	{
 		"id": "keju_redvelvet",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Redvelvet",
 		"description": "",
 		"price": 12000,
@@ -5134,8 +5134,8 @@
 	{
 		"id": "keju_redvelvet_milo",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Redvelvet Milo",
 		"description": "",
 		"price": 13000,
@@ -5144,8 +5144,8 @@
 	{
 		"id": "keju_green_tea",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Green Tea",
 		"description": "",
 		"price": 12000,
@@ -5154,8 +5154,8 @@
 	{
 		"id": "keju_green_tea_milo",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Green Tea Milo",
 		"description": "",
 		"price": 13000,
@@ -5164,8 +5164,8 @@
 	{
 		"id": "keju_milo",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Milo",
 		"description": "",
 		"price": 12000,
@@ -5174,8 +5174,8 @@
 	{
 		"id": "keju_taro",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Taro",
 		"description": "",
 		"price": 12000,
@@ -5184,8 +5184,8 @@
 	{
 		"id": "keju_taro_oreo",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Taro Oreo",
 		"description": "",
 		"price": 13000,
@@ -5194,8 +5194,8 @@
 	{
 		"id": "keju_oreo",
 		"merchant_id": "11_pisang_sewelas",
-		"category": "Makanan",
-		"subcategory": "Makanan",
+		"category": "Jajanan",
+		"subcategory": "Jajanan",
 		"title": "Keju Oreo",
 		"description": "",
 		"price": 12000,
@@ -13537,21 +13537,21 @@
 		"is_popular": false
 	},
 	{
-		"id": "es_kopi_susu_kampung_small",
+		"id": "es_kopi_susu_haus_small",
 		"merchant_id": "40_haus",
 		"category": "Minuman",
 		"subcategory": "Coffee Series",
-		"title": "Es Kopi Susu Kampung (Small)",
+		"title": "Es Kopi Susu Haus (Small)",
 		"description": "",
 		"price": 9000,
 		"is_popular": false
 	},
 	{
-		"id": "es_kopi_susu_kampung_large",
+		"id": "es_kopi_susu_haus_large",
 		"merchant_id": "40_haus",
 		"category": "Minuman",
 		"subcategory": "Coffee Series",
-		"title": "Es Kopi Susu Kampung (Large)",
+		"title": "Es Kopi Susu Haus (Large)",
 		"description": "",
 		"price": 11000,
 		"is_popular": false
