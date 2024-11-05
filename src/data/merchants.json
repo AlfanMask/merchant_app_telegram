@@ -243,7 +243,6 @@
         "id": "21_kebab_morgan",
         "title": "Kebab Morgan",
         "category": "Makanan",
-        "is_parking_free": false,
         "gmap_url": "https://maps.app.goo.gl/RbAPNiBnri3LmgGZ9",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
         "open_hour": 10,
@@ -259,8 +258,8 @@
         "is_parking_free": true,
         "gmap_url": "https://maps.app.goo.gl/B42Fia2uvbCmKdJ69",
         "open_days": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
-        "open_hour": 0,
-        "close_hour": 43,
+        "open_hour": 17,
+        "close_hour": 24,
         "is_easy_driver": true
     },
     {
