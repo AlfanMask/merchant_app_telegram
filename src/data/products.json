@@ -15458,428 +15458,298 @@
 		"id": "seblak_reguler",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
-		"subcategory": "Regular",
+		"subcategory": "Menu Paket 1",
 		"title": "Seblak Reguler",
-		"description": "telur, sawi, kerupuk",
-		"price": 10000,
+		"description": "telur, kerupuk 2 centong",
+		"price": 8000,
 		"is_popular": false
 	},
 	{
 		"id": "seblak_sayur_mix",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
-		"subcategory": "Regular",
+		"subcategory": "Menu Paket 1",
 		"title": "Seblak Sayur Mix",
-		"description": "sawi putih, bakso, bunga kol, jamur kuping, telur, sawi",
+		"description": "sawi 3 porsi, bunga kol, irisan jamur kuping, bakso daging, telur",
 		"price": 10000,
 		"is_popular": false
 	},
 	{
-		"id": "seblak_mie",
+		"id": "seblak_mie_instan",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
-		"subcategory": "Regular",
-		"title": "Seblak Mie",
-		"description": "mie, jamur kuping, telur, sawi",
-		"price": 11000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_kwetiau",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Regular",
-		"title": "Seblak Kwetiau",
-		"description": "tiaw, kerupuk, telur, sawi",
-		"price": 11000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_ceker",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Regular",
-		"title": "Seblak Ceker",
-		"description": "ceker, kerupuk, telur, sawi",
-		"price": 12000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_sayap_ayam",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Regular",
-		"title": "Seblak Sayap Ayam",
-		"description": "sayap ayam, kerupuk, telur, sawi",
-		"price": 14000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_pangsit_ayam",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Regular",
-		"title": "Seblak Pangsit Ayam",
-		"description": "pangsit ayam, kerupuk, telur, sawi",
-		"price": 12000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_bakso_aci_telor_puyuh",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Regular",
-		"title": "Seblak Bakso Aci Telor Puyuh",
-		"description": "bakso aci, telur puyuh, bakso, kerupuk, telur, sawi",
-		"price": 12000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_bakso_tuna",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Regular",
-		"title": "Seblak Bakso Tuna",
-		"description": "bakso tuna, kerupuk, telur, sawi",
-		"price": 12000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_tempura",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Regular",
-		"title": "Seblak Tempura",
-		"description": "tempura, kerupuk, telur, sawi",
-		"price": 12000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_otak_otak",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Regular",
-		"title": "Seblak Otak-otak",
-		"description": "otak-otak, kerupuk, telur, sawi",
-		"price": 12000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_mie_instam",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Regular",
+		"subcategory": "Menu Paket 1",
 		"title": "Seblak Mie Instan",
-		"description": "mie instan, sosis, telur, sawi",
+		"description": "mie instan, sawi, sosis 1/2, telur",
 		"price": 12000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_mix",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Regular",
-		"title": "Seblak Mix",
-		"description": "kerupuk, tiaw, mie, sosis, bakso ikan, bakso udang, telur, sawi",
-		"price": 13000,
 		"is_popular": false
 	},
 	{
 		"id": "seblak_jamur_mix",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
-		"subcategory": "Regular",
+		"subcategory": "Menu Paket 1",
 		"title": "Seblak Jamur Mix",
-		"description": "kerupuk, enoki, jamur putih, jamur kuping, telur, sawi",
+		"description": "jamur kuping, jamur enoki, jamur putih, kerupuk 2 centong, sawi 1 porsi, telur",
 		"price": 13000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_dumpling_mix",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Regular",
-		"title": "Seblak Dumpling Mix",
-		"description": "",
-		"price": 15000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_otak_otak_sinagpore_mix",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Regular",
-		"title": "Seblak Otak Otak Singapore",
-		"description": "Otak Otak Jumbo",
-		"price": 15000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_dadar_sayur",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Dadar (2 Telor)",
-		"title": "Seblak Dadar Sayur",
-		"description": "dadar sayur, kerupuk",
-		"price": 12000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_dadar_tempura",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Dadar (2 Telor)",
-		"title": "Seblak Dadar Tempura",
-		"description": "dadar tempura, kerupuk",
-		"price": 12000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_dadar_crabstick",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Dadar (2 Telor)",
-		"title": "Seblak Dadar Crabstick",
-		"description": "dadar crabstick, kerupuk",
-		"price": 13000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_dadar_sosis",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Dadar (2 Telor)",
-		"title": "Seblak Dadar Sosis",
-		"description": "dadar sosis, kerupuk",
-		"price": 13000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_seafood",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Super",
-		"title": "Seblak Seafood",
-		"description": "mie, jamur kuping, bakso ikan, bakso udang, bakso tuna, crabstick, chikuwa",
-		"price": 15000,
 		"is_popular": false
 	},
 	{
 		"id": "seblak_tulang_ayam",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
-		"subcategory": "Edisi Super",
+		"subcategory": "Menu Paket 1",
 		"title": "Seblak Tulang Ayam",
-		"description": "tulang ayam, kerupuk",
-		"price": 15000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_supermix",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Super",
-		"title": "Seblak Supermix",
-		"description": "kerupuk, tiaw, mie, baso, sosis, bakso ikan, bakso udang, baso tuna, tempura, chikuwa, crabstick, fishball bebek",
-		"price": 20000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_dadar_sayur",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Dadar (2 Telor)",
-		"title": "Seblak Dadar Sayur",
-		"description": "dadar sayur, kerupuk",
-		"price": 12000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_dadar_tempura",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Dadar (2 Telor)",
-		"title": "Seblak Dadar Tempura",
-		"description": "dadar tempura, kerupuk",
-		"price": 12000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_dadar_crabstick",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Dadar (2 Telor)",
-		"title": "Seblak Dadar Crabstick",
-		"description": "dadar crabstick, kerupuk",
+		"description": "tulang 1 porsi, kerupuk 2 centong, sawi 1 porsi, telur",
 		"price": 13000,
 		"is_popular": false
 	},
 	{
-		"id": "seblak_dadar_sosis",
+		"id": "seblak_mix",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
-		"subcategory": "Edisi Dadar (2 Telor)",
-		"title": "Seblak Dadar Sosis",
-		"description": "dadar sosis, kerupuk",
-		"price": 13000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_seafood",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Super",
-		"title": "Seblak Seafood",
-		"description": "mie, jamur kuping, bakso ikan, bakso udang, bakso tuna, crabstick, chikuwa",
-		"price": 15000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_tulang_ayam",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Super",
-		"title": "Seblak Tulang Ayam",
-		"description": "tulang ayam, kerupuk",
-		"price": 15000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_supermix",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Super",
-		"title": "Seblak Supermix",
-		"description": "kerupuk, tiaw, mie, baso, sosis, bakso ikan, bakso udang, baso tuna, tempura, chikuwa, crabstick, fishball bebek",
-		"price": 20000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_superseafood",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Super",
-		"title": "Seblak Superseafood",
-		"description": "mie, jamur kuping, baso udang, baso ikan, baso tuna, chikuwa, crabstick, otak-otak, tempura, fishball bebek",
-		"price": 20000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_superseafood",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Edisi Super",
-		"title": "Seblak Superseafood",
-		"description": "mie, jamur kuping, baso udang, baso ikan, baso tuna, chikuwa, crabstick, otak-otak, tempura, fishball bebek",
-		"price": 20000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_premium_sosis",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Seblak Premium",
-		"title": "Sosis",
-		"description": "Sosis bratwurst (jumbo) 2 pcs, kerupuk",
-		"price": 22000,
-		"is_popular": false
-	},
-	{
-		"id": "seblak_premium_bakso_urat",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Seblak Premium",
-		"title": "Bakso Urat",
-		"description": "Bakso urat jumbo premium non-frozen, kerupuk",
+		"subcategory": "Menu Paket 1",
+		"title": "Seblak Mix",
+		"description": "kerupuk 1 centong, mie 10gr, kwetiau, bakso ikan, bakso udang, sosis, sawi 1 porsi, telur",
 		"price": 14000,
 		"is_popular": false
 	},
 	{
-		"id": "seblak_premium_odeng",
+		"id": "seblak_bakso_urat_jumbo",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
-		"subcategory": "Seblak Premium",
-		"title": "Odeng",
-		"description": "Odeng utuh 3 pcs, chikuwa 3 pcs, enoki 2 porsi, kerupuk",
-		"price": 22000,
+		"subcategory": "Menu Paket 1",
+		"title": "Seblak Bakso Urat Jumbo",
+		"description": "bakso urat jumbo, kerupuk 2 centong, sawi 1 porsi, telur",
+		"price": 15000,
 		"is_popular": false
 	},
 	{
-		"id": "tiaw_goreng_kuah",
+		"id": "seblak_supersosis",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
-		"subcategory": "Menu Lain",
-		"title": "Tiaw Goreng/Kuah",
-		"description": "",
+		"subcategory": "Menu Paket 2",
+		"title": "Seblak Supersosis",
+		"description": "sosis bratwurst jumbo 1, sosis bratwurst mini 1, sawi 1 porsi, telur",
+		"price": 16000,
+		"is_popular": false
+	},
+	{
+		"id": "seblak_otak_otak_jumbo",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Menu Paket 2",
+		"title": "Seblak Otak-otak Jumbo",
+		"description": "Otak-otak jumbo, kerupuk 2 centong, sawi 1 porsi, telur",
+		"price": 18000,
+		"is_popular": false
+	},
+	{
+		"id": "seblak_supermix",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Menu Paket 2",
+		"title": "Seblak Supermix",
+		"description": "kerupuk 1 centong, mie 10gr, tiaw, bakso daging, bakso udang, bakso ikan, sosis, chikuwa, crabstick, fishball bebek, bakso tuna, tempura, sawi 1 porsi, telur",
+		"price": 23000,
+		"is_popular": false
+	},
+	{
+		"id": "seblak_alumni_prasmanan",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Prasmanan",
+		"title": "Seblak Alumni Prasmanan",
+		"description": "kuah seblak, jeruk limau, sambal (pilihan topping silahkan lihat di menu Extra Toppings)",
+		"price": 1000,
+		"is_popular": false
+	},
+	{
+		"id": "kwetiau_goreng",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Makanan Lain",
+		"title": "Kwetiau Goreng",
+		"description": "kwetiau, bakso daging, sosis 1/2, telur",
 		"price": 11000,
 		"is_popular": false
 	},
 	{
-		"id": "mie_nyemek",
+		"id": "kwetiau_kuah",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
-		"subcategory": "Menu Lain",
-		"title": "Mie Nyemek",
-		"description": "",
-		"price": 10000,
-		"is_popular": false
-	},
-	{
-		"id": "intel_goreng_rebus",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Menu Lain",
-		"title": "Intel Goreng/Rebus",
-		"description": "",
-		"price": 10000,
+		"subcategory": "Makanan Lain",
+		"title": "Kwetiau Kuah",
+		"description": "kwetiau, bakso daging, sosis 1/2, telur",
+		"price": 11000,
 		"is_popular": false
 	},
 	{
 		"id": "cah_sayur",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
-		"subcategory": "Menu Lain",
+		"subcategory": "Makanan Lain",
 		"title": "Cah Sayur",
-		"description": "",
+		"description": "sawi, bunga kol, bakso daging, jamur, telur",
 		"price": 10000,
 		"is_popular": false
 	},
 	{
-		"id": "mie_dok_dok_alumni",
+		"id": "mie_dok_dok",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
-		"subcategory": "Menu Lain",
-		"title": "Mie Dok Dok Alumni",
-		"description": "",
+		"subcategory": "Makanan Lain",
+		"title": "Mie Dok-Dok",
+		"description": "mie instan, sawi, bakso daging, sosis",
 		"price": 12000,
+		"is_popular": false
+	},
+	{
+		"id": "mie_nyemek",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Makanan Lain",
+		"title": "Mie Nyemek",
+		"description": "mie, sayur, bakso daging",
+		"price": 10000,
+		"is_popular": false
+	},
+	{
+		"id": "intel_goreng",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Makanan Lain",
+		"title": "Intel Goreng",
+		"description": "indomie goreng + telur",
+		"price": 10000,
+		"is_popular": false
+	},
+	{
+		"id": "intel_kuah",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Makanan Lain",
+		"title": "Intel Kuah",
+		"description": "indomie kuah + telur",
+		"price": 10000,
 		"is_popular": false
 	},
 	{
 		"id": "cuanki_lidah",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
-		"subcategory": "Ekstra Toppings",
+		"subcategory": "Aneka Snack",
 		"title": "Cuanki Lidah",
 		"description": "",
-		"price": 1500,
+		"price": 0,
 		"is_popular": false
 	},
 	{
 		"id": "pilus_cikur",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
-		"subcategory": "Ekstra Toppings",
+		"subcategory": "Aneka Snack",
 		"title": "Pilus Cikur",
 		"description": "",
-		"price": 1500,
+		"price": 0,
 		"is_popular": false
 	},
 	{
-		"id": "telur_ekstra_di_kuah",
+		"id": "siomay_kering",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Aneka Snack",
+		"title": "Siomay Kering",
+		"description": "",
+		"price": 0,
+		"is_popular": false
+	},
+	{
+		"id": "pilus_garuda",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Aneka Snack",
+		"title": "Pilus Garuda",
+		"description": "",
+		"price": 0,
+		"is_popular": false
+	},
+	{
+		"id": "level_0_4",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Level",
+		"title": "Level 0-4: (FREE)",
+		"description": "",
+		"price": 0,
+		"is_popular": false
+	},
+	{
+		"id": "level_5_6",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Level",
+		"title": "Level 5-6: (+2k)",
+		"description": "",
+		"price": 2000,
+		"is_popular": false
+	},
+	{
+		"id": "level_7_8",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Level",
+		"title": "Level 7-8: (+5k)",
+		"description": "",
+		"price": 5000,
+		"is_popular": false
+	},
+	{
+		"id": "level_9_10",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Level",
+		"title": "Level 9-10: (+10k)",
+		"description": "",
+		"price": 10000,
+		"is_popular": false
+	},
+	{
+		"id": "kuah_ori",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Level",
+		"title": "Kuah Ori: (FREE)",
+		"description": "",
+		"price": 0,
+		"is_popular": false
+	},
+	{
+		"id": "kuah_manis",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Level",
+		"title": "Kuah Manis: (+2k)",
+		"description": "",
+		"price": 2000,
+		"is_popular": false
+	},
+	{
+		"id": "telur_kocok_di_kuah",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
 		"subcategory": "Ekstra Toppings",
-		"title": "Telur Ekstra di Kuah",
+		"title": "Telur Kocok di Kuah",
+		"description": "",
+		"price": 3500,
+		"is_popular": false
+	},
+	{
+		"id": "telur_utuh_di_kuah",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Telur Utuh di Kuah",
 		"description": "",
 		"price": 3500,
 		"is_popular": false
@@ -15891,7 +15761,7 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Telur Ceplok",
 		"description": "",
-		"price": 4000,
+		"price": 4500,
 		"is_popular": false
 	},
 	{
@@ -15901,7 +15771,7 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Telur Dadar",
 		"description": "",
-		"price": 4000,
+		"price": 4500,
 		"is_popular": false
 	},
 	{
@@ -15911,7 +15781,7 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Bakso Daging",
 		"description": "",
-		"price": 1500,
+		"price": 2000,
 		"is_popular": false
 	},
 	{
@@ -15921,7 +15791,7 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Bakso Ikan",
 		"description": "",
-		"price": 1500,
+		"price": 2000,
 		"is_popular": false
 	},
 	{
@@ -15931,17 +15801,17 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Bakso Udang",
 		"description": "",
-		"price": 1500,
+		"price": 2000,
 		"is_popular": false
 	},
 	{
-		"id": "bakso_tuna",
+		"id": "bakso_jamur",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
 		"subcategory": "Ekstra Toppings",
-		"title": "Bakso Tuna",
+		"title": "Bakso Jamur",
 		"description": "",
-		"price": 1500,
+		"price": 2000,
 		"is_popular": false
 	},
 	{
@@ -15951,7 +15821,7 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Bakso Aci Telur Puyuh",
 		"description": "",
-		"price": 2500,
+		"price": 3000,
 		"is_popular": false
 	},
 	{
@@ -15961,7 +15831,7 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Bakso Urat Jumbo",
 		"description": "",
-		"price": 6000,
+		"price": 7000,
 		"is_popular": false
 	},
 	{
@@ -15975,11 +15845,11 @@
 		"is_popular": false
 	},
 	{
-		"id": "otak",
+		"id": "otak_otak",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
 		"subcategory": "Ekstra Toppings",
-		"title": "Otak",
+		"title": "Otak-otak",
 		"description": "",
 		"price": 1500,
 		"is_popular": false
@@ -16011,7 +15881,17 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Chikuwa",
 		"description": "",
-		"price": 1500,
+		"price": 2000,
+		"is_popular": false
+	},
+	{
+		"id": "kembang_kol",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Kembang Kol",
+		"description": "",
+		"price": 2000,
 		"is_popular": false
 	},
 	{
@@ -16020,6 +15900,26 @@
 		"category": "Makanan",
 		"subcategory": "Ekstra Toppings",
 		"title": "Crabstick",
+		"description": "",
+		"price": 2000,
+		"is_popular": false
+	},
+	{
+		"id": "ekor_udang",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Ekor Udang",
+		"description": "",
+		"price": 2000,
+		"is_popular": false
+	},
+	{
+		"id": "siomay_ikan",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Siomay Ikan",
 		"description": "",
 		"price": 2000,
 		"is_popular": false
@@ -16041,7 +15941,7 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Cheese Dumpling",
 		"description": "",
-		"price": 3000,
+		"price": 2500,
 		"is_popular": false
 	},
 	{
@@ -16051,7 +15951,7 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Spicy Dumpling",
 		"description": "",
-		"price": 3000,
+		"price": 2500,
 		"is_popular": false
 	},
 	{
@@ -16061,7 +15961,17 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Chicken Dumpling",
 		"description": "",
-		"price": 3000,
+		"price": 2500,
+		"is_popular": false
+	},
+	{
+		"id": "bakso_urat_puyuh",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Bakso Urat Pipih",
+		"description": "",
+		"price": 4000,
 		"is_popular": false
 	},
 	{
@@ -16071,27 +15981,47 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Odeng",
 		"description": "",
-		"price": 3500,
+		"price": 4000,
 		"is_popular": false
 	},
 	{
-		"id": "otak_jumbo_spore",
+		"id": "sosis_bratwurst_mini",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
 		"subcategory": "Ekstra Toppings",
-		"title": "Otak Jumbo S'pore",
+		"title": "Sosis Bratwurst Mini",
+		"description": "",
+		"price": 4000,
+		"is_popular": false
+	},
+	{
+		"id": "otak_otak_singapore",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Otak-Otak Singapore",
 		"description": "",
 		"price": 8500,
 		"is_popular": false
 	},
 	{
-		"id": "sosis_jumbo_bratwurst",
+		"id": "sosis_bratwurst_jumbo",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
 		"subcategory": "Ekstra Toppings",
-		"title": "Sosis Jumbo Bratwurst",
+		"title": "Sosis Bratwurst Jumbo",
 		"description": "",
 		"price": 9000,
+		"is_popular": false
+	},
+	{
+		"id": "jeruk_limau",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Jeruk Limau",
+		"description": "",
+		"price": 1000,
 		"is_popular": false
 	},
 	{
@@ -16105,11 +16035,41 @@
 		"is_popular": false
 	},
 	{
-		"id": "sayur_mix",
+		"id": "bakso_ati",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
 		"subcategory": "Ekstra Toppings",
-		"title": "Sayur Mix",
+		"title": "Bakso Ati",
+		"description": "",
+		"price": 2000,
+		"is_popular": false
+	},
+	{
+		"id": "bunga_kol",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Bunga Kol",
+		"description": "",
+		"price": 2000,
+		"is_popular": false
+	},
+	{
+		"id": "bakso_tuna",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Bakso Tuna",
+		"description": "",
+		"price": 2000,
+		"is_popular": false
+	},
+	{
+		"id": "kerupuk_oren",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Kerupuk Oren",
 		"description": "",
 		"price": 2500,
 		"is_popular": false
@@ -16121,7 +16081,7 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Jamur Kuping",
 		"description": "",
-		"price": 2000,
+		"price": 2500,
 		"is_popular": false
 	},
 	{
@@ -16145,41 +16105,31 @@
 		"is_popular": false
 	},
 	{
-		"id": "mie",
+		"id": "mie_30gr",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
 		"subcategory": "Ekstra Toppings",
-		"title": "Mie",
+		"title": "Mie 30gr",
 		"description": "",
 		"price": 1500,
 		"is_popular": false
 	},
 	{
-		"id": "kerupuk",
+		"id": "kwetiau",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
 		"subcategory": "Ekstra Toppings",
-		"title": "Kerupuk",
+		"title": "Kwetiau",
 		"description": "",
-		"price": 2000,
+		"price": 2500,
 		"is_popular": false
 	},
 	{
-		"id": "tiaw",
+		"id": "ceker",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Makanan",
 		"subcategory": "Ekstra Toppings",
-		"title": "Tiaw",
-		"description": "",
-		"price": 2000,
-		"is_popular": false
-	},
-	{
-		"id": "ceker_ayam",
-		"merchant_id": "48_seblak_alumni",
-		"category": "Makanan",
-		"subcategory": "Ekstra Toppings",
-		"title": "Ceker Ayam",
+		"title": "Ceker",
 		"description": "",
 		"price": 2000,
 		"is_popular": false
@@ -16191,7 +16141,7 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Pangsit Ayam",
 		"description": "",
-		"price": 2500,
+		"price": 3000,
 		"is_popular": false
 	},
 	{
@@ -16201,7 +16151,57 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Tulang Ayam",
 		"description": "",
-		"price": 3000,
+		"price": 4000,
+		"is_popular": false
+	},
+	{
+		"id": "dadar_isi_tempura",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Dadar Isi Tempura",
+		"description": "",
+		"price": 5000,
+		"is_popular": false
+	},
+	{
+		"id": "dadar_isi_sosis",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Dadar Isi Sosis",
+		"description": "",
+		"price": 5000,
+		"is_popular": false
+	},
+	{
+		"id": "dadar_isi_otak_orak",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Dadar Isi Otak-Otak",
+		"description": "",
+		"price": 5000,
+		"is_popular": false
+	},
+	{
+		"id": "dadar_isi_sawi",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Dadar Isi Sawi",
+		"description": "",
+		"price": 5000,
+		"is_popular": false
+	},
+	{
+		"id": "dadar_isi_crabstick",
+		"merchant_id": "48_seblak_alumni",
+		"category": "Makanan",
+		"subcategory": "Ekstra Toppings",
+		"title": "Dadar Isi Crabstick",
+		"description": "",
+		"price": 6000,
 		"is_popular": false
 	},
 	{
@@ -16211,15 +16211,15 @@
 		"subcategory": "Ekstra Toppings",
 		"title": "Sayap Ayam",
 		"description": "",
-		"price": 5000,
+		"price": 6000,
 		"is_popular": false
 	},
 	{
-		"id": "teh",
+		"id": "es_teh",
 		"merchant_id": "48_seblak_alumni",
 		"category": "Minuman",
 		"subcategory": "Minuman",
-		"title": "Teh",
+		"title": "Es Teh",
 		"description": "",
 		"price": 3000,
 		"is_popular": false
