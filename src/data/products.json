@@ -9857,16 +9857,6 @@
 		"is_popular": false
 	},
 	{
-		"id": "paket_lele_goreng",
-		"merchant_id": "26_ayam_penyet_andara",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Paket Lele Goreng",
-		"description": "Nasi + Lele goreng + Sambal + Lalapan",
-		"price": 10000,
-		"is_popular": false
-	},
-	{
 		"id": "paket_telur_goreng",
 		"merchant_id": "26_ayam_penyet_andara",
 		"category": "Makanan",
@@ -9874,16 +9864,6 @@
 		"title": "Paket Telur Goreng",
 		"description": "Nasi + Telur goreng + Sambal",
 		"price": 8000,
-		"is_popular": false
-	},
-	{
-		"id": "lele_goreng",
-		"merchant_id": "26_ayam_penyet_andara",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Lele Goreng",
-		"description": "Lele goreng + Sambal + Lalapan",
-		"price": 5000,
 		"is_popular": false
 	},
 	{
