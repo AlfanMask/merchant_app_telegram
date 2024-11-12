@@ -3850,16 +3850,6 @@
 		"is_popular": false
 	},
 	{
-		"id": "nasi_goreng_jumbo",
-		"merchant_id": "10_karizmaku",
-		"category": "Makanan",
-		"subcategory": "Nasi Goreng",
-		"title": "Nasi Goreng Jumbo",
-		"description": "Porsi besar nasi goreng.",
-		"price": 5000,
-		"is_popular": false
-	},
-	{
 		"id": "nasi_putih",
 		"merchant_id": "10_karizmaku",
 		"category": "Makanan",
@@ -4001,16 +3991,6 @@
 		"is_popular": false
 	},
 	{
-		"id": "nasi_goreng_jumbo",
-		"merchant_id": "10_karizmaku",
-		"category": "Makanan",
-		"subcategory": "Nasi Mawut",
-		"title": "Nasi Goreng Jumbo",
-		"description": "Porsi besar nasi goreng.",
-		"price": 5000,
-		"is_popular": false
-	},
-	{
 		"id": "nasi_putih",
 		"merchant_id": "10_karizmaku",
 		"category": "Makanan",
@@ -4151,16 +4131,6 @@
 		"is_popular": false
 	},
 	{
-		"id": "nasi_goreng_jumbo",
-		"merchant_id": "10_karizmaku",
-		"category": "Makanan",
-		"subcategory": "Bakmi Goreng",
-		"title": "Nasi Goreng Jumbo",
-		"description": "Porsi besar nasi goreng.",
-		"price": 5000,
-		"is_popular": false
-	},
-	{
 		"id": "nasi_putih",
 		"merchant_id": "10_karizmaku",
 		"category": "Makanan",
@@ -4301,16 +4271,6 @@
 		"is_popular": false
 	},
 	{
-		"id": "nasi_goreng_jumbo",
-		"merchant_id": "10_karizmaku",
-		"category": "Makanan",
-		"subcategory": "Bakmi Kuah",
-		"title": "Nasi Goreng Jumbo",
-		"description": "Porsi besar nasi goreng.",
-		"price": 5000,
-		"is_popular": false
-	},
-	{
 		"id": "nasi_putih",
 		"merchant_id": "10_karizmaku",
 		"category": "Makanan",
@@ -4451,16 +4411,6 @@
 		"is_popular": false
 	},
 	{
-		"id": "nasi_goreng_jumbo",
-		"merchant_id": "10_karizmaku",
-		"category": "Makanan",
-		"subcategory": "Bakmi Nyemek",
-		"title": "Nasi Goreng Jumbo",
-		"description": "Porsi besar nasi goreng.",
-		"price": 5000,
-		"is_popular": false
-	},
-	{
 		"id": "nasi_putih",
 		"merchant_id": "10_karizmaku",
 		"category": "Makanan",
@@ -4601,16 +4551,6 @@
 		"is_popular": false
 	},
 	{
-		"id": "nasi_goreng_jumbo",
-		"merchant_id": "10_karizmaku",
-		"category": "Makanan",
-		"subcategory": "Kwetiaw Goreng",
-		"title": "Nasi Goreng Jumbo",
-		"description": "Porsi besar nasi goreng.",
-		"price": 5000,
-		"is_popular": false
-	},
-	{
 		"id": "nasi_putih",
 		"merchant_id": "10_karizmaku",
 		"category": "Makanan",
@@ -4751,16 +4691,6 @@
 		"is_popular": false
 	},
 	{
-		"id": "nasi_goreng_jumbo",
-		"merchant_id": "10_karizmaku",
-		"category": "Makanan",
-		"subcategory": "Kwetiaw Kuah",
-		"title": "Nasi Goreng Jumbo",
-		"description": "Porsi besar nasi goreng.",
-		"price": 5000,
-		"is_popular": false
-	},
-	{
 		"id": "nasi_putih",
 		"merchant_id": "10_karizmaku",
 		"category": "Makanan",
@@ -4898,16 +4828,6 @@
 		"title": "Nasi Goreng Biasa",
 		"description": "Nasi goreng dengan ayam, telur, orak-arik.",
 		"price": 13000,
-		"is_popular": false
-	},
-	{
-		"id": "nasi_goreng_jumbo",
-		"merchant_id": "10_karizmaku",
-		"category": "Makanan",
-		"subcategory": "Kwetiaw Nyemek",
-		"title": "Nasi Goreng Jumbo",
-		"description": "Porsi besar nasi goreng.",
-		"price": 5000,
 		"is_popular": false
 	},
 	{
