@@ -21,8 +21,14 @@
 	import CheckOrders from '$lib/components/CheckOrders.svelte';
 	import { Parking } from '../constants/parking';
 	import { Open } from '../constants/open';
+	import { page } from '$app/stores';
 
 	// get data
+	let merchants: Array<Merchant> = [];
+	merchantsData.subscribe((data) => {
+		merchants = data;
+	});
+
 	let popularProducts: Array<Product> = [];
 	let triggerNum: number = 0; // To Trigger modify qty on modal, modify the value inside modal and all component that need change from the orders store
 	products.subscribe((data) => {
@@ -49,10 +55,8 @@
 		// const uniqueProducts = Array.from(notMakananMinuman.values());
 		// console.log("notMakananMinuman: ", notMakananMinuman)
 	});
-	let merchants: Array<Merchant> = [];
-	merchantsData.subscribe((data) => {
-		merchants = data;
-	});
+	// re-filter products after filter merchants by user's univ only popular products corresponding for the user's univ
+	$: popularProducts = popularProducts.filter((o) => merchants.map(i => i.id).includes(o.merchant_id));
 
 	let isComingFromTelegram: boolean = true;
 	onMount(() => {
@@ -61,6 +65,14 @@
 
 		// reset lastPageIndex on merchants page
 		lastPageNumber.set(0);
+
+		// filter and update base merchants store data only show the user's univ merchants
+		const univ = $page.url.searchParams.get("univ");
+		if (univ) {
+			const filteredMerchantsByUniv = merchants.filter((m) => m.univ === univ);
+			// merchants = filteredMerchantsByUniv;
+			merchantsData.set(filteredMerchantsByUniv);
+		}
 
 		// reset all merchant list filters
 		filterMerchantsCategory.set(Category.Semua);

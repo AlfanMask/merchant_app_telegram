@@ -1,4 +1,5 @@
 import type { Category } from "./category";
+import type { univs as Univs } from "./universities";
 
 export default interface Merchant {
     id: string,
@@ -11,6 +12,7 @@ export default interface Merchant {
     close_hour: number,
     num_orders: number,
     is_easy_driver: boolean,
+    univ: Univs,
 }
 
 enum Day {
