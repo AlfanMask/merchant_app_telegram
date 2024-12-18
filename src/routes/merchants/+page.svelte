@@ -21,6 +21,7 @@
 		lastPageNumber
 	} from '../../stores/store';
 	import OnlyOpenTroughTelegram from '$lib/components/OnlyOpenTroughTelegram.svelte';
+	import { page } from '$app/stores';
 
 	// get merchants data
 	let allMerchants: Array<Merchant> = [];
@@ -40,7 +41,8 @@
 	let isComingFromTelegram: boolean = true;
 	onMount(() => {
 		// only coming from telegram allowed to use the website
-		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
+		const fromKampuskuApp = $page.url.searchParams.get("from-kampusku-app")
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' || fromKampuskuApp != "" ? true : false;
 
 		// check if there is any lastPageNumber index -> go with it
 		lastPageNumber.subscribe((data) => {

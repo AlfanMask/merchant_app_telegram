@@ -22,6 +22,7 @@
 	import { browser } from '$app/environment';
 	import type Product from '../../constants/product';
 	import { Parking } from '../../constants/parking';
+	import { page } from '$app/stores';
 
 	// variables
 	export let merchantId: string;
@@ -40,7 +41,8 @@
 	let isComingFromTelegram: boolean = true;
 	onMount(() => {
 		// only coming from telegram allowed to use the website
-		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' ? true : false;
+		const fromKampuskuApp = $page.url.searchParams.get("from-kampusku-app")
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' || fromKampuskuApp != "" ? true : false;
 	});
 
 	// check if merchant open

@@ -1034,7 +1034,7 @@
 		"open_hour": 10,
 		"close_hour": 22,
 		"num_orders": 0,
-		"is_parking_free": true,
+		"is_parking_free": false,
 		"is_easy_driver": true,
 		"univ": "UNS"
 	},
