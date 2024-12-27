@@ -21430,285 +21430,285 @@
 	},
 
 	{
-		"id": "lotek_lontong_telur_rebus",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Lotek Lontong Telur Rebus",
-		"description": "",
-		"price": 11000,
-		"is_popular": false
-	},
+        "id": "lotek_lontong",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Lotek Lontong",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "lotek_lontong_telur_rebus",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Lotek Lontong Telur Rebus",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "lotek_lontong_telur_dadar",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Lotek Lontong Telur Dadar",
+        "description": "",
+        "price": 11500,
+        "is_popular": false
+    },
+    {
+        "id": "lotek_nasi",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Lotek Nasi",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "lotek_nasi_telur_rebus",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Lotek Nasi Telur Rebus",
+        "description": "",
+        "price": 12000,
+        "is_popular": false
+    },
+    {
+        "id": "lotek_nasi_telur_dadar",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Lotek Nasi Telur Dadar",
+        "description": "",
+        "price": 12500,
+        "is_popular": false
+    },
+    {
+        "id": "gado_gado",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Gado-Gado",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "gado_gado_nasi",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Gado-Gado Nasi",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "lontong_opor",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Lontong Opor",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "lontong_opor_goyang",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Lontong Opor Goyang",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_opor",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Opor",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_opor_goyang",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Opor Goyang",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_soto",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Soto",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_goreng",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Goreng",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
 	{
-		"id": "lotek_lontong_telur_dadar",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Lotek Lontong Telur Dadar",
-		"description": "",
-		"price": 11500,
-		"is_popular": false
-	},
-	{
-		"id": "lotek_lontong",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Lotek Lontong",
-		"description": "",
-		"price": 9000,
-		"is_popular": false
-	},
-	{
-		"id": "lotek_nasi_telur_rebus",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Lotek Nasi Telur Rebus",
-		"description": "",
-		"price": 10000,
-		"is_popular": false
-	},
-	{
-		"id": "lotek_nasi_telur_dadar",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Lotek Nasi Telur Dadar",
-		"description": "",
-		"price": 12000,
-		"is_popular": false
-	},
-	{
-		"id": "lotek_nasi",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Lotek Nasi",
-		"description": "",
-		"price": 12500,
-		"is_popular": false
-	},
-	{
-		"id": "gado_gado",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Gado-Gado",
-		"description": "",
-		"price": 10000,
-		"is_popular": false
-	},
-	{
-		"id": "gado_gado_nasi",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Gado-Gado Nasi",
-		"description": "",
-		"price": 11000,
-		"is_popular": false
-	},
-	{
-		"id": "lontong_opor",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Lontong Opor",
-		"description": "",
-		"price": 9000,
-		"is_popular": false
-	},
-	{
-		"id": "lontong_opor_goyang",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Lontong Opor Goyang",
-		"description": "",
-		"price": 10000,
-		"is_popular": false
-	},
-	{
-		"id": "nasi_opor",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Nasi Opor",
-		"description": "",
-		"price": 10000,
-		"is_popular": false
-	},
-	{
-		"id": "nasi_opor_goyang",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Nasi Opor Goyang",
-		"description": "",
-		"price": 11000,
-		"is_popular": false
-	},
-	{
-		"id": "nasi_soto",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Nasi Soto",
-		"description": "",
-		"price": 7000,
-		"is_popular": false
-	},
-	{
-		"id": "nasi_goreng",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Nasi Goreng",
-		"description": "",
-		"price": 9000,
-		"is_popular": false
-	},
-	{
-		"id": "magelangan",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Magelangan",
-		"description": "",
-		"price": 9000,
-		"is_popular": false
-	},
-	{
-		"id": "bakmi_goreng_rebus",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Bakmi Goreng / Rebus",
-		"description": "",
-		"price": 9000,
-		"is_popular": false
-	},
-	{
-		"id": "bakmi_toprak",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Bakmi Toprak",
-		"description": "",
-		"price": 7000,
-		"is_popular": false
-	},
-	{
-		"id": "tahu_kupat",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Tahu Kupat",
-		"description": "",
-		"price": 10000,
-		"is_popular": false
-	},
-	{
-		"id": "nasi_ayam_goreng",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Nasi Ayam Goreng",
-		"description": "",
-		"price": 8000,
-		"is_popular": false
-	},
-	{
-		"id": "nasi_hula_hula",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Nasi Hula Hula",
-		"description": "",
-		"price": 7500,
-		"is_popular": false
-	},
-	{
-		"id": "nasi_telur_hitam",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Nasi Telur Hitam",
-		"description": "",
-		"price": 7500,
-		"is_popular": false
-	},
-	{
-		"id": "nasi_goreng_rempela_ati",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Nasi Goreng Rempela Ati",
-		"description": "",
-		"price": 13500,
-		"is_popular": false
-	},
-	{
-		"id": "tahu_acar",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Tahu Acar",
-		"description": "",
-		"price": 8000,
-		"is_popular": false
-	},
-	{
-		"id": "nasi_goreng_ayam",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Nasi Goreng Ayam",
-		"description": "",
-		"price": 15000,
-		"is_popular": false
-	},
-	{
-		"id": "nasi_timlo",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Nasi Timlo",
-		"description": "",
-		"price": 9000,
-		"is_popular": false
-	},
-	{
-		"id": "nasi_ayam_penyet",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Nasi Ayam Penyet",
-		"description": "",
-		"price": 10000,
-		"is_popular": false
-	},
-	{
-		"id": "nasi_tempe_penyet",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Nasi Tempe Penyet",
-		"description": "",
-		"price": 7000,
-		"is_popular": false
-	},
-	{
-		"id": "bihun_goreng",
-		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
-		"category": "Makanan",
-		"subcategory": "Makanan",
-		"title": "Bihun Goreng",
-		"description": "",
-		"price": 9000,
-		"is_popular": false
-	},
+        "id": "magelangan",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Magelangan",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "bakmi_goreng_rebus",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Bakmi Goreng / Rebus",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "bakmi_toprak",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Bakmi Toprak",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "tahu_kupat",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Tahu Kupat",
+        "description": "",
+        "price": 8000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_ayam_goreng",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Ayam Goreng",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_hula_hula",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Hula Hula",
+        "description": "",
+        "price": 7500,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_telur_hitam",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Telur Hitam",
+        "description": "",
+        "price": 7500,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_goreng_rempela_ati",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Goreng Rempela Ati",
+        "description": "",
+        "price": 13500,
+        "is_popular": false
+    },
+    {
+        "id": "tahu_acar",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Tahu Acar",
+        "description": "",
+        "price": 15000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_goreng_ayam",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Goreng Ayam",
+        "description": "",
+        "price": 11000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_timlo",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Timlo",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_ayam_penyet",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Ayam Penyet",
+        "description": "",
+        "price": 10000,
+        "is_popular": false
+    },
+    {
+        "id": "nasi_tempe_penyet",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Nasi Tempe Penyet",
+        "description": "",
+        "price": 7000,
+        "is_popular": false
+    },
+    {
+        "id": "bihun_goreng",
+        "merchant_id": "72_warung_lotek_gado_gado_bu_warni",
+        "category": "Makanan",
+        "subcategory": "Makanan",
+        "title": "Bihun Goreng",
+        "description": "",
+        "price": 9000,
+        "is_popular": false
+    },
 	{
 		"id": "es_teh",
 		"merchant_id": "72_warung_lotek_gado_gado_bu_warni",
