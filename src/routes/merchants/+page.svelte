@@ -18,7 +18,10 @@
 		filterMerchantsFreeParking as filterMerchantsFreeParkingStore,
 		filterMerchantsOpen as filterMerchantsOpenStore,
 		merchants as merchantsData,
-		lastPageNumber
+		lastPageNumber,
+
+		fromKampuskuApp
+
 	} from '../../stores/store';
 	import OnlyOpenTroughTelegram from '$lib/components/OnlyOpenTroughTelegram.svelte';
 	import { page } from '$app/stores';
@@ -41,8 +44,7 @@
 	let isComingFromTelegram: boolean = true;
 	onMount(() => {
 		// only coming from telegram allowed to use the website
-		const fromKampuskuApp = $page.url.searchParams.get("from-kampusku-app")
-		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' || fromKampuskuApp != "" ? true : false;
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' || $fromKampuskuApp ? true : false;
 
 		// check if there is any lastPageNumber index -> go with it
 		lastPageNumber.subscribe((data) => {

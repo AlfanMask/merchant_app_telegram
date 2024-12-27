@@ -8,6 +8,8 @@ import { Parking } from "../constants/parking";
 import { Open } from "../constants/open";
 import type { Order } from "../constants/order";
 
+export const fromKampuskuApp = writable<string|null>(null)
+
 // sort merchantsData by num_orders
 const sortedMerchantsData = merchantsData.sort((a, b) => (b.num_orders as number) - (a.num_orders as number));
 

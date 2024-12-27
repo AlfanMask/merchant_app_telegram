@@ -11,7 +11,7 @@
 	import { slide } from 'svelte/transition';
 	import type { Order } from '../../constants/order';
 	import type Merchant from '../../constants/merchant';
-	import { orders, products as productsData } from '../../stores/store';
+	import { fromKampuskuApp, orders, products as productsData } from '../../stores/store';
 	import { merchants as merchantsData } from '../../stores/store';
 	import { allDays } from '../../constants/merchant';
 	import AutocompleteProduct from './ui/AutocompleteProduct.svelte';
@@ -41,8 +41,7 @@
 	let isComingFromTelegram: boolean = true;
 	onMount(() => {
 		// only coming from telegram allowed to use the website
-		const fromKampuskuApp = $page.url.searchParams.get("from-kampusku-app")
-		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' || fromKampuskuApp != "" ? true : false;
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' || $fromKampuskuApp ? true : false;
 	});
 
 	// check if merchant open

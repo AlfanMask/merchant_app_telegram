@@ -10,6 +10,7 @@
 	import type Product from '../constants/product';
 	import { autoCompleteMerchantHandler } from '../helper/autocomplete';
 	import {
+		fromKampuskuApp,
 		filterMerchantsCategory,
 		lastPageNumber,
 		products,
@@ -61,8 +62,9 @@
 	let isComingFromTelegram: boolean = true;
 	onMount(() => {
 		// only coming from telegram allowed to use the website
-		const fromKampuskuApp = $page.url.searchParams.get("from-kampusku-app")
-		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' || fromKampuskuApp != "" ? true : false;
+		const _fromKampuskuApp = $page.url.searchParams.get("from-kampusku-app")
+		isComingFromTelegram = window.Telegram.WebApp.platform != 'unknown' || _fromKampuskuApp || $fromKampuskuApp ? true : false;
+		if (_fromKampuskuApp) fromKampuskuApp.set(_fromKampuskuApp);
 
 		// reset lastPageIndex on merchants page
 		lastPageNumber.set(0);
